@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Layout from './pages/Layout'
 import Home from "./pages/Home"
 import Builder from "./pages/Build"
@@ -11,16 +11,16 @@ import './App.css'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/opbr-meddlr" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/opbr-meddlr/build" element={<Builder />} />
-          <Route path="/opbr-meddlr/view" element={<Viewer />} />
-          <Route path="/opbr-meddlr/share" element={<ViewSet />} />
+          <Route path="/build" element={<Builder />} />
+          <Route path="/view" element={<Viewer />} />
+          <Route path="/share" element={<ViewSet />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;

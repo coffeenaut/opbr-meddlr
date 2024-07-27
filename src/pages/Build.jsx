@@ -140,7 +140,7 @@ const Builder = () => {
   }
   function setShareUrl() {
     const relativePath = import.meta.env.VITE_site_path
-    let medalLink = `/${relativePath}/share?medals=`
+    let medalLink = `/${relativePath}/#/share?medals=`
     let t1 = "&t1="
     let t2 = "&t2="
     let t3 = "&t3="
