@@ -20,7 +20,7 @@ const Navbar = (props) => {
             <nav>
                 <div className="flex flex-row w-full justify-between">
                     <div className='flex flex-row items-center'>
-                        <img className='w-16 p-2' src={`/${relativePath}/reacomponents.svg`} />
+                        <img className='w-32 p-2' src={`/${relativePath}/meddlrLogo.svg`} />
                         {items}
                     </div>
                     <div className="flex flex-row items-center">

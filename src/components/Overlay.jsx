@@ -6,7 +6,7 @@ const Overlay = (props) => {
         <>
             <div className="sideMenuOverlay z-30 w-3/4 md:w-1/2 p-2 h-screen fixed ">
                 <div className="flex justify-between">
-                        <img className='w-16' src={`/${relativePath}/reacomponents.svg`} />
+                        <img className="w-20" src={`/${relativePath}/mCoin.svg`} />
                     
                     <div>
                         <Closer closeClick={props.changeOverlay} lassName="cursor-pointer icon-medium-grey" />

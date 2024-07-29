@@ -8,8 +8,8 @@
       "path": "/build"
     },
     {
-      "name": "view",
-      "path": "/view"
+      "name": "browse",
+      "path": "/browse"
     },
     {
       "name": "info",

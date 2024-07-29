@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.04387mm"
+   height="68.15731mm"
+   viewBox="0 0 120.04387 68.15731"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ff8225;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#e9ff65;stop-opacity:0.81176472;"
+         offset="0.5"
+         id="stop3" />
+      <stop
+         style="stop-color:#b43f3f;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5">
+      <stop
+         style="stop-color:#ff8225;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#e9ff65;stop-opacity:0.81048059;"
+         offset="0.50152087"
+         id="stop7" />
+      <stop
+         style="stop-color:#b43f3f;stop-opacity:1;"
+         offset="0.58019841"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="84.966492"
+       y1="108.04932"
+       x2="86.123108"
+       y2="118.428"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="29.702826"
+       y1="114.58631"
+       x2="30.291227"
+       y2="133.63977"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-9.6033795,-89.691701)">
+    <g
+       id="g9">
+      <path
+         id="logo-sigil"
+         style="fill:url(#linearGradient2);fill-opacity:0.909804;fill-rule:nonzero;stroke:#282828;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+         d="m 43.125621,90.882365 c -3.34852,-0.01191 -10.424545,2.596763 -11.268318,12.383395 -0.363962,5.55485 0.606328,11.06975 0.804531,16.61144 0.254643,3.09939 0.375116,6.78565 0.200184,10.58706 -0.169459,3.68246 -0.61515,7.43505 -1.469836,10.81225 -3.14422,12.42403 -10.30597,12.31461 -14.238687,11.71206 -1.593913,-0.24421 -2.230922,-1.30941 -1.442677,-1.25817 2.754053,0.13131 3.861935,-1.77121 3.930252,-4.04418 0.06811,-2.27287 -1.744732,-4.13219 -4.120164,-4.11513 -1.915569,0.0969 -3.941219,1.07004 -4.719324,4.2069 -0.433405,9.97235 18.000461,15.66696 23.370452,-5.87564 0.897041,-3.59862 1.340279,-7.53326 1.51189,-11.32251 0.176633,-3.90011 0.06664,-7.67402 -0.142989,-10.84753 -0.01921,-5.36764 -0.365478,-9.45248 -0.09505,-16.10949 0.499702,-12.300795 8.840361,-10.323372 11.296916,-8.904878 -1.932704,0.433391 -3.694934,1.542637 -3.830826,3.525932 -0.09829,1.701707 1.04333,3.443136 3.51499,3.655456 2.343682,-1e-4 4.474746,-1.28307 4.972206,-3.655456 0.256871,-1.206464 0.002,-2.893077 -1.600628,-3.216239 -0.560598,-2.093844 -2.649532,-4.134186 -6.672925,-4.145309 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.2798px;font-family:Lobster;-inkscape-font-specification:Lobster;fill:url(#linearGradient6);fill-opacity:0.909804;stroke:#282828;stroke-width:2.258;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+         x="15.885357"
+         y="123.9136"
+         id="logo-text"
+         transform="scale(0.8793262,1.1372344)"><tspan
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lobster;-inkscape-font-specification:Lobster;fill:url(#linearGradient6);fill-opacity:0.909804;stroke:#282828;stroke-width:2.258;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+           x="15.885357"
+           y="123.9136">Meddlr</tspan></text>
+    </g>
+  </g>
+</svg>
