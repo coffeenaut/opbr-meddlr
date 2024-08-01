@@ -22,8 +22,8 @@ const MenuList = (props) => {
     return (
         <>
             <div onMouseLeave={hoverOff} className="flex flex-col w-full">
-                <div onMouseEnter={hoverOn} className="flex flex-col cursor-pointer py-2">
-                    <div className={`p-2 ${hovered ? "text-primary font-bold" : ""}`}><Link to={props.item.path}>{props.item.name}</Link></div>
+                <div onMouseEnter={hoverOn} className="flex flex-col py-2">
+                    <div className={`p-2 ${hovered ? "text-primary font-bold cursor-pointer" : ""}`}><Link to={props.item.path}>{props.item.name}</Link></div>
                     <div className={"menu-item-bottom relative w-full " + (hovered ? "item-hover" : "") }></div>
                 </div>
                 <div child="true" className={"childNode "+ (showChildren ? " showSNav" : "") + (parentNode ? " absolute" : "")}>

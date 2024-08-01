@@ -15,7 +15,7 @@ import TraitList from '../components/TraitList'
 import MedalView from '../components/MedalView';
 import Spinner from '../components/Spinner';
 import { isObjectEmpty, IntToHex, Timeout } from '../util/tools';
-import { GetMedalIndexById } from '../util/medalStore';
+import { GetMedalIndexById, GetMappedTraitKey } from '../util/medalStore';
 import MiniMedalSet from '../components/MiniMedalSet';
 const MedalList = lazy(() => import('../components/MedalList'))
 const Builder = () => {
@@ -103,7 +103,6 @@ const Builder = () => {
       else
         return m
     })
-    console.log(tempMedals)
     setMedals(tempMedals)
     closeModalWindow()
   }
@@ -113,12 +112,14 @@ const Builder = () => {
     setStoredMedals(savedMedals)
   }
   function toggleSaveDrop() {
+    console.log(JSON.stringify(medals))
     setShowSaveDrop(!showSaveDrop)
   }
   function closeModalWindow() {
     setShowModal(false)
   }
   function toggleSideMenu() {
+
     setShowSideLeft(!showSideLeft)
   }
   function toggleFocusDrop() {
@@ -141,9 +142,9 @@ const Builder = () => {
   function setShareUrl() {
     const relativePath = import.meta.env.VITE_site_path
     let medalLink = `/${relativePath}/#/share?medals=`
-    let t1 = "&t1="
-    let t2 = "&t2="
-    let t3 = "&t3="
+    let t1 = ""
+    let t2 = ""
+    let t3 = ""
     for(let i = 0; i < medals.length; i++) {
       if(!isObjectEmpty(medals[i]))
         medalLink += i > medals.length -2 ? IntToHex(GetMedalIndexById(medals[i].id)) : `${IntToHex(GetMedalIndexById(medals[i].id))}g`
@@ -152,20 +153,44 @@ const Builder = () => {
       for(let i = 0; i < 3; i++) {
         if(!isObjectEmpty(medals[0])) {
           let index =  medals[0].set_traits.findIndex(t => t === medals[0].set_traits[i])
-          t1 += `${index}:${medals[0].set_traits_values[i]}`
+          const encode = GetMappedTraitKey(index, medals[0].set_traits_values[i])
+          // t1 += `${index}:${medals[0].set_traits_values[i]}`
+          if(encode)
+            t1+= encode
+          else
+            t1+= "zz"
+        }
+        else {
+          t1+= "zz"
         }
         if(!isObjectEmpty(medals[1])) {
           let index =  medals[1].set_traits.findIndex(t => t === medals[1].set_traits[i])
-          t2 += `${index}:${medals[1].set_traits_values[i]}`
+          const encode = GetMappedTraitKey(index, medals[1].set_traits_values[i])
+          if(encode)
+            t2+= encode
+          else
+            t2+= "zz"
+        }
+        else {
+          t2 += "zz"
         }
         if(!isObjectEmpty(medals[2])) {
           let index =  medals[2].set_traits.findIndex(t => t === medals[2].set_traits[i])
-          t3 += `${index}:${medals[2].set_traits_values[i]}`
+          const encode = GetMappedTraitKey(index, medals[2].set_traits_values[i])
+          // t1 += `${index}:${medals[0].set_traits_values[i]}`
+          if(encode)
+            t3+= encode
+          else
+            t3+= "zz"
+        }
+        else {
+          t3+= "zz"
         }
       }
     }
+    const t = "&t=" + t1 + t2 + t3
     const hrefBuilder = window.location.href.substring(0, window.location.href.indexOf(window.location.pathname))
-    shareLink.current = hrefBuilder + medalLink +t1 + t2 + t3
+    shareLink.current = hrefBuilder + medalLink +t
   }
     return (
       <div className="flex">

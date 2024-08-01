@@ -3,7 +3,7 @@ const Card = (props) => {
 
     return (
         <>
-        <div className="card relative flex flex-col align-center ">
+        <div className="relative flex flex-col align-center card">
             {props.children}
         </div>
         </>

@@ -1,9 +1,11 @@
 import { useState } from "react"
 import MedalStack from "./MedalStack"
+import { isFunction } from "../util/tools"
 
 const MiniMedalSet = (props) => {
     const setName = props.name
     const medals = props.medals
+    const showDelete = isFunction(props.deleteSet)
     const [hovered, setHovered] = useState(false)
     return (
         <>
@@ -18,7 +20,9 @@ const MiniMedalSet = (props) => {
                 })
             }
             </div>
-            <div className="flex -translate-y-8 justify-center font-bold cursor-pointer" onClick={() => props.deleteSet(setName)}>Delete</div>
+            {
+                showDelete && <div className="flex -translate-y-8 justify-center font-bold cursor-pointer" onClick={() => props.deleteSet(setName)}>Delete</div>
+            }
         </>
     )
 }

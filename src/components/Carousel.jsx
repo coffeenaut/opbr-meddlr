@@ -46,9 +46,9 @@ const Carousel = (props) => {
                     <div className={"relative carouselContainer" + (slideLeft ? " slideLeft fade" : "") + (slideRight ? " slideRight fade" : "")}>{cards[currentIndex]}</div>
                     <div><ChevronRight className="icon-medium-grey hover:fill-gray-300" onClick={incrementIndex}></ChevronRight></div>
                 </div>
-                <div className="flex w-1/6 items-center justify-evenly z-20">
+                {/* <div className="flex w-1/6 items-center justify-evenly z-20">
                     {paginator}
-                </div>
+                </div> */}
             </div>
         </>
     )

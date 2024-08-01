@@ -29,9 +29,9 @@ const MedalView = (props) => {
               }}
             >
                 {
-                    p.traitList.map((tra,i) => {
+                    p.traitList.map((tra, i) => {
                         let theTrait = getExtraTrait(tra)
-                        return (<option value={tra}>{theTrait.name}</option>)
+                        return (<option value={i}>{theTrait.name}</option>)
                     })
                 }
             </select>
@@ -109,7 +109,7 @@ const MedalView = (props) => {
                                 {medal.name}
                             </div>
                             <div className="flex justify-center items-center medal-image">
-                                <img className={`medal-image`} src={`/${relativePath}/${medal.image}.png`} />
+                                <img className={`medal-image`} src={`/${relativePath}/medals/${medal.image}.png`} />
                                
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const MedalView = (props) => {
                             <div className="flex flex-col gap-4 w-3/4">
                             {
                                 medal.set_traits.map((t, i) => {
-                                    return <TraitOption setTrait={t} traitList={extraTraits} index={i} />
+                                    return <TraitOption setTrait={medal.set_traits[t]} traitList={extraTraits} index={i} />
                                     })
                             }
                             </div>
@@ -132,7 +132,7 @@ const MedalView = (props) => {
                             {
                                 
                                 medal.set_traits_values.map((v, i) => {
-                                    const trait_id = medal.set_traits[i]
+                                    const trait_id = medal.extra_traits[medal.set_traits[i]]
                                     return <TraiValuetOption setTraitValue={v} traitId={trait_id} index={i} />
                                     })
                             }

@@ -15,10 +15,11 @@ const Medal = (props) => {
             let traits = []
             let values = []
             for(let i=0; i<3; i++) {
-              let traitId = item.medal.extra_traits[DiceRoll(2, 0)]
+              let gendTrait = DiceRoll(2, 0)
+              let traitId = item.medal.extra_traits[gendTrait]
               let theTrait = getExtraTrait(traitId)
               // let tempTrait = theTrait.name.replace('X%', `${theTrait.max}%`)
-              traits.push(traitId)
+              traits.push(gendTrait)
               values.push(theTrait.max)
             }
             let mint = item.medal
@@ -33,6 +34,6 @@ const Medal = (props) => {
         }),
       }))
       const opacity = isDragging && "dragging"
-    return (<img ref={drag} className={`medal-image rounded-full ${opacity}`} src={`/${relativePath}/${medal.image}.png`} title={medal.name} /> )
+    return (<img ref={drag} className={`medal-image rounded-full ${opacity}`} src={`/${relativePath}/medals/${medal.image}.png`} title={medal.name} /> )
 }
 export default Medal

@@ -31,7 +31,7 @@ const MedalStack = (props) => {
                     }
                     
                     <div className="flex justify-center items-center">
-                        <img className="flex medal-image" src={`/${relativePath}/${props.medal.image}.png`} />
+                        <img className="flex medal-image" src={`/${relativePath}/medals/${props.medal.image}.png`} />
                     </div>
                 </div>
                 </>

@@ -14,7 +14,7 @@ const Layout = () => {
   }
   return (
     <>
-      <div className='absolute w-full'>
+      <div className='absolute w-full overflow-y-hidden'>
         <div className={"absolute menuoverlay " +  (overlayShown ? "showOverlay" : "hideOverlay")}>
           <Overlay changeOverlay={toggleOverlay}>
             <SideBar items={navInfo} closeBar={toggleOverlay} />

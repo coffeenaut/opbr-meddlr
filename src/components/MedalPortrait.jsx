@@ -71,7 +71,7 @@ const MedalPortrait = (props) => {
                   <>
                   <div className='flex flex-col'>
                     {showEditLabel() && <XIcon className="flex p-0 cursor-pointer icon-small-grey h-4 translate-y-2 lg:translate-y-0 translate-x-4 place-self-end" onClick={removeMedal} />}
-                    <img className="flex place-self-center medal-image" src={`/${relativePath}/${props.medal.image}.png`} />
+                    <img className="flex place-self-center medal-image" src={`/${relativePath}/medals/${props.medal.image}.png`} />
                     {showEditLabel() && <div className='flex lg:translate-y-[0.1em] h-0 gap-x-2 cursor-pointer' onClick={editMedal}><div className='font-semibold'>Edit</div><PencilIcon className='icon-small-accent' /></div>}
                   </div>
                   </>

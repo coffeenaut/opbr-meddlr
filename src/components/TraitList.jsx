@@ -17,7 +17,6 @@ const TraitList = (props) => {
         let traitList = []
         let tagList = []
         let extraTraitList = []
-        
         let tagSpiledMedals = [] //array to hold processed medals;used to find duplicates
         for(let medal of medals) {
             let isDuplicate = false
@@ -33,7 +32,7 @@ const TraitList = (props) => {
             }
             if(medal.set_traits) {
                 for(let i =0; i < medal.set_traits.length; i++) {
-                    extraTraitList.push({trait:  medal.set_traits[i], value: medal.set_traits_values[i]})
+                    extraTraitList.push({trait: medal.extra_traits[medal.set_traits[i]], value: medal.set_traits_values[i]})
                     // let theTrait = ExtraTraits.find( t => t.id == medal.set_traits[i])
                     // let tempTrait = theTrait.name.replace('X%', `${medal.set_traits_values[i]}%`)
                     // traitList.push({type: 'extra', effect: tempTrait})
@@ -92,7 +91,10 @@ const TraitList = (props) => {
         for(let cTrait of compiledTraits) {
             const extraTrait = getExtraTrait(cTrait.trait)
             // let tempTrait = extraTrait.name.replace('X%', `${cTrait.value}%`)
-            traitList.push({type: 'extra', effect: extraTrait.name, total: cTrait.value})
+            if(!isObjectEmpty(cTrait) && cTrait.trait && cTrait.value > 0)
+                traitList.push({type: 'extra', effect: extraTrait.name, total: cTrait.value})
+            else
+                console.log("error",`extra trait is empty or undefined`)
 
         }
         showTraits.current = !isMedalSetEmpty()

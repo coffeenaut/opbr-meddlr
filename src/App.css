@@ -1,7 +1,8 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lobster:400,400i,700,700i");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   :root {
     --color-white: #ffffff;
@@ -353,7 +354,20 @@ input {
 .toolbar {
   padding-bottom: .2em;
 }
+.showPanel {
+  visibility: visible !important;
+  opacity: 1 !important;
+  left:0 !important;
+}
 /*meddlerThemes*/
+.side-panel {
+  padding: 1em;
+  border: 2px solid var(--color-grey);
+  border-radius: .5em;
+}
+.category-divide {
+  border-bottom: .3em solid var(--color-primary);
+}
 .clickable-button {
   text-align: center;
   cursor:pointer;
@@ -725,9 +739,29 @@ h2, h3 {
     margin-top: -16px;
 }
 /** custom screensize for components**/
-@media screen and (max-width: 800px) {
+/** Large **/
+@media screen and (max-width: 1024px) {
+  .responsive-panel {
+    width:50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    left: -3em;
+    transition: opacity .3s ease-out, left .3s ease-out;
+  }
+}
+/** Medium **/
+@media screen and (max-width: 768px) {
   .medal-image {
     height: 4em;
     width: 4em;  
   }
+  .responsive-panel {
+    width:80%;
+  }
 }
+/**svg extracts**/
+#mcoin-sigil { fill:url(#linearGradient10);fill-opacity:0.909804;fill-rule:nonzero;stroke:none;stroke-width:1.53531;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804 }
+#mcoin-coin { fill:url(#linearGradient15);fill-opacity:0.909804;fill-rule:nonzero;stroke:none;stroke-width:1.06184;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804 }
+#logo-sigil { fill:url(#linearGradient2);fill-opacity:0.909804;fill-rule:nonzero;stroke:#282828;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804 }
