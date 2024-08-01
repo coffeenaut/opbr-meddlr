@@ -6,18 +6,24 @@ import TraitList from "../components/TraitList";
 import { useState } from "react";
 import {  useNavigate } from "react-router-dom";
 import BookIcon from '@heroicons/react/20/solid/BookOpenIcon'
-import { GetPresetsByCategory, GetPresetCategories } from "../util/medalStore";
-import { isObjectEmpty } from "../util/tools";
+import { GetPresetsByCategory, GetPresetCategories, GetRandomPresetMedal } from "../util/medalStore";
+import { isObjectEmpty, DiceRoll, Timeout } from "../util/tools";
 const Home = () => {
+  const initialMedal = GetRandomPresetMedal()
   const [displaySide, setDisplaySide] = useState(false)
-  const [setName, setSetName] = useState("")
-  const [medals, setMedals] = useState([{}, {}, {}])
+  const [setName, setSetName] = useState(initialMedal.name)
+  const [medals, setMedals] = useState(initialMedal.medals)
+  const [animateFade, setAnimateFade] = useState(false)
   const categories = GetPresetCategories()
-  const [currentCategory, setcurrentCategory] = useState(categories[0])
-  function loadSet (set) {
+  const [currentCategory, setcurrentCategory] = useState(categories[DiceRoll(categories.length -1)])
+  async function loadSet (set) {
+    setAnimateFade(true)
     setSetName (set.name)
     setMedals(set.medals)
     setDisplaySide(false)
+    await Timeout(1000)
+    setAnimateFade(false)
+
   }
   const MedalSet = (prop) => {
     let filter = prop.filter
@@ -90,7 +96,7 @@ const Home = () => {
             <div className="flex flex-col w-full">
               {
                 medals.length > 0 &&
-                <div className={`flex flex-col md:flew-row items-center ${displaySide ? "push-right" : ""}`}>
+                <div className={`flex flex-col md:flew-row items-center ${displaySide ? "push-right" : ""} ${animateFade ? "fade-out" : ""}`}>
                     <div className="flex text-primary">{setName}</div>
                     <div className="flex justify-evenly w-full lg:w-1/3 xl:w-1/2  cutTopPrimary">
                     {

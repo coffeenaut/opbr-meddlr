@@ -1,8 +1,9 @@
 import {useState} from 'react'
 import ChevronLeft from '@heroicons/react/20/solid/ChevronLeftIcon'
 import ChevronRight from '@heroicons/react/20/solid/ChevronRightIcon'
+import { DiceRoll } from '../util/tools'
 const Carousel = (props) => {
-    const [currentIndex, setCurrentIndex] = useState(0)
+    const [currentIndex, setCurrentIndex] = useState(DiceRoll(props.cards.length -1))
     const [slideLeft, setSlideLeft] = useState(false)
     const [slideRight, setSlideRight] = useState(false)
     const cards = props.cards;

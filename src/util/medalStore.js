@@ -5,6 +5,7 @@ import Tags from '../data/output/tags2.json'
 import  Filters from '../data/output/filters.json'
 import MappedTraits from '../data/eTraitMap.json'
 import Presets from '../data/presets.json'
+import { DiceRoll } from './tools'
 export function GetAllMedals() {
     return Medals
 } 
@@ -123,6 +124,11 @@ export function SearchMedal(term) {
     // )
     return results
 }
+/**
+ * Filters the preset data set by given category name
+ * @param {*} cat string -> category to filter by
+ * @returns array of medal objects that contain given category name property
+ */
 export function GetPresetsByCategory(cat) {
     return Presets.filter( p => 
         p.categories.some(c => 
@@ -130,10 +136,21 @@ export function GetPresetsByCategory(cat) {
         )
     )
 }
+/**
+ * Gets list of all possible categories from presets
+ * @returns array of category names
+ */
 export function GetPresetCategories() {
     let cats = []
     Presets.forEach(p => {
         cats = merge(cats, p.categories)
     })
     return cats
+}
+/**
+ * Rolls the dice to retrieve a random medal set from preset data set
+ */
+export function GetRandomPresetMedal() {
+    let roll = DiceRoll(Presets.length -1)
+    return Presets[roll]
 }

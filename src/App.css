@@ -632,6 +632,11 @@ input {
   animation-timing-function: ease-out;
   transform-origin: 36.5% 35%;
 }
+.fade-out{
+  animation-timing-function: ease-out;
+  -webkit-animation: fade 1s 1 ease-out;
+  animation: fade 1s 1 ease-out;
+}
 .flash-slow{
   animation-timing-function: ease-out;
   -webkit-animation: blink 0.75s 2 ease-out;
@@ -671,6 +676,10 @@ input {
     animation: load8 0.75s infinite linear;
   }
 /*Animations*/
+@keyframes fade {
+  0% { opacity: 0;}
+  100% {opacity: 1;}
+}
 @keyframes blink {
   0% { opacity: 1;}
   50% {opacity: 0;}
