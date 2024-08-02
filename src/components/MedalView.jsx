@@ -66,7 +66,6 @@ const MedalView = (props) => {
               }}
             >
                 {
-                    
                     range.map((r,i) => {
                         return (<option value={r}>{r}</option>)
                     })
@@ -145,7 +144,7 @@ const MedalView = (props) => {
             </div>
             </form>
             </>
-            :
+            : //read only mode
             <>
             { 
                 !isObjectEmpty(medal) &&
@@ -157,7 +156,7 @@ const MedalView = (props) => {
                         })
                     }
                     </div>
-                    <div className="flex flex-col gap-2 w-full">
+                    <div className="flex flex-col gap-2 w-full overflow-y-auto">
                         <div className="border-b-2 border-red-300 font-bold">Trait Chances</div>
                     {
                         medal.extra_traits.map((e, i) => {

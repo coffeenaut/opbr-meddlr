@@ -227,7 +227,7 @@ const Builder = () => {
         </div>
       <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
         <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right'}`}>
-          <div className="flex flex-col max-h-[400px] md:max-h-[650px] gap-y-4 cutTop">
+          <div className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
             <div className={`absolute h-4/6 lg:h-1/2 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
               <MedalView edit={true} saveMedalTraits={updateMedal} medal={selectedMedal} closeWindow={closeModalWindow}></MedalView>
             </div>
@@ -244,7 +244,7 @@ const Builder = () => {
             <MedalSet emitSaveDrop={toggleSaveDrop}  modifyMedal={editMedal} removeMedal={deleteMedal} medals={medals}></MedalSet>
             <TraitList medals={medals}></TraitList>
           </div>
-          <div className='lg:w-1/2 cutTop'>
+          <div className='lg:w-1/2 max-h-[375px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto cutTop'>
             <Suspense fallback={<Spinner />}>
               <MedalList dropped={medalSelected}></MedalList>
             </Suspense>

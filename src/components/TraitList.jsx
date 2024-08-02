@@ -116,7 +116,7 @@ const TraitList = (props) => {
             )
         }
         return (
-            <div key={index} className={`grid grid-cols-5 md:grid-cols-7 gap-x-2 p-2 md:max-h-full ${index % 2 > 0 && 'trait-alternate'}`}>
+            <div key={index} className={`grid grid-cols-5 md:grid-cols-7 gap-x-2 p-2 ${index % 2 > 0 && 'trait-alternate'}`}>
                 <div className='flex col-span-2'>
                     {
                         (trait.type === 'extra') 
@@ -159,7 +159,7 @@ const TraitList = (props) => {
     // console.log(traits)
     return (
         <>
-        <div className={`flex flex-col rounded-sm max-h-[650px] trait-list ${showTraits.current ? 'show-traits' : ''}`}>
+        <div className={`flex flex-col rounded-sm trait-list ${showTraits.current ? 'show-traits' : ''}`}>
             <div className='trait-header'>Traits</div>
             {ActiveTraits}
         </div>

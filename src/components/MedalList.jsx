@@ -13,24 +13,53 @@ const MedalList = (props) => {
     function filter(medalList) {
         setMedals([...medalList])
     }
-    const Filter = (props) => {
+    const Filters = (props) => {
+        const filterList = GetFilters()
         const [showFilter, setShowFilter] = useState(false)
-        const [filters, setFilters] = useState(GetFilters())
+        const [filterInput, setFilterInput] = useState("")
+        const [filters, setFilters] = useState(filterList)
         const[hoverOver, setHoverOver] = useState(false)
         function showFilters() {
             setShowFilter(!showFilter)
         }
+        const checkEnter = (e) => {
+            if (e.keyCode === 13) {
+                console.log("enter!")
+            }
+        }
+        const sortCategory = (a, b) => a.Category.localeCompare(b.Category)
         function categoryClick(filter) {
             if(filter.sub) {
-                setFilters(filter.sub)
+                const sortedFilters = filter.sub.sort( (a, b) => a.Category.localeCompare(b.Category))
+                setFilters(sortedFilters)
             }
             else
                 props.filterMedal(filter.medals)
         }
+        function filter(val) {
+            let nFilters = []
+            filterList.forEach( c => {
+                nFilters = [...nFilters, ...c.sub.filter((s => s.Category.indexOf(val) > -1))]
+            })
+            setFilters(nFilters.sort((a, b) => sortCategory(a, b)))
+        }
+    
         return (
             <>
                 <AdjustmentIcon onClick={showFilters} className='icon-medium-grey cursor-pointer' />
                 <div className={`flex flex-col rounded-md absolute filter-drop cursor-pointer max-h-60 overflow-y-auto gap-y-2 ${showFilter ? 'showdrop' : ''}`}>
+                    <div>
+                        <input className="w-full rounded-lg form-input"
+                        type="text"
+                        value={filterInput} 
+                        onKeyDown={checkEnter} 
+                        onChange={(e) => {
+                            setFilterInput(e.target.value)
+                            filter(e.target.value)
+                        }} 
+                        >
+                        </input>
+                    </div>
                     {
                         filters.map((f, i) => {
                             return (
@@ -79,13 +108,13 @@ const MedalList = (props) => {
     return (
         <>
         <div className='flex flex-col'>
-            <div className='flex p-2 justify-between'>
+            <div className='flex p-2 fixed justify-between medal-toolbar'>
                 <div className='flex w-3/4 lg:w-1/2 search'><input ref={searchInput} onKeyDown={handleKeyPress} className="w-full rounded-lg form-input" type="text" placeholder='search medals'></input><SearchIcon className='-translate-x-9 translate-y-1 icon-medium-grey cursor-pointer' onClick={search}/></div>
                 <div className='filter'>
-                    <Filter filterMedal={filter}/>
+                    <Filters filterMedal={filter}/>
                 </div>
             </div>
-            <div className="grid grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 max-h-[225px] md:max-h-[450px] lg:max-h-[640px] medal-list">
+            <div className="grid grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 medal-list">
                 {
                     MedalData.map((medal, index) => (
                         !isObjectEmpty(medal) && <div className={`${showMedal(index) ? "show spin-medal" : "hide"}`}><Medal onDrop={props.dropped} key={index} medal={medal} /></div>
