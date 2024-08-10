@@ -62,5 +62,14 @@
     "ch": {"tindex": 1, "val": 18},
     "ci": {"tindex": 2, "val": 14},
     "cj": {"tindex": 2, "val": 16},
-    "ck": {"tindex": 2, "val": 18}
+    "ck": {"tindex": 2, "val": 18},
+    "cl": {"tindex": 3, "val": 14},
+    "cm": {"tindex": 3, "val": 16},
+    "cn": {"tindex": 3, "val": 18},
+    "co": {"tindex": 4, "val": 14},
+    "cp": {"tindex": 4, "val": 16},
+    "cq": {"tindex": 4, "val": 18},
+    "cr": {"tindex": 5, "val": 14},
+    "cs": {"tindex": 5, "val": 16},
+    "ct": {"tindex": 5, "val": 18}
 }

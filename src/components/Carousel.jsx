@@ -11,7 +11,7 @@ const Carousel = (props) => {
     const paginator = [...Array(cards.length)].map((x, i) => {
         return (
             <>
-                <div className={"pageIndicators " + (currentIndex == i ? " bg-blue-600" : " bg-gray-300")}></div>
+                <div className={"z-50 pageIndicators " + (currentIndex == i ? "active-page" : "")}></div>
             </>
         )
     })
@@ -41,15 +41,15 @@ const Carousel = (props) => {
     }
     return (
         <>
-            <div className="flex flex-col items-center">
-                <div className="flex items-center">
-                    <div><ChevronLeft className="icon-medium-grey hover:fill-gray-300" onClick={decrementIndex}></ChevronLeft></div>
-                    <div className={"relative carouselContainer" + (slideLeft ? " slideLeft fade" : "") + (slideRight ? " slideRight fade" : "")}>{cards[currentIndex]}</div>
-                    <div><ChevronRight className="icon-medium-grey hover:fill-gray-300" onClick={incrementIndex}></ChevronRight></div>
+            <div className="flex flex-col w-full items-center">
+                <div className="flex w-full items-center">
+                    <div><ChevronLeft className="cursor-pointer icon-medium-grey hover:fill-gray-300" onClick={decrementIndex}></ChevronLeft></div>
+                    <div className={"w-full relative carouselContainer" + (slideLeft ? " slideLeft fade" : "") + (slideRight ? " slideRight fade" : "")}>{cards[currentIndex]}</div>
+                    <div><ChevronRight className="cursor-pointer icon-medium-grey hover:fill-gray-300" onClick={incrementIndex}></ChevronRight></div>
                 </div>
-                {/* <div className="flex w-1/6 items-center justify-evenly z-20">
+                <div className="flex gap-x-2 -translate-y-4 items-center justify-evenly z-20">
                     {paginator}
-                </div> */}
+                </div>
             </div>
         </>
     )

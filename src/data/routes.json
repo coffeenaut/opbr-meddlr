@@ -1,9 +1,5 @@
 [
     {
-      "name": "home",
-      "path": "/"
-    },
-    {
       "name": "build",
       "path": "/build"
     },
@@ -17,10 +13,6 @@
         {
           "name": "usage",
           "path": "/info/usage"
-        }, 
-        {
-          "name": "about",
-          "path": "/info/about"
         },
         {
           "name": "disclaimer",

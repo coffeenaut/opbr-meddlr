@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Closer from './Closer'
 
 const Overlay = (props) => {
@@ -6,7 +7,7 @@ const Overlay = (props) => {
         <>
             <div className="sideMenuOverlay z-30 w-3/4 md:w-1/2 p-2 h-screen fixed ">
                 <div className="flex justify-between">
-                        <img className="w-20" src={`/${relativePath}/mCoin.svg`} />
+                        <Link onClick={props.changeOverlay} to="/"><img className="logo-mcoin" src={`/${relativePath}/mCoin.svg`} /></Link>
                     
                     <div>
                         <Closer closeClick={props.changeOverlay} lassName="cursor-pointer icon-medium-grey" />

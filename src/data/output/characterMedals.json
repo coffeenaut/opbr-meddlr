@@ -1,0 +1,4946 @@
+[
+  {
+    "name": "Luffy",
+    "image": "img_icon_medal_310110001",
+    "id": "luffy_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_40_crit_20"
+  },
+  {
+    "name": "Zolo",
+    "image": "img_icon_medal_310110002",
+    "id": "zoro_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_strawhat_pirates",
+      "tag_fighter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_30_40_crit_20"
+  },
+  {
+    "name": "Usopp",
+    "image": "img_icon_medal_310110003",
+    "id": "usopp_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_end_60_6_capture"
+  },
+  {
+    "name": "Sanji",
+    "image": "img_icon_medal_310110004",
+    "id": "sanji_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_4_skill1"
+  },
+  {
+    "name": "Nami",
+    "image": "img_icon_medal_310110005",
+    "id": "nami_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Chopper",
+    "image": "img_icon_medal_310110006",
+    "id": "chopper_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_7_skill1"
+  },
+  {
+    "name": "Robin",
+    "image": "img_icon_medal_310110007",
+    "id": "robin_skyp",
+    "tags": [
+      "tag_sky_island",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_2_speed_20"
+  },
+  {
+    "name": "Butchie",
+    "image": "img_icon_medal_310110008",
+    "id": "butchie_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_black_cat_pirates",
+      "tag_fighter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_health_30_2_speed_20"
+  },
+  {
+    "name": "Koby",
+    "image": "img_icon_medal_310110009",
+    "id": "coby_orig",
+    "tags": [
+      "tag_east_blue"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_ally_6_capture"
+  },
+  {
+    "name": "Helmeppo",
+    "image": "img_icon_medal_310110010",
+    "id": "helmeppo_orig",
+    "tags": [
+      "tag_east_blue"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_2_speed_20"
+  },
+  {
+    "name": "Cabaji",
+    "image": "img_icon_medal_310110011",
+    "id": "cabaji_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_buggy_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_more_6_capture"
+  },
+  {
+    "name": "Alvida",
+    "image": "img_icon_medal_310110012",
+    "id": "alvida_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_alvida_pirates",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_7_raise_volume"
+  },
+  {
+    "name": "Higuma",
+    "image": "img_icon_medal_310110013",
+    "id": "higuma_orig",
+    "tags": [
+      "tag_east_blue"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_restored_2_speed_20"
+  },
+  {
+    "name": "Kuroobi",
+    "image": "img_icon_medal_310110014",
+    "id": "kuroobi_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_arlong_pirates",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_10_skill1"
+  },
+  {
+    "name": "Johnny",
+    "image": "img_icon_medal_310110015",
+    "id": "johnny_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_bounty_hunter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_30_6_capture"
+  },
+  {
+    "name": "Morgan",
+    "image": "img_icon_medal_310110016",
+    "id": "morgan_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_navy",
+      "tag_navy_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_end_60_40_crit_20"
+  },
+  {
+    "name": "Choo",
+    "image": "img_icon_medal_310110017",
+    "id": "choo_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_arlong_pirates",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_60_crit_20"
+  },
+  {
+    "name": "Yosaku",
+    "image": "img_icon_medal_310110018",
+    "id": "yosaku_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_bounty_hunter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_7_raise_capture"
+  },
+  {
+    "name": "Hachi",
+    "image": "img_icon_medal_310110019",
+    "id": "hachi_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_arlong_pirates",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_30_10_skill1"
+  },
+  {
+    "name": "Django",
+    "image": "img_icon_medal_310110020",
+    "id": "django_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_black_cat_pirates",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_7_skill1"
+  },
+  {
+    "name": "Kuro",
+    "image": "img_icon_medal_310110021",
+    "id": "kuro_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_black_cat_pirates",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_more_10_skill1"
+  },
+  {
+    "name": "Gin",
+    "image": "img_icon_medal_310110022",
+    "id": "gin_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_krieg_pirates_armada",
+      "tag_fighter"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_6_skill1"
+  },
+  {
+    "name": "Don Krieg",
+    "image": "img_icon_medal_310110023",
+    "id": "donkrieg_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_krieg_pirates_armada",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_ally_ko_3_skill1"
+  },
+  {
+    "name": "Zeff",
+    "image": "img_icon_medal_310110024",
+    "id": "zeff_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_end_60_60_crit_20"
+  },
+  {
+    "name": "Yasopp",
+    "image": "img_icon_medal_310110025",
+    "id": "yasopp_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_red_haired_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_8_skill1"
+  },
+  {
+    "name": "Buggy",
+    "image": "img_icon_medal_310110026",
+    "id": "buggy_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_buggy_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ally_10_skill1"
+  },
+  {
+    "name": "Saw",
+    "image": "img_icon_medal_310110027",
+    "id": "arlong_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_arlong_pirates",
+      "tag_captain",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_80_crit_20"
+  },
+  {
+    "name": "Shanks",
+    "image": "img_icon_medal_310110028",
+    "id": "shanks_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_red_haired_pirates",
+      "tag_captain",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_13_dodge"
+  },
+  {
+    "name": "Kaya",
+    "image": "img_icon_medal_310110029",
+    "id": "kaya_orig",
+    "tags": [
+      "tag_east_blue"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_end_60_13_skill2"
+  },
+  {
+    "name": "Hawk-Eye",
+    "image": "img_icon_medal_310110030",
+    "id": "mihawk_orig",
+    "tags": [
+      "tag_east_blue",
+      "tag_7_warlords_of_the_sea"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_8_skill1"
+  },
+  {
+    "name": "Smoker",
+    "image": "img_icon_medal_310110031",
+    "id": "smoker_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_navy",
+      "tag_logia",
+      "tag_navy_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_restored_4_speed_20"
+  },
+  {
+    "name": "Slip-slip",
+    "image": "img_icon_medal_310110032",
+    "id": "alvida_sube",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_alvida_pirates",
+      "tag_paramecia",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_end_60_10_skill1"
+  },
+  {
+    "name": "Wapol",
+    "image": "img_icon_medal_310110033",
+    "id": "wapol_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_paramecia",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_more_12_capture"
+  },
+  {
+    "name": "Tashigi",
+    "image": "img_icon_medal_310110034",
+    "id": "tashigi_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_navy",
+      "tag_master_chief_petty_officer"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_3_speed_20"
+  },
+  {
+    "name": "Ms. Wednesday",
+    "image": "img_icon_medal_310110035",
+    "id": "vivi_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_baroque_works"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_confuse"
+    ],
+    "primary": "pTrait_capture_6_skill1"
+  },
+  {
+    "name": "Storm",
+    "image": "img_icon_medal_310110036",
+    "id": "luffy_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_hitby_30_cancel_electrocution"
+  },
+  {
+    "name": "Peacock",
+    "image": "img_icon_medal_310110037",
+    "id": "vivi_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_royalty",
+      "tag_alabasta_kingdom"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_confuse"
+    ],
+    "primary": "pTrait_less_13_dodge"
+  },
+  {
+    "name": "Mr. Zero",
+    "image": "img_icon_medal_310110038",
+    "id": "sircrocodile_orig",
+    "tags": [
+      "tag_alabasta",
+      "tag_baroque_works",
+      "tag_7_warlords_of_the_sea",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_ko_heal_3"
+  },
+  {
+    "name": "Pound",
+    "image": "img_icon_medal_310110039",
+    "id": "usopp_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_stun_3_damage"
+  },
+  {
+    "name": "Veau",
+    "image": "img_icon_medal_310110040",
+    "id": "sanji_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_10_raise_volume"
+  },
+  {
+    "name": "Climate Baton",
+    "image": "img_icon_medal_310110041",
+    "id": "nami_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_ally_8_capture"
+  },
+  {
+    "name": "Lion Song",
+    "image": "img_icon_medal_310110042",
+    "id": "zoro_alab",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_fighter"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_30_60_crit_20"
+  },
+  {
+    "name": "Ms. All Sunday",
+    "image": "img_icon_medal_310110043",
+    "id": "robin_baro",
+    "tags": [
+      "tag_alabasta",
+      "tag_baroque_works",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_less_8_capture"
+  },
+  {
+    "name": "Mr. 2",
+    "image": "img_icon_medal_310110044",
+    "id": "mr2bonkure_orig",
+    "tags": [
+      "tag_alabasta",
+      "tag_baroque_works",
+      "tag_paramecia",
+      "tag_officer_agent",
+      "tag_new_kama"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Eneru",
+    "image": "img_icon_medal_310110046",
+    "id": "enel_orig",
+    "tags": [
+      "tag_sky_island",
+      "tag_god_army",
+      "tag_logia",
+      "tag_mantra"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_health_70_13_skill1"
+  },
+  {
+    "name": "Battle-Ax",
+    "image": "img_icon_medal_310110047",
+    "id": "luffy_nost",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_ko_8_skill2"
+  },
+  {
+    "name": "Whitebeard",
+    "image": "img_icon_medal_310110048",
+    "id": "whitebeard_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_whitebeard_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_hitby_30_cancel_vibrate"
+  },
+  {
+    "name": "Aokiji",
+    "image": "img_icon_medal_310110049",
+    "id": "aokiji_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_hitby_30_cancel-freeze"
+  },
+  {
+    "name": "Franky",
+    "image": "img_icon_medal_310110050",
+    "id": "franky_orig",
+    "tags": [
+      "tag_water_seven",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_ko_2_skill1"
+  },
+  {
+    "name": "Moria",
+    "image": "img_icon_medal_310110051",
+    "id": "geckomoria_orig",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_thriller_bark_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_ko_heal_1"
+  },
+  {
+    "name": "Brook",
+    "image": "img_icon_medal_310110052",
+    "id": "brook_orig",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_musician"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_stun_2_damage"
+  },
+  {
+    "name": "Fire Fist",
+    "image": "img_icon_medal_310110053",
+    "id": "ace_orig",
+    "tags": [
+      "tag_alabasta",
+      "tag_whitebeard_pirates",
+      "tag_logia",
+      "tag_blood_brothers",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_end_60_80_crit_20"
+  },
+  {
+    "name": "Hancock",
+    "image": "img_icon_medal_310110054",
+    "id": "boahancock_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_gorgon_sisters",
+      "tag_kuja_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_entrance"
+    ],
+    "primary": "pTrait_more_13_skill1"
+  },
+  {
+    "name": "Akainu",
+    "image": "img_icon_medal_310110055",
+    "id": "akainu_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_hitby_30_cancel_burn"
+  },
+  {
+    "name": "108 Pound Phoenix",
+    "image": "img_icon_medal_310110056",
+    "id": "zoro_skyp",
+    "tags": [
+      "tag_sky_island",
+      "tag_strawhat_pirates",
+      "tag_fighter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_restored_4_speed_20"
+  },
+  {
+    "name": "Arm Point",
+    "image": "img_icon_medal_310110057",
+    "id": "chopper_armp",
+    "tags": [
+      "tag_sky_island",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_0_ally_13_dodge"
+  },
+  {
+    "name": "Bellamy",
+    "image": "img_icon_medal_310110058",
+    "id": "bellamy_orig",
+    "tags": [
+      "tag_sky_island",
+      "tag_paramecia",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_3_damage_red"
+  },
+  {
+    "name": "Law",
+    "image": "img_icon_medal_310110059",
+    "id": "law_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_heart_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Kid",
+    "image": "img_icon_medal_310110060",
+    "id": "kid_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_kid_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Elephant Gatling",
+    "image": "img_icon_medal_310110061",
+    "id": "luffy_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Dragon Quake",
+    "image": "img_icon_medal_310110062",
+    "id": "zoro_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Vivi",
+    "image": "img_icon_medal_310110063",
+    "id": "vivi_reve",
+    "tags": [
+      "tag_reverie",
+      "tag_royalty",
+      "tag_alabasta_kingdom"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_end_60_10_skill2"
+  },
+  {
+    "name": "Thunder",
+    "image": "img_icon_medal_310110064",
+    "id": "nami_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_4_speed_20"
+  },
+  {
+    "name": "Sabo",
+    "image": "img_icon_medal_310110065",
+    "id": "sabo_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_revolutionnary_army",
+      "tag_chief_of_staff",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Concasser",
+    "image": "img_icon_medal_310110066",
+    "id": "sanji_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_treasure_lost_4_speed_20"
+  },
+  {
+    "name": "Bonney",
+    "image": "img_icon_medal_310110067",
+    "id": "bonie_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_bonney_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_allied_treasure_3_damage_red"
+  },
+  {
+    "name": "Green Star",
+    "image": "img_icon_medal_310110068",
+    "id": "usopp_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_enemy_treasure_sup_50_8_capture"
+  },
+  {
+    "name": "Kizaru",
+    "image": "img_icon_medal_310110069",
+    "id": "kizaru_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_hitby_30_cancel_stun"
+  },
+  {
+    "name": "Bed Rest",
+    "image": "img_icon_medal_310110070",
+    "id": "chopper_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_5_damage_red"
+  },
+  {
+    "name": "Mille fleurs",
+    "image": "img_icon_medal_310110071",
+    "id": "robin_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_health_70_13_skill1"
+  },
+  {
+    "name": "Blizzard Slice",
+    "image": "img_icon_medal_310110072",
+    "id": "brook_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_musician"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_less_13_skill1"
+  },
+  {
+    "name": "Radical",
+    "image": "img_icon_medal_310110073",
+    "id": "franky_2yaf",
+    "tags": [
+      "tag_2years_later",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Bikini Nami",
+    "image": "img_icon_medal_310110074",
+    "id": "nami_swim",
+    "tags": [
+      "tag_bikini",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Bikini Hancock",
+    "image": "img_icon_medal_310110075",
+    "id": "boahancock_swim",
+    "tags": [
+      "tag_bikini",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_gorgon_sisters",
+      "tag_kuja_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_less_5_damage"
+  },
+  {
+    "name": "Luffy (STAMPEDE)",
+    "image": "img_icon_medal_310110076",
+    "id": "luffy_stam",
+    "tags": [
+      "tag_stampede",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_ally_6_capture"
+  },
+  {
+    "name": "Smoker (STAMPEDE)",
+    "image": "img_icon_medal_310110077",
+    "id": "smoker_stam",
+    "tags": [
+      "tag_stampede",
+      "tag_navy",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_stun_5_damage"
+  },
+  {
+    "name": "Sables",
+    "image": "img_icon_medal_310110078",
+    "id": "sircrocodile_impe",
+    "tags": [
+      "tag_impel_down",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_hit_1_poison"
+  },
+  {
+    "name": "Fire Pillar",
+    "image": "img_icon_medal_310110079",
+    "id": "ace_mari",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_logia",
+      "tag_blood_brothers",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_hitby_30_cancel_burn"
+  },
+  {
+    "name": "Sabo (STAMPEDE)",
+    "image": "img_icon_medal_310110080",
+    "id": "sabo_stam",
+    "tags": [
+      "tag_stampede",
+      "tag_revolutionnary_army",
+      "tag_logia",
+      "tag_chief_of_staff",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_burn_5_damage"
+  },
+  {
+    "name": "Billow White",
+    "image": "img_icon_medal_310110081",
+    "id": "doflamingo_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_enemy_treasure_sup_50_8_capture"
+  },
+  {
+    "name": "King Kong Gun",
+    "image": "img_icon_medal_310110082",
+    "id": "luffy_boun",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_0_ally_5_damage"
+  },
+  {
+    "name": "ROOM",
+    "image": "img_icon_medal_310110083",
+    "id": "law_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_heart_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_ko_heal_3"
+  },
+  {
+    "name": "Hawkins",
+    "image": "img_icon_medal_310110084",
+    "id": "hawkins_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_paramecia",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_skill2_3_skill1"
+  },
+  {
+    "name": "Ultra Tiger Hunt",
+    "image": "img_icon_medal_310110085",
+    "id": "zoro_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_more_5_damage"
+  },
+  {
+    "name": "Katakuri",
+    "image": "img_icon_medal_310110086",
+    "id": "katakuri_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family",
+      "tag_sweet_3_general"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_0_ally_5_damage"
+  },
+  {
+    "name": "Big Mom",
+    "image": "img_icon_medal_310110087",
+    "id": "bigmom_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_charlotte_family",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_ko_heal_3"
+  },
+  {
+    "name": "Nightmare",
+    "image": "img_icon_medal_310110088",
+    "id": "luffy_nigh",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Ryuma",
+    "image": "img_icon_medal_310110089",
+    "id": "ryuma_orig",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_thriller_bark_pirates",
+      "tag_zombie"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_0_ally_10_dodge"
+  },
+  {
+    "name": "Perona",
+    "image": "img_icon_medal_310110090",
+    "id": "perona_orig",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_paramecia",
+      "tag_thriller_bark_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_negative"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Bride",
+    "image": "img_icon_medal_310110091",
+    "id": "nami_brid",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_hit_1_electrocution"
+  },
+  {
+    "name": "Jimbei",
+    "image": "img_icon_medal_310110092",
+    "id": "jinbe_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_7_warlords_of_the_sea",
+      "tag_captain",
+      "tag_sun_pirates",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_5_damage"
+  },
+  {
+    "name": "Bœuf Jarret Jarrer",
+    "image": "img_icon_medal_310110093",
+    "id": "sanji_cake",
+    "tags": [
+      "tag_zou",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_less_13_skill1"
+  },
+  {
+    "name": "Bege",
+    "image": "img_icon_medal_310110094",
+    "id": "bege_orig",
+    "tags": [
+      "tag_zou",
+      "tag_firetank_crew",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_health_70_10_skill2"
+  },
+  {
+    "name": "Reiju",
+    "image": "img_icon_medal_310110095",
+    "id": "reiju_orig",
+    "tags": [
+      "tag_zou",
+      "tag_royalty",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Kuma",
+    "image": "img_icon_medal_310110096",
+    "id": "bkuma_orig",
+    "tags": [
+      "tag_thriller_bark",
+      "tag_revolutionnary_army",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Snow Creature",
+    "image": "img_icon_medal_310110097",
+    "id": "chopper_holi",
+    "tags": [
+      "tag_holy_night",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Nipple Light",
+    "image": "img_icon_medal_310110098",
+    "id": "franky_holi",
+    "tags": [
+      "tag_holy_night",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_skill2_3_skill1"
+  },
+  {
+    "name": "Cuerpo Fleurs",
+    "image": "img_icon_medal_310110099",
+    "id": "robin_holi",
+    "tags": [
+      "tag_holy_night",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Kaido",
+    "image": "img_icon_medal_310110100",
+    "id": "kaido_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_captain",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Flame Emperor",
+    "image": "img_icon_medal_310110101",
+    "id": "ace_topw",
+    "tags": [
+      "tag_paramount_war",
+      "tag_whitebeard_pirates",
+      "tag_logia",
+      "tag_blood_brothers",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_hitby_30_cancel_burn"
+  },
+  {
+    "name": "Marco",
+    "image": "img_icon_medal_310110102",
+    "id": "marco_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_whitebeard_pirates",
+      "tag_zoan",
+      "tag_doctor",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ally_ko_8_skill1"
+  },
+  {
+    "name": "Garp",
+    "image": "img_icon_medal_310110103",
+    "id": "garp_mari",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_vice_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_3_damage_red"
+  },
+  {
+    "name": "Griffon",
+    "image": "img_icon_medal_310110104",
+    "id": "shanks_hand",
+    "tags": [
+      "tag_paramount_war",
+      "tag_red_haired_pirates",
+      "tag_captain",
+      "tag_roger_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_8_skill1"
+  },
+  {
+    "name": "Teech",
+    "image": "img_icon_medal_310110105",
+    "id": "teach_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_7_warlords_of_the_sea",
+      "tag_logia",
+      "tag_captain",
+      "tag_black_beard_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Jet Rocket",
+    "image": "img_icon_medal_310110106",
+    "id": "luffy_topw",
+    "tags": [
+      "tag_paramount_war",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_13_skill1"
+  },
+  {
+    "name": "Bartolomeo",
+    "image": "img_icon_medal_310110107",
+    "id": "bartolomeo_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_barto_club",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Cavendish",
+    "image": "img_icon_medal_310110108",
+    "id": "cavendish_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_beautiful_pirates",
+      "tag_captain",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Fujitora",
+    "image": "img_icon_medal_310110109",
+    "id": "fujitora_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_navy",
+      "tag_paramecia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Flame Dragon King",
+    "image": "img_icon_medal_310110110",
+    "id": "sabo_mera",
+    "tags": [
+      "tag_dressrosa",
+      "tag_revolutionnary_army",
+      "tag_logia",
+      "tag_chief_of_staff",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Lucci",
+    "image": "img_icon_medal_310110111",
+    "id": "lucci_orig",
+    "tags": [
+      "tag_water_seven",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_crit_3_skill2"
+  },
+  {
+    "name": "Kaku",
+    "image": "img_icon_medal_310110112",
+    "id": "kaku_orig",
+    "tags": [
+      "tag_water_seven",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_skill1_4_speed_20"
+  },
+  {
+    "name": "Firebird Star",
+    "image": "img_icon_medal_310110113",
+    "id": "usopp_soge",
+    "tags": [
+      "tag_water_seven",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "The Demon Heir",
+    "image": "img_icon_medal_310110114",
+    "id": "bullet_stam",
+    "tags": [
+      "tag_stampede",
+      "tag_paramecia",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Mad Dog of the Navy",
+    "image": "img_icon_medal_310110115",
+    "id": "smoker_2yaf",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_navy",
+      "tag_logia",
+      "tag_vice_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_end_60_5_damage"
+  },
+  {
+    "name": "Hina",
+    "image": "img_icon_medal_310110116",
+    "id": "hina_2yaf",
+    "tags": [
+      "tag_reverie",
+      "tag_navy",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_bind"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Cutting Mist",
+    "image": "img_icon_medal_310110117",
+    "id": "tashigi_2yaf",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_navy",
+      "tag_navy_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_10_skill1"
+  },
+  {
+    "name": "Magellan",
+    "image": "img_icon_medal_310110118",
+    "id": "magellan_orig",
+    "tags": [
+      "tag_impel_down",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Ivankov",
+    "image": "img_icon_medal_310110119",
+    "id": "ivankov_orig",
+    "tags": [
+      "tag_impel_down",
+      "tag_revolutionnary_army",
+      "tag_paramecia",
+      "tag_new_kama"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ally_ko_8_skill1"
+  },
+  {
+    "name": "King Cobra",
+    "image": "img_icon_medal_310110120",
+    "id": "luffy_snak",
+    "tags": [
+      "tag_zou",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_13_skill2"
+  },
+  {
+    "name": "Rayleigh",
+    "image": "img_icon_medal_310110122",
+    "id": "rayleigh_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ally_ko_8_skill1"
+  },
+  {
+    "name": "Sengoku",
+    "image": "img_icon_medal_310110123",
+    "id": "sengoku_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_zoan",
+      "tag_chief_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Urouge",
+    "image": "img_icon_medal_310110124",
+    "id": "urouge_orig",
+    "tags": [
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Apoo",
+    "image": "img_icon_medal_310110125",
+    "id": "apoo_2yaf",
+    "tags": [
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "Repel",
+    "image": "img_icon_medal_310110126",
+    "id": "kid_2yaf",
+    "tags": [
+      "tag_kid_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Drake",
+    "image": "img_icon_medal_310110127",
+    "id": "xdrake_2yaf",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Killer",
+    "image": "img_icon_medal_310110128",
+    "id": "killer_2yaf",
+    "tags": [
+      "tag_kid_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_30_3_damage"
+  },
+  {
+    "name": "Ninpo Lightning Blast",
+    "image": "img_icon_medal_310110129",
+    "id": "nami_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_navigator",
+      "tag_ninja"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_less_13_skill1"
+  },
+  {
+    "name": "Sumo Slap",
+    "image": "img_icon_medal_310110130",
+    "id": "luffy_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_treasure_5_damage_def"
+  },
+  {
+    "name": "Six King Pistol",
+    "image": "img_icon_medal_310110131",
+    "id": "lucci_2yaf",
+    "tags": [
+      "tag_reverie",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Mamaragan",
+    "image": "img_icon_medal_310110132",
+    "id": "enel_amal",
+    "tags": [
+      "tag_sky_island",
+      "tag_god_army",
+      "tag_logia",
+      "tag_mantra"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Scalpel",
+    "image": "img_icon_medal_310110133",
+    "id": "law_2yaf",
+    "tags": [
+      "tag_dressrosa",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_heart_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_%_heart"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Rebeccca",
+    "image": "img_icon_medal_310110134",
+    "id": "rebecca_orig",
+    "tags": [
+      "tag_dressrosa"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_perfect_dodge_3_skill2"
+  },
+  {
+    "name": "Corazon",
+    "image": "img_icon_medal_310110135",
+    "id": "corazon_orig",
+    "tags": [
+      "tag_navy",
+      "tag_paramecia",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_confuse"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Ikoku Sovereignty",
+    "image": "img_icon_medal_310110136",
+    "id": "bigmom_slim",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_charlotte_family",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Buzz Cut Mochi",
+    "image": "img_icon_medal_310110137",
+    "id": "katakuri_face",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family",
+      "tag_sweet_3_general"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Chop-Chop",
+    "image": "img_icon_medal_310110138",
+    "id": "buggy_2yaf",
+    "tags": [
+      "tag_buggy_delivery",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_more_13_skill2"
+  },
+  {
+    "name": "Caesar",
+    "image": "img_icon_medal_310110139",
+    "id": "caesar_orig",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_poison"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "The Master Swordsman",
+    "image": "img_icon_medal_310110140",
+    "id": "mihawk_shik",
+    "tags": [
+      "tag_7_warlords_of_the_sea"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Perfume Femur",
+    "image": "img_icon_medal_310110141",
+    "id": "boahancock_2yaf",
+    "tags": [
+      "tag_sabaody",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_gorgon_sisters",
+      "tag_kuja_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_entrance"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Negative Ghost",
+    "image": "img_icon_medal_310110142",
+    "id": "perona_2yaf",
+    "tags": [
+      "tag_paramecia",
+      "tag_thriller_bark_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_negative"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Crescent Cutlass",
+    "image": "img_icon_medal_310110143",
+    "id": "sircrocodile_topw",
+    "tags": [
+      "tag_paramount_war",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Spiky Shadow Lizard",
+    "image": "img_icon_medal_310110144",
+    "id": "geckomoria_topw",
+    "tags": [
+      "tag_paramount_war",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_thriller_bark_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shadowless"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Smoker (Chambres)",
+    "image": "img_icon_medal_310110145",
+    "id": "tashigi_smok",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_navy",
+      "tag_vice_admiral",
+      "tag_chambres"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Pheasant Peck",
+    "image": "img_icon_medal_310110146",
+    "id": "aokiji_casu",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_logia"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Kin'emon",
+    "image": "img_icon_medal_310110147",
+    "id": "kinemon_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia",
+      "tag_kozuki_clan"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Fire-Fist Pistol Red Hawk",
+    "image": "img_icon_medal_310110148",
+    "id": "luffy_dres",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "The Billion-Fold World Trichiliocosm",
+    "image": "img_icon_medal_310110149",
+    "id": "zoro_dres",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Sky Walk",
+    "image": "img_icon_medal_310110150",
+    "id": "sanji_wedd",
+    "tags": [
+      "tag_zou",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Cross Fire",
+    "image": "img_icon_medal_310110151",
+    "id": "ace_mera",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_logia",
+      "tag_blood_brothers",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Chopperemon",
+    "image": "img_icon_medal_310110152",
+    "id": "chopper_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor",
+      "tag_ninja"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_5_skill1"
+  },
+  {
+    "name": "Kawamatsu",
+    "image": "img_icon_medal_310110153",
+    "id": "kawamatsu_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kozuki_clan",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Kozuki Oden",
+    "image": "img_icon_medal_310110154",
+    "id": "oden_orig",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_kozuki_clan",
+      "tag_roger_pirates",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Kikunojo",
+    "image": "img_icon_medal_310110155",
+    "id": "kikunojo_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kozuki_clan"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_end_60_13_skill1"
+  },
+  {
+    "name": "Roger",
+    "image": "img_icon_medal_310110156",
+    "id": "roger_orig",
+    "tags": [
+      "tag_captain",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_8_skill1"
+  },
+  {
+    "name": "Napping Kyoshiro",
+    "image": "img_icon_medal_310110157",
+    "id": "kyoshiro_orig",
+    "tags": [
+      "tag_land_of_wano"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Ashura Doji",
+    "image": "img_icon_medal_310110158",
+    "id": "ashuradoji_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kozuki_clan"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Tremor-Tremor",
+    "image": "img_icon_medal_310110159",
+    "id": "whitebeard_youn",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_former_rocks_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Hero",
+    "image": "img_icon_medal_310110160",
+    "id": "garp_youn",
+    "tags": [
+      "tag_navy"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Carrot",
+    "image": "img_icon_medal_310110161",
+    "id": "carrot_orig",
+    "tags": [
+      "tag_zou",
+      "tag_mokomo_dukedom_musketeer",
+      "tag_kingsbird",
+      "tag_minks"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Assistant Fish-Man Karate Master",
+    "image": "img_icon_medal_310110162",
+    "id": "koala_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_revolutionnary_army",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_less_13_dodge"
+  },
+  {
+    "name": "General Franky",
+    "image": "img_icon_medal_310110163",
+    "id": "franky_punk",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_knockdowned_4_skill1"
+  },
+  {
+    "name": "God Usopp",
+    "image": "img_icon_medal_310110164",
+    "id": "usopp_dres",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_0_ally_8_capture"
+  },
+  {
+    "name": "Gaimon",
+    "image": "img_icon_medal_310110165",
+    "id": "gaimon_orig",
+    "tags": [
+      "tag_east_blue"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_3_damage_red"
+  },
+  {
+    "name": "Duke Dogstorm",
+    "image": "img_icon_medal_310110166",
+    "id": "inuarashi_orig",
+    "tags": [
+      "tag_zou",
+      "tag_kozuki_clan",
+      "tag_minks"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_start_90_13_damage"
+  },
+  {
+    "name": "Cat Viper",
+    "image": "img_icon_medal_310110167",
+    "id": "nekomamushi_orig",
+    "tags": [
+      "tag_zou",
+      "tag_kozuki_clan",
+      "tag_minks"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_end_90_3_damage_red"
+  },
+  {
+    "name": "Candula",
+    "image": "img_icon_medal_310110168",
+    "id": "robin_enie",
+    "tags": [
+      "tag_water_seven",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Palm",
+    "image": "img_icon_medal_310110169",
+    "id": "chopper_fish",
+    "tags": [
+      "tag_fishmen_island",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_skill2_5_skill1"
+  },
+  {
+    "name": "Raid Luffy",
+    "image": "img_icon_medal_310110170",
+    "id": "luffy_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Memoir of that Summer Day",
+    "image": "img_icon_medal_310110171",
+    "id": "mr2bonkure_impe",
+    "tags": [
+      "tag_impel_down",
+      "tag_paramecia",
+      "tag_new_kama"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Raid Kid",
+    "image": "img_icon_medal_310110172",
+    "id": "kid_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kid_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projected_heal_3"
+  },
+  {
+    "name": "Raid Law",
+    "image": "img_icon_medal_310110173",
+    "id": "law_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_heart_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Galdino",
+    "image": "img_icon_medal_310110174",
+    "id": "mr3galdino_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_baroque_works",
+      "tag_paramecia",
+      "tag_officer_agent"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_skill1_5_skill2"
+  },
+  {
+    "name": "Ms. Goldenweek",
+    "image": "img_icon_medal_310110175",
+    "id": "goldenweek_orig",
+    "tags": [
+      "tag_grand_line_start",
+      "tag_baroque_works",
+      "tag_officer_agent"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Pell",
+    "image": "img_icon_medal_310110176",
+    "id": "pell_orig",
+    "tags": [
+      "tag_alabasta",
+      "tag_zoan",
+      "tag_alabasta_kingdom"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Vivi & Karoo",
+    "image": "img_icon_medal_310110177",
+    "id": "vivi_karo",
+    "tags": [
+      "tag_alabasta",
+      "tag_strawhat_pirates",
+      "tag_royalty",
+      "tag_alabasta_kingdom"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Delphinium",
+    "image": "img_icon_medal_310110178",
+    "id": "robin_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_13_skill1"
+  },
+  {
+    "name": "Ice-Burn",
+    "image": "img_icon_medal_310110179",
+    "id": "brook_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_musician"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Sentomaru",
+    "image": "img_icon_medal_310110180",
+    "id": "sentomaru_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_navy"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Koby (Paramount War)",
+    "image": "img_icon_medal_310110181",
+    "id": "coby_serg",
+    "tags": [
+      "tag_paramount_war",
+      "tag_navy",
+      "tag_master_chief_petty_officer"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ally_ko_6_skill2"
+  },
+  {
+    "name": "Fleet Admiral Akainu",
+    "image": "img_icon_medal_310110182",
+    "id": "akainu_gens",
+    "tags": [
+      "tag_navy",
+      "tag_logia",
+      "tag_chief_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_less_13_skill2"
+  },
+  {
+    "name": "Baby 5",
+    "image": "img_icon_medal_310110183",
+    "id": "baby5_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_pica_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Hard-Boiled",
+    "image": "img_icon_medal_310110184",
+    "id": "senorpink_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_diamante_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Sugar",
+    "image": "img_icon_medal_310110185",
+    "id": "sugar_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_trebol_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_toy"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Young Master",
+    "image": "img_icon_medal_310110186",
+    "id": "doflamingo_youn",
+    "tags": [
+      "tag_paramecia",
+      "tag_captain",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_confuse"
+    ],
+    "primary": "pTrait_health_50_5_damage"
+  },
+  {
+    "name": "Bamboo Demon",
+    "image": "img_icon_medal_310110187",
+    "id": "vergo_orig",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_navy",
+      "tag_vice_admiral",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_5_damage_logia"
+  },
+  {
+    "name": "Monet",
+    "image": "img_icon_medal_310110188",
+    "id": "monet_orig",
+    "tags": [
+      "tag_punk_hazard",
+      "tag_logia",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Sorcery Climate Baton",
+    "image": "img_icon_medal_310110189",
+    "id": "nami_cake",
+    "tags": [
+      "tag_zou",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Soul King",
+    "image": "img_icon_medal_310110190",
+    "id": "brook_cake",
+    "tags": [
+      "tag_zou",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_musician"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "Pudding",
+    "image": "img_icon_medal_310110191",
+    "id": "pudding_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_edit"
+    ],
+    "primary": "pTrait_knockdowned_4_skill2"
+  },
+  {
+    "name": "Boss",
+    "image": "img_icon_medal_310110192",
+    "id": "jinbe_2yaf",
+    "tags": [
+      "tag_zou",
+      "tag_captain",
+      "tag_sun_pirates",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_skill2_5_skill1"
+  },
+  {
+    "name": "The Dark King",
+    "image": "img_icon_medal_310110193",
+    "id": "rayleigh_youn",
+    "tags": [
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Kanjuro",
+    "image": "img_icon_medal_310110194",
+    "id": "kanjuro_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Izo",
+    "image": "img_icon_medal_310110195",
+    "id": "izo_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_whitebeard_pirates",
+      "tag_kozuki_clan",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Kaido's Son",
+    "image": "img_icon_medal_310110196",
+    "id": "yamato_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_zoan"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_more_13_skill2"
+  },
+  {
+    "name": "Jack",
+    "image": "img_icon_medal_310110197",
+    "id": "jack_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_superstar",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_enemy_treasure_13_skill2"
+  },
+  {
+    "name": "Queen",
+    "image": "img_icon_medal_310110198",
+    "id": "queen_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_superstar"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Blast Breath",
+    "image": "img_icon_medal_310110199",
+    "id": "kaido_drag",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_captain",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Straw Hat",
+    "image": "img_icon_medal_310110200",
+    "id": "luffy_thou",
+    "tags": [
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_heal_5"
+  },
+  {
+    "name": "Soba Mask",
+    "image": "img_icon_medal_310110201",
+    "id": "sanji_jeru",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_cook",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_8_skill1"
+  },
+  {
+    "name": "Judge",
+    "image": "img_icon_medal_310110202",
+    "id": "judge_orig",
+    "tags": [
+      "tag_zou",
+      "tag_royalty",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_enemy_treasure_13_skill2"
+  },
+  {
+    "name": "Burgess",
+    "image": "img_icon_medal_310110203",
+    "id": "burgess_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_helmsman",
+      "tag_black_beard_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_13_skill2"
+  },
+  {
+    "name": "Vista",
+    "image": "img_icon_medal_310110204",
+    "id": "vista_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_whitebeard_pirates",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Jozu",
+    "image": "img_icon_medal_310110205",
+    "id": "jozu_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_whitebeard_pirates",
+      "tag_paramecia",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Shiryu",
+    "image": "img_icon_medal_310110206",
+    "id": "shiryu_orig",
+    "tags": [
+      "tag_paramount_war",
+      "tag_black_beard_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_ko_8_skill1"
+  },
+  {
+    "name": "Usohachi",
+    "image": "img_icon_medal_310110207",
+    "id": "usopp_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Franosuke",
+    "image": "img_icon_medal_310110208",
+    "id": "franky_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Wyper",
+    "image": "img_icon_medal_310110209",
+    "id": "wyper_orig",
+    "tags": [
+      "tag_sky_island"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_70_3_damage"
+  },
+  {
+    "name": "Pachycephalosaurus",
+    "image": "img_icon_medal_310110210",
+    "id": "ulti_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Spinosaurus",
+    "image": "img_icon_medal_310110211",
+    "id": "pageone_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_knockdowned_4_skill2"
+  },
+  {
+    "name": "Phoenix Brand",
+    "image": "img_icon_medal_310110212",
+    "id": "marco_bird",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_whitebeard_pirates",
+      "tag_zoan",
+      "tag_doctor",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_sup_50_8_capture"
+  },
+  {
+    "name": "Perospero",
+    "image": "img_icon_medal_310110213",
+    "id": "perospero_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_candyman"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Hancock (STAMPEDE)",
+    "image": "img_icon_medal_310110214",
+    "id": "boahancock_stam",
+    "tags": [
+      "tag_stampede",
+      "tag_7_warlords_of_the_sea",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_gorgon_sisters",
+      "tag_kuja_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_entrance"
+    ],
+    "primary": "pTrait_capture_6_speed_20"
+  },
+  {
+    "name": "Shiki",
+    "image": "img_icon_medal_310110215",
+    "id": "shiki_orig",
+    "tags": [
+      "tag_film_strong_world",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_former_rocks_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Tesoro",
+    "image": "img_icon_medal_310110216",
+    "id": "tesoro_orig",
+    "tags": [
+      "tag_film_gold",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_gold"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Zephyr",
+    "image": "img_icon_medal_310110217",
+    "id": "zephyr_orig",
+    "tags": [
+      "tag_film_z"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Luffy (FILM RED)",
+    "image": "img_icon_medal_310110218",
+    "id": "luffy_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_restored_90_crit_20"
+  },
+  {
+    "name": "Uta",
+    "image": "img_icon_medal_310110219",
+    "id": "uta_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_singsing"
+    ],
+    "primary": "pTrait_5_damage_enemy_treasure"
+  },
+  {
+    "name": "Beckman (FILM RED)",
+    "image": "img_icon_medal_310110220",
+    "id": "bennbeckman_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_red_haired_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_intimidate"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Shanks (FILM RED)",
+    "image": "img_icon_medal_310110221",
+    "id": "shanks_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_red_haired_pirates",
+      "tag_captain",
+      "tag_roger_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_ko_8_skill2"
+  },
+  {
+    "name": "Nami (FILM RED)",
+    "image": "img_icon_medal_310110222",
+    "id": "nami_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_health_70_13_skill1"
+  },
+  {
+    "name": "Chopper (FILM RED)",
+    "image": "img_icon_medal_310110223",
+    "id": "chopper_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_13_skill1"
+  },
+  {
+    "name": "Usopp (FILM RED)",
+    "image": "img_icon_medal_310110224",
+    "id": "usopp_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_projected_5_skill1"
+  },
+  {
+    "name": "Yasopp (FILM RED)",
+    "image": "img_icon_medal_310110225",
+    "id": "yasopp_tera",
+    "tags": [
+      "tag_film_red",
+      "tag_red_haired_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill2"
+  },
+  {
+    "name": "Boing-Boing",
+    "image": "img_icon_medal_310110226",
+    "id": "bellamy_2yaf",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_50_8_capture"
+  },
+  {
+    "name": "Ripple-Ripple",
+    "image": "img_icon_medal_310110227",
+    "id": "diamante_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_diamante_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_projected_heal_3"
+  },
+  {
+    "name": "Trebol",
+    "image": "img_icon_medal_310110228",
+    "id": "trebol_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_trebol_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_ko_heal_3"
+  },
+  {
+    "name": "Shinobu",
+    "image": "img_icon_medal_310110229",
+    "id": "shinobu_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia",
+      "tag_kozuki_clan",
+      "tag_ninja"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_ally_8_capture"
+  },
+  {
+    "name": "Razio",
+    "image": "img_icon_medal_310110230",
+    "id": "raizo_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia",
+      "tag_kozuki_clan",
+      "tag_ninja"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_skill2_6_speed_20"
+  },
+  {
+    "name": "Hyogoro",
+    "image": "img_icon_medal_310110231",
+    "id": "hyogoro_orig",
+    "tags": [
+      "tag_land_of_wano"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_knockdowned_4_skill1"
+  },
+  {
+    "name": "X Calibur",
+    "image": "img_icon_medal_310110232",
+    "id": "xdrake_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_navy",
+      "tag_zoan",
+      "tag_worst_generation",
+      "tag_sword"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Adio",
+    "image": "img_icon_medal_310110233",
+    "id": "adio_orig",
+    "tags": [
+      "tag_odyssey"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_treasure_5_normal_damage"
+  },
+  {
+    "name": "King",
+    "image": "img_icon_medal_310110234",
+    "id": "king_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_superstar"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_0_ally_8_capture"
+  },
+  {
+    "name": "Olin",
+    "image": "img_icon_medal_310110235",
+    "id": "bigmom_wano",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_charlotte_family",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_burn_5_damage_red"
+  },
+  {
+    "name": "Conqueror of Three Worlds Ragnaraku",
+    "image": "img_icon_medal_310110236",
+    "id": "kaido_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_captain",
+      "tag_former_rocks_pirates",
+      "tag_4_emperors"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_capture_8_skill1"
+  },
+  {
+    "name": "Enma",
+    "image": "img_icon_medal_310110237",
+    "id": "zoro_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_50_13_skill2"
+  },
+  {
+    "name": "Who's-Who",
+    "image": "img_icon_medal_310110238",
+    "id": "whoswho_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_5_damage"
+  },
+  {
+    "name": "Raid Jimbei",
+    "image": "img_icon_medal_310110239",
+    "id": "jinbe_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_helmsman",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Mrs. Pudding?",
+    "image": "img_icon_medal_310110240",
+    "id": "pudding_cook",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_cook",
+      "tag_charlotte_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_edit"
+    ],
+    "primary": "pTrait_ally_13_skill1"
+  },
+  {
+    "name": "Brulee",
+    "image": "img_icon_medal_310110241",
+    "id": "brulee_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Cracker",
+    "image": "img_icon_medal_310110242",
+    "id": "cracker_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family",
+      "tag_sweet_3_general"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_skill2_5_damage"
+  },
+  {
+    "name": "Leader",
+    "image": "img_icon_medal_310110243",
+    "id": "pedro_orig",
+    "tags": [
+      "tag_zou",
+      "tag_minks"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_electrocution_6_skill2"
+  },
+  {
+    "name": "Oven",
+    "image": "img_icon_medal_310110244",
+    "id": "oven_orig",
+    "tags": [
+      "tag_zou",
+      "tag_big_mom_pirates",
+      "tag_paramecia",
+      "tag_charlotte_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_burn_5_damage_red"
+  },
+  {
+    "name": "Hakuba",
+    "image": "img_icon_medal_310110245",
+    "id": "cavendish_dres",
+    "tags": [
+      "tag_dressrosa",
+      "tag_beautiful_pirates",
+      "tag_captain",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_enemy_treasure_sup_50_8_capture"
+  },
+  {
+    "name": "Chin Jao",
+    "image": "img_icon_medal_310110246",
+    "id": "chinjao_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projected_5_skill2"
+  },
+  {
+    "name": "Kung Fu Jugon",
+    "image": "img_icon_medal_310110247",
+    "id": "kungfudugong_orig",
+    "tags": [
+      "tag_alabasta"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_same_element_3_damage"
+  },
+  {
+    "name": "Elizabello II",
+    "image": "img_icon_medal_310110248",
+    "id": "elizabello_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_royalty"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_skill1_5_skill2"
+  },
+  {
+    "name": "Ideo",
+    "image": "img_icon_medal_310110249",
+    "id": "ideo_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Raid Robin",
+    "image": "img_icon_medal_310110250",
+    "id": "robin_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_5_damage_allied_treasure"
+  },
+  {
+    "name": "Raid Brook",
+    "image": "img_icon_medal_310110251",
+    "id": "brook_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_musician"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_freeze_6_skill1"
+  },
+  {
+    "name": "Namuji Glacier Fang",
+    "image": "img_icon_medal_310110252",
+    "id": "yamato_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_zoan"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_frostbite"
+    ],
+    "primary": "pTrait_less_13_skill2"
+  },
+  {
+    "name": "Raid Nami",
+    "image": "img_icon_medal_310110253",
+    "id": "nami_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Raid Usopp",
+    "image": "img_icon_medal_310110254",
+    "id": "usopp_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_sleep"
+    ],
+    "primary": "pTrait_health_50_13_skill1"
+  },
+  {
+    "name": "Vander Decken IX",
+    "image": "img_icon_medal_310110255",
+    "id": "vanderdecken_orig",
+    "tags": [
+      "tag_fishmen_island",
+      "tag_flying_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_skill1_5_skill2"
+  },
+  {
+    "name": "Caribou",
+    "image": "img_icon_medal_310110256",
+    "id": "caribou_orig",
+    "tags": [
+      "tag_fishmen_island",
+      "tag_logia",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_more_13_skill2"
+  },
+  {
+    "name": "Shark Pack",
+    "image": "img_icon_medal_310110257",
+    "id": "hody_orig",
+    "tags": [
+      "tag_fishmen_island",
+      "tag_captain",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_sup_50_8_capture"
+  },
+  {
+    "name": "Neptune",
+    "image": "img_icon_medal_310110258",
+    "id": "neptune_orig",
+    "tags": [
+      "tag_fishmen_island",
+      "tag_royalty"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Raid Killer",
+    "image": "img_icon_medal_310110259",
+    "id": "killer_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kid_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_crit_3_skill1"
+  },
+  {
+    "name": "Kid & Law",
+    "image": "img_icon_medal_310110260",
+    "id": "kidlaw_doub",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_kid_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_heart_pirates",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Shanks' Daughter",
+    "image": "img_icon_medal_310110261",
+    "id": "uta_orig",
+    "tags": [
+      "tag_film_red",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_singsing"
+    ],
+    "primary": "pTrait_singsing_5_damage"
+  },
+  {
+    "name": "Gear Five",
+    "image": "img_icon_medal_310110262",
+    "id": "luffy_fift",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_captain",
+      "tag_blood_brothers",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Raid Sanji",
+    "image": "img_icon_medal_310110263",
+    "id": "sanji_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_strong_element_5_damage"
+  },
+  {
+    "name": "Heliceratops",
+    "image": "img_icon_medal_310110264",
+    "id": "sasaki_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo",
+      "tag_fishman"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Imperial Flame",
+    "image": "img_icon_medal_310110265",
+    "id": "king_face",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_superstar"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_defense_up_5_damage"
+  },
+  {
+    "name": "Flying Pan",
+    "image": "img_icon_medal_310110266",
+    "id": "queen_jinj",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_superstar"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_projected_heal_3"
+  },
+  {
+    "name": "Hack",
+    "image": "img_icon_medal_310110267",
+    "id": "hack_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_revolutionnary_army",
+      "tag_fishman",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_health_50_13_skill2"
+  },
+  {
+    "name": "Inazuma",
+    "image": "img_icon_medal_310110268",
+    "id": "inazuma_orig",
+    "tags": [
+      "tag_impel_down",
+      "tag_revolutionnary_army",
+      "tag_paramecia",
+      "tag_new_kama"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_13_skill1"
+  },
+  {
+    "name": "Karasu",
+    "image": "img_icon_medal_310110269",
+    "id": "karasu_orig",
+    "tags": [
+      "tag_reverie",
+      "tag_revolutionnary_army",
+      "tag_revolutionnary_army_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Belo Betty",
+    "image": "img_icon_medal_310110270",
+    "id": "belobetty_orig",
+    "tags": [
+      "tag_reverie",
+      "tag_revolutionnary_army",
+      "tag_paramecia",
+      "tag_revolutionnary_army_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Spider-Spider",
+    "image": "img_icon_medal_310110271",
+    "id": "blackmaria_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_animal_kingdom_pirates",
+      "tag_zoan",
+      "tag_tobi_roppo"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_spiderweb"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Raid Chopper",
+    "image": "img_icon_medal_310110272",
+    "id": "chopper_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_doctor"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_projected_5_skill2"
+  },
+  {
+    "name": "Raid Franky",
+    "image": "img_icon_medal_310110273",
+    "id": "franky_atta",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_ship_carpenter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_8_skill1"
+  },
+  {
+    "name": "Otama & Komachiyo",
+    "image": "img_icon_medal_310110274",
+    "id": "otama_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_skill1_5_skill2"
+  },
+  {
+    "name": "Ryokugyu",
+    "image": "img_icon_medal_310110275",
+    "id": "ryokugyu_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_health_70_8_capture"
+  },
+  {
+    "name": "Shogun of Wano",
+    "image": "img_icon_medal_310110276",
+    "id": "momonosuke_orig",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_zoan",
+      "tag_kozuki_clan"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Ace & Yamato",
+    "image": "img_icon_medal_310110277",
+    "id": "aceyamato_doub",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_logia",
+      "tag_zoan",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "The Man Who Shook the World",
+    "image": "img_icon_medal_310110278",
+    "id": "whitebeard_reco",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_former_rocks_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_tremor"
+    ],
+    "primary": "pTrait_hitby_2_skill1"
+  },
+  {
+    "name": "Paradise Waterfall",
+    "image": "img_icon_medal_310110279",
+    "id": "oden_haor",
+    "tags": [
+      "tag_whitebeard_pirates",
+      "tag_kozuki_clan",
+      "tag_roger_pirates",
+      "tag_whitebeard_pirates_commander"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_health_50_5_damage"
+  },
+  {
+    "name": "Carrot (Whole Cake Island)",
+    "image": "img_icon_medal_310110280",
+    "id": "carrot_cake",
+    "tags": [
+      "tag_zou",
+      "tag_mokomo_dukedom_musketeer",
+      "tag_kingsbird",
+      "tag_minks"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_hp",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_5_damage_enemy_treasure"
+  },
+  {
+    "name": "The Man Who Had Everything",
+    "image": "img_icon_medal_310110281",
+    "id": "roger_reco",
+    "tags": [
+      "tag_captain",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_hp",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "The Dark King's Flash",
+    "image": "img_icon_medal_310110282",
+    "id": "rayleigh_2yaf",
+    "tags": [
+      "tag_sabaody",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Ganfor",
+    "image": "img_icon_medal_310110283",
+    "id": "ganfall_orig",
+    "tags": [
+      "tag_sky_island"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "The Great Warrior Kalgara",
+    "image": "img_icon_medal_310110284",
+    "id": "kalgara_sora",
+    "tags": [
+      "tag_sky_island"
+    ],
+    "extra_traits": [
+      "eTrait_def",
+      "eTrait_crit",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_hit_capture_3_damage"
+  },
+  {
+    "name": "Shandia's Savior",
+    "image": "img_icon_medal_310110285",
+    "id": "noland_sora",
+    "tags": [
+      "tag_sky_island"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_%_blocked"
+    ],
+    "primary": "pTrait_hit_capture_heal_3"
+  },
+  {
+    "name": "Demaro Black",
+    "image": "img_icon_medal_310110286",
+    "id": "demaroblack_orig",
+    "tags": [
+      "tag_fake_strawhat",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_3_damage_red_strawhat"
+  },
+  {
+    "name": "Straw Hat Pirates",
+    "image": "img_icon_medal_310210001",
+    "id": "strawhats_sp01",
+    "tags": [
+      "tag_strawhat_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp",
+      "eTrait_strawhat_pirates_atk",
+      "eTrait_strawhat_pirates_def",
+      "eTrait_strawhat_pirates_health"
+    ],
+    "primary": "pTrait_25_xp_league"
+  },
+  {
+    "name": "Roger Pirates",
+    "image": "img_icon_medal_310210002",
+    "id": "rogers_sp01",
+    "tags": [
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp",
+      "eTrait_roger_pirates_atk",
+      "eTrait_roger_pirates_def",
+      "eTrait_roger_pirates_health"
+    ],
+    "primary": "pTrait_whitebeard_pirates_5_damage"
+  },
+  {
+    "name": "Whitebeard Pirates",
+    "image": "img_icon_medal_310210003",
+    "id": "whitebeards_sp01",
+    "tags": [
+      "tag_whitebeard_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp",
+      "eTrait_whitebeard_pirates_atk",
+      "eTrait_whitebeard_pirates_def",
+      "eTrait_whitebeard_pirates_health"
+    ],
+    "primary": "pTrait_roger_pirates_5_damage"
+  },
+  {
+    "name": "Axe",
+    "image": "img_icon_medal_310110287",
+    "id": "sentomaru_egg",
+    "tags": [
+      "tag_navy"
+    ],
+    "extra_traits": [
+      "eTrait_crit",
+      "eTrait_atk",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_block_6_skill2"
+  },
+  {
+    "name": "Pacfista",
+    "image": "img_icon_medal_310110288",
+    "id": "pacifista_orig",
+    "tags": [
+      "tag_navy"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Egghead Luffy",
+    "image": "img_icon_medal_310110289",
+    "id": "luffy_egg",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_zoan",
+      "tag_captain",
+      "tag_4_emperors",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "S-Snake",
+    "image": "img_icon_medal_310110290",
+    "id": "ssnake_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_paramecia",
+      "tag_navy",
+      "tag_seraphim"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_entrance"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Egghead Zoro",
+    "image": "img_icon_medal_310110291",
+    "id": "zoro_egg",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_capture_8_skill1"
+  },
+  {
+    "name": "S-Hawk",
+    "image": "img_icon_medal_310110292",
+    "id": "shawk_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_paramecia",
+      "tag_navy",
+      "tag_seraphim"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Blueno",
+    "image": "img_icon_medal_310110293",
+    "id": "blueno_orig",
+    "tags": [
+      "tag_water_seven",
+      "tag_cipher_pol",
+      "tag_paramecia",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "Jabra",
+    "image": "img_icon_medal_310110294",
+    "id": "jabra_orig",
+    "tags": [
+      "tag_water_seven",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Nose Pistol",
+    "image": "img_icon_medal_310110295",
+    "id": "kaku_egg",
+    "tags": [
+      "tag_egghead",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_stun"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Lucci",
+    "image": "img_icon_medal_310110296",
+    "id": "lucci_egg",
+    "tags": [
+      "tag_egghead",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_clawed"
+    ],
+    "primary": "pTrait_capture_8_skill2"
+  }
+]

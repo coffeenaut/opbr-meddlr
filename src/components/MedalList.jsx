@@ -3,15 +3,17 @@ import SearchIcon from '@heroicons/react/20/solid/MagnifyingGlassIcon'
 
 import Medal from '../components/Medal'
 import { isObjectEmpty, Timeout } from '../util/tools';
-import { GetAllMedals, GetFilters, SearchMedal } from '../util/medalStore'
+import { GetAllMedals, GetFilters, SearchMedal, GetCharacterMedalLength } from '../util/medalStore'
 import {useState,useRef} from 'react'
 
 const MedalList = (props) => {
     const MedalData = GetAllMedals()
-    const [medals, setMedals] = useState([ ...Array(MedalData.length).keys() ].map( i => i+4))
+    const characterMedalLength = GetCharacterMedalLength()
+    const [medals, setMedals] = useState([ ...Array(MedalData.length).keys() ])
     const searchInput = useRef(null)
     function filter(medalList) {
-        setMedals([...medalList])
+        //need to add character medal length to event medal to get the right index
+        setMedals([...medalList.map(m => typeof m === "string" || m.type === String? parseInt(m.substring(1, m.length)) + characterMedalLength : m)])
     }
     const Filters = (props) => {
         const filterList = GetFilters()
@@ -108,7 +110,7 @@ const MedalList = (props) => {
     return (
         <>
         <div className='flex flex-col'>
-            <div className='flex p-2 fixed justify-between medal-toolbar'>
+            <div className='flex -translate-y-2.5 p-2 fixed justify-between medal-toolbar'>
                 <div className='flex w-3/4 lg:w-1/2 search'><input ref={searchInput} onKeyDown={handleKeyPress} className="w-full rounded-lg form-input" type="text" placeholder='search medals'></input><SearchIcon className='-translate-x-9 translate-y-1 icon-medium-grey cursor-pointer' onClick={search}/></div>
                 <div className='filter'>
                     <Filters filterMedal={filter}/>

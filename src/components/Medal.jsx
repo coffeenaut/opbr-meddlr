@@ -1,6 +1,5 @@
 import { useDrag } from "react-dnd"
 import { DiceRoll } from "../util/tools"
-import ExtraTraits from '../data/output/extraTraits2.json'
 import { getExtraTrait } from "../util/medalStore"
 const Medal = (props) => {
   const relativePath = import.meta.env.VITE_site_path
@@ -15,7 +14,7 @@ const Medal = (props) => {
             let traits = []
             let values = []
             for(let i=0; i<3; i++) {
-              let gendTrait = DiceRoll(2, 0)
+              let gendTrait = DiceRoll(item.medal.extra_traits.length -1)
               let traitId = item.medal.extra_traits[gendTrait]
               let theTrait = getExtraTrait(traitId)
               // let tempTrait = theTrait.name.replace('X%', `${theTrait.max}%`)

@@ -20,8 +20,8 @@ const Navbar = (props) => {
             <nav>
                 <div className="flex flex-row w-full justify-between">
                     <div className='flex flex-row items-center'>
-                        <img className='w-32 p-2' src={`/${relativePath}/meddlrLogo.svg`} />
-                        {items}
+                        <Link to="/"><img className='w-28 p-2' src={`/${relativePath}/meddlrLogo.svg`} /></Link>
+                        <div className='flex gap-x-6'>{items}</div>
                     </div>
                     <div className="flex flex-row items-center">
                         {/* <div><input className="rounded-lg w-40 h-8" name="" value={searchput} onChange={e=> setSearchput(e.target.value)}  /></div> */}

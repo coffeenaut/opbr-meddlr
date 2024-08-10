@@ -46,12 +46,12 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row justify-start">
           <BookIcon onClick={toggleSidePanel} className={`fixed left-2 top-40 icon-medium-grey cursor-pointer lg:hidden ${displaySide ? "hide" : "show"}`}/>
           <div className={`flex flex-col max-h-[95%] lg:flex-row w-[95%] fixed justify-between z-10 responsive-panel ${displaySide ? "showPanel" : ""}`}>
-            <div className="flex-col">
-            <div className="flex justify-center">Sets by role</div>
+            <div className="flex-col w-[60%] md:w-auto">
+            <div className="flex justify-center font-bold">Sets by role</div>
               <div className="flex flex-col gap-y-4 side-panel">
                 <div>
                   <div className="category-divide">Runner</div>
-                  <div>
+                  <div className="w-full">
                       <Carousel cards={MedalSet({filter: "runner", emitLoadSet: loadSet})}></Carousel>
                   </div>
                 </div>
@@ -69,8 +69,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="flex-col max-h-[45%] lg: max-h-full">
-              <div className="flex justify-center">Categories</div>
+            <div className="flex-col max-h-[45%] lg:max-h-full w-[60%] md:w-auto">
+              <div className="flex justify-center font-bold">By Categories</div>
               <div className="flex flex-col gap-y-4 side-panel">
                   <select className="flex w-full rounded-lg form-input" 
                     value={currentCategory}

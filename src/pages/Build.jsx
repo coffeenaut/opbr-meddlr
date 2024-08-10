@@ -9,7 +9,6 @@ import XIcon from '@heroicons/react/20/solid/XMarkIcon'
 import ShareIcon from '@heroicons/react/20/solid/ShareIcon'
 import ClipboardIcon from '@heroicons/react/20/solid/ClipboardIcon'
 import MedalSet from '../components/MedalSet'
-import medalData from '../data/output/medals1.json'
 import TraitList from '../components/TraitList'
 // import MedalList from '../components/MedalList'
 import MedalView from '../components/MedalView';
@@ -122,13 +121,9 @@ const Builder = () => {
 
     setShowSideLeft(!showSideLeft)
   }
-  function toggleFocusDrop() {
-    setShareUrl()
+  async function toggleFocusDrop() {
+    setShareUrl(true)
     setShowFocusDrop(!showFocusDrop)
-  }
-  function toggleIncludeTraits(e) {
-    setsLinkwTraits(e.target.checked)
-    setShareUrl()
   }
   function loadSet(set, name) {
     setSetName (name)
@@ -139,54 +134,46 @@ const Builder = () => {
     localStorage.removeItem(name)
     setStoredMedals(savedMedals)
   }
-  function setShareUrl() {
+  function setShareUrl(includeTraits) {
     const relativePath = import.meta.env.VITE_site_path
     let medalLink = `/${relativePath}/#/share?medals=`
     let t1 = ""
     let t2 = ""
     let t3 = ""
     for(let i = 0; i < medals.length; i++) {
-      if(!isObjectEmpty(medals[i]))
-        medalLink += i > medals.length -2 ? IntToHex(GetMedalIndexById(medals[i].id)) : `${IntToHex(GetMedalIndexById(medals[i].id))}g`
+      if(!isObjectEmpty(medals[i])) {
+        let medalIndex = GetMedalIndexById(medals[i].id)
+        medalLink += i > medals.length -2 ? IntToHex(medalIndex) : `${IntToHex(medalIndex)}g`
+      }
     }
-    if(sLinkwTraits) { //workaround, but input check is backwards false == true
+    if(includeTraits) {
       for(let i = 0; i < 3; i++) {
         if(!isObjectEmpty(medals[0])) {
-          let index =  medals[0].set_traits.findIndex(t => t === medals[0].set_traits[i])
-          const encode = GetMappedTraitKey(index, medals[0].set_traits_values[i])
-          // t1 += `${index}:${medals[0].set_traits_values[i]}`
-          if(encode)
-            t1+= encode
-          else
-            t1+= "zz"
+          t1 += lookupUrlEncodedMappedTrait(medals[0].set_traits[i], medals[0].set_traits_values[i])
         }
         else {
           t1+= "zz"
         }
         if(!isObjectEmpty(medals[1])) {
-          let index =  medals[1].set_traits.findIndex(t => t === medals[1].set_traits[i])
-          const encode = GetMappedTraitKey(index, medals[1].set_traits_values[i])
-          if(encode)
-            t2+= encode
-          else
-            t2+= "zz"
+          t2+= lookupUrlEncodedMappedTrait(medals[1].set_traits[i], medals[1].set_traits_values[i])
         }
         else {
           t2 += "zz"
         }
         if(!isObjectEmpty(medals[2])) {
-          let index =  medals[2].set_traits.findIndex(t => t === medals[2].set_traits[i])
-          const encode = GetMappedTraitKey(index, medals[2].set_traits_values[i])
-          // t1 += `${index}:${medals[0].set_traits_values[i]}`
-          if(encode)
-            t3+= encode
-          else
-            t3+= "zz"
+         t3 += lookupUrlEncodedMappedTrait(medals[2].set_traits[i], medals[2].set_traits_values[i])
         }
         else {
           t3+= "zz"
         }
       }
+    }
+    function lookupUrlEncodedMappedTrait (traitIndex, traitValue) {
+          const encode = GetMappedTraitKey(traitIndex, traitValue)
+          if(encode)
+            return encode
+          else
+            return "zz"
     }
     const t = "&t=" + t1 + t2 + t3
     const hrefBuilder = window.location.href.substring(0, window.location.href.indexOf(window.location.pathname))
@@ -202,7 +189,12 @@ const Builder = () => {
           <div className={`flex fixed flex-col items-end focus-dropdown ${showFocusDrop && "drop-appear"}`}>
             <div className='flex w-full justify-between'>
             <div className="flex flex-row toolbar">
-              <input className='rounded-sm transparent' type='checkbox' checked={sLinkwTraits} onChange={toggleIncludeTraits}/><span className="text-xs px-1">include traits</span>
+              <input className='rounded-sm transparent' type='checkbox' checked={sLinkwTraits} onChange={(e) => 
+                {
+                  setsLinkwTraits(e.target.checked)
+                  setShareUrl(e.target.checked)
+                }}
+                /><span className="text-xs px-1">include traits</span>
             </div>
             <XIcon className='cursor-pointer -translate-y-2 icon-small-grey' onClick={(e) => {
               toggleFocusDrop()
@@ -227,8 +219,8 @@ const Builder = () => {
         </div>
       <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
         <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right'}`}>
-          <div className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
-            <div className={`absolute h-4/6 lg:h-1/2 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
+          <div id="medal-set-card" className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
+            <div className={`absolute h-4/6 h-3/4 md:h-3/5 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
               <MedalView edit={true} saveMedalTraits={updateMedal} medal={selectedMedal} closeWindow={closeModalWindow}></MedalView>
             </div>
             <div className={`flex flex-col fixed justify-end translate-x-32 translate-y-12 focus-dropdown ${showSaveDrop ? "drop-appear" : ""}`}>
@@ -244,7 +236,7 @@ const Builder = () => {
             <MedalSet emitSaveDrop={toggleSaveDrop}  modifyMedal={editMedal} removeMedal={deleteMedal} medals={medals}></MedalSet>
             <TraitList medals={medals}></TraitList>
           </div>
-          <div className='lg:w-1/2 max-h-[375px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto cutTop'>
+          <div className='lg:w-1/2 max-h-[375px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto'>
             <Suspense fallback={<Spinner />}>
               <MedalList dropped={medalSelected}></MedalList>
             </Suspense>
