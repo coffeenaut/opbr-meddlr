@@ -2,7 +2,7 @@
   {
     "id": "tag_2years_later",
     "name": "2 Years Later",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -20,7 +20,7 @@
   {
     "id": "tag_alabasta",
     "name": "Alabasta",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -51,7 +51,7 @@
   {
     "id": "tag_paramount_war",
     "name": "The Paramount War at Marineford",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -97,7 +97,7 @@
   {
     "id": "tag_bikini",
     "name": "Bikini",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -108,7 +108,7 @@
   {
     "id": "tag_dressrosa",
     "name": "Dressrosa",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -161,7 +161,7 @@
   {
     "id": "tag_east_blue",
     "name": "East Blue",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -207,7 +207,7 @@
   {
     "id": "tag_grand_line_start",
     "name": "The Grand Line",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -227,7 +227,7 @@
   {
     "id": "tag_film_gold",
     "name": "FILM GOLD",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -239,7 +239,7 @@
   {
     "id": "tag_film_red",
     "name": "FILM RED",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -267,7 +267,7 @@
   {
     "id": "tag_film_strong_world",
     "name": "FILM STRONG WORLD",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -279,7 +279,7 @@
   {
     "id": "tag_film_z",
     "name": "FILM Z",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -291,7 +291,7 @@
   {
     "id": "tag_sky_island",
     "name": "Sky Island",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -320,7 +320,7 @@
   {
     "id": "tag_fishmen_island",
     "name": "Fish-Man Island",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -338,7 +338,7 @@
   {
     "id": "tag_impel_down",
     "name": "Impel Down",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -352,7 +352,7 @@
   {
     "id": "tag_holy_night",
     "name": "Holy Night",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -364,7 +364,7 @@
   {
     "id": "tag_odyssey",
     "name": "ODYSSEY",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -376,7 +376,7 @@
   {
     "id": "tag_land_of_wano",
     "name": "Land of Wano",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -508,7 +508,7 @@
   {
     "id": "tag_punk_hazard",
     "name": "Punk Hazard",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -529,7 +529,7 @@
   {
     "id": "tag_reverie",
     "name": "Reverie",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -550,7 +550,7 @@
   {
     "id": "tag_sabaody",
     "name": "Sabaody Archipelago / Island of Women",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -576,7 +576,7 @@
   {
     "id": "tag_stampede",
     "name": "STAMPEDE",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -598,7 +598,7 @@
   {
     "id": "tag_thriller_bark",
     "name": "Thriller Bark",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -617,7 +617,7 @@
   {
     "id": "tag_water_seven",
     "name": "Water 7 / Enies Lobby",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -639,7 +639,7 @@
   {
     "id": "tag_zou",
     "name": "Zou / Whole Cake Island",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -699,7 +699,7 @@
   {
     "id": "tag_god_army",
     "name": "God's Army",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -715,7 +715,7 @@
   {
     "id": "tag_revolutionnary_army",
     "name": "Revolutionary Army",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -740,7 +740,7 @@
   {
     "id": "tag_buggy_delivery",
     "name": "Buggy's Delivery",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -752,7 +752,7 @@
   {
     "id": "tag_buggy_pirates",
     "name": "Buggy Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -764,7 +764,7 @@
   {
     "id": "tag_baroque_works",
     "name": "Baroque Works",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -785,7 +785,7 @@
   {
     "id": "tag_barto_club",
     "name": "Barto Club",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -796,7 +796,7 @@
   {
     "id": "tag_cipher_pol",
     "name": "Cipher Pol",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -820,7 +820,7 @@
   {
     "id": "tag_alvida_pirates",
     "name": "The Alvida Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -831,7 +831,7 @@
   {
     "id": "tag_arlong_pirates",
     "name": "Arlong Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -844,7 +844,7 @@
   {
     "id": "tag_whitebeard_pirates",
     "name": "Whitebeard Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -877,7 +877,7 @@
   {
     "id": "tag_big_mom_pirates",
     "name": "Big Mom Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -918,7 +918,7 @@
   {
     "id": "tag_bonney_pirates",
     "name": "Bonney Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -930,7 +930,7 @@
   {
     "id": "tag_strawhat_pirates",
     "name": "Straw Hat Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1054,7 +1054,7 @@
   {
     "id": "tag_kid_pirates",
     "name": "Kid Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1072,7 +1072,7 @@
   {
     "id": "tag_animal_kingdom_pirates",
     "name": "Animal Kingdom Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1113,7 +1113,7 @@
   {
     "id": "tag_beautiful_pirates",
     "name": "Beautiful Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1124,7 +1124,7 @@
   {
     "id": "tag_firetank_crew",
     "name": "Firetank Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1135,7 +1135,7 @@
   {
     "id": "tag_black_cat_pirates",
     "name": "Black Cat Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1147,7 +1147,7 @@
   {
     "id": "tag_flying_pirates",
     "name": "Flying Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1159,7 +1159,7 @@
   {
     "id": "tag_red_haired_pirates",
     "name": "Red-Haired Pirates",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1191,7 +1191,7 @@
   {
     "id": "tag_krieg_pirates_armada",
     "name": "Krieg's Pirate Armada",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1202,7 +1202,7 @@
   {
     "id": "tag_navy",
     "name": "Navy",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1251,7 +1251,7 @@
   {
     "id": "tag_mokomo_dukedom_musketeer",
     "name": "Mokomo Dukedom Musketeer",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1265,7 +1265,7 @@
   {
     "id": "tag_7_warlords_of_the_sea",
     "name": "The Seven Warlords of the Sea",
-    "effect": "Skill 2 cooldown",
+    "effect": "Skill 2 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
@@ -1293,7 +1293,7 @@
   {
     "id": "tag_logia",
     "name": "Logia",
-    "effect": "Reduce dodge cooldown",
+    "effect": "Boost dodge cooldown reduction speed",
     "min": 7,
     "max": 10,
     "medals": [
@@ -1336,7 +1336,7 @@
   {
     "id": "tag_paramecia",
     "name": "Paramecia",
-    "effect": "Reduce dodge cooldown",
+    "effect": "Boost dodge cooldown reduction speed",
     "min": 7,
     "max": 10,
     "medals": [
@@ -1518,7 +1518,7 @@
   {
     "id": "tag_zoan",
     "name": "Zoan",
-    "effect": "Reduce dodge cooldown",
+    "effect": "Boost dodge cooldown reduction speed",
     "min": 7,
     "max": 10,
     "medals": [
@@ -2877,7 +2877,7 @@
   {
     "id": "tag_egghead",
     "name": "Egghead",
-    "effect": "Skill 1 cooldown",
+    "effect": "Skill 1 cooldown speed",
     "min": 14,
     "max": 20,
     "medals": [
