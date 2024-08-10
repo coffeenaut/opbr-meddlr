@@ -29,12 +29,12 @@ if(outputFile) {
     }
     if(extraTraitFlag) {
         const traits = generateTraitList(372, 515)
-        const list = []
-        for(let i = 0; i <traits.length; i++) {
-            list.push(traits[i].id)
-        }
-        console.log(list)
-        writeObjectToFile(list)
+        // const list = []
+        // for(let i = 0; i <traits.length; i++) {
+        //     list.push(traits[i].id)
+        // }
+        // console.log(list)
+        writeObjectToFile(traits)
     }
     if(medalFlag) {
         let medals = compileMedals()
@@ -45,7 +45,7 @@ if(outputFile) {
         writeObjectToFile(medals)
     }
     if(inputFile && categorizeFlag) {
-        let cat = categorizeMedals(inputFile, "tag")
+        let cat = categorizeMedals(inputFile, "extra")
         writeObjectToFile(cat)
        //  console.log(cat[0].sub)
        }
@@ -132,8 +132,7 @@ function generateTraitList(start, end) {
             const cSplitter = splitter[2].split('_')
             const name = splitter[3]
             let category = []
-            let tName = name.replace("+X%", "Increase")
-            tName = name.replace("-X%", "Reduce")
+            let tName = name
             let trait = {}
             if (cSplitter.length > 0) {
                 let traitId = ''
@@ -151,24 +150,48 @@ function generateTraitList(start, end) {
                     //trim trailing '_'
                     tempName = tempName.substring(0, tempName.length -1)
                     traitId = `pTrait_${tempName}`
-                    let formatter = name.replace("- ", "When team has less ")
-                    formatter = formatter.replace("+ ", "When team has more ")
-                    formatter = formatter.replace("0 ally at treasure:", "When no allies are near the same treasure:")
-                    formatter = formatter.replace("Allies at treasure:", "When allies are near the same treasure:")
+                    let formatter = name.replace("+X%", "Increase")
+                    formatter = formatter.replace("-X%", "Reduce")
+                    formatter = formatter.replace("- treasures", "When team has less Treasure secured")
+                    formatter = formatter.replace("+ treasures", "When team has more Treasure secured")
+                    formatter = formatter.replace("0 ally at treasure:", "When your allies are not near the same Treasure area:")
+                    formatter = formatter.replace("Allies at treasure:", "When your allies are near the same Treasure area:")
                     formatter = formatter.replace("End<:", "When there are less than ")
-                    formatter = formatter.replace("Allied treasure:", "When team has more ")
-                    formatter = formatter.replace("Allied treasure >", "When team has more ")
-                    formatter = formatter.replace("Allied treasure <", "When team has more ")
-                    formatter = formatter.replace("Enemy treasure:", "When team has more ")
-                    formatter = formatter.replace("Enemy treasure >", "When team has more ")
-                    formatter = formatter.replace("Enemy treasure <", "When team has more ")
+                    formatter = formatter.replace("Allied treasure:", "When in the area of your captured Treasure:")
+                    formatter = formatter.replace("Allied treasure >", "When in your captured Treasure area and Treasure guage is more than ")
+                    formatter = formatter.replace("Allied treasure <", "When in your captured Treasure area and Treasure guage is less than ")
+                    formatter = formatter.replace("Enemy treasure:", "When in the area of enemy's Treasure:")
+                    formatter = formatter.replace("Enemy treasure >", "When in enemy's Treasure and Treasure guage is more than ")
+                    formatter = formatter.replace("Enemy treasure <", "When in enemy's Treasure and Treasure guage is less than ")
                     
-                    formatter = formatter.replace("HP<", "When your HP is less than ")
-                    formatter = formatter.replace("HP>", "When you HP is more than ")
-                    formatter = formatter.replace("Enemy treasure <", "When enemy's treasure guage is less than ")
-                    formatter = formatter.replace("Enemy treasure >", "When enemy's treasure guage is more than ")
+                    formatter = formatter.replace("HP<", "When HP is less than ")
+                    formatter = formatter.replace("HP>", "When HP is more than ")
                     formatter = formatter.replace("reload speed", "cooldown")
+                    formatter = formatter.replace("reload time", "cooldown")
                     formatter = formatter.replace("Enemy KOed:", "After KOing an enemy:")
+                    formatter = formatter.replace("Enemy Projected:", "When you Knockback an enemy:")
+                    formatter = formatter.replace("Projected:", "When hit with Knockback:")
+                    formatter = formatter.replace("Enemy Knocked Down", "When you Down an enemy")
+                    formatter = formatter.replace("Do Hit on Capture", "When attacking an enemy capturing the Treasure")
+                    formatter = formatter.replace("Do Hit", "When attacking an enemy")
+                    formatter = formatter.replace("Do Normal Hit", "When attacking an enemy with a normal attack")
+                    formatter = formatter.replace("Being Hit", "When attacked by an enemy")
+                    formatter = formatter.replace("Perfect dodge", "When performing a Perfect Dodge")
+                    formatter = formatter.replace("Enemy KOed", "When an enemy is KOed")
+                    formatter = formatter.replace("Do Hit", "When attacking an enemy")
+                    formatter = formatter.replace("CRIT:", "When Critical occurs:")
+                    formatter = formatter.replace("Skill 1:", "When using skill 1:")
+                    formatter = formatter.replace("Skill 2:", "When using skill 2")
+                    formatter = formatter.replace("Capture treasure:", "When you capture the Treasure:")
+                    formatter = formatter.replace("Knocked down:", "When you are Downed: ")
+                    formatter = formatter.replace("Do Aflame:", "When you inflict Aflame on an enemy:")
+                    formatter = formatter.replace("Aflamed:", "When inflicted with AFlame:")
+                    formatter = formatter.replace("Tremored", "When inflicted with Tremor:")
+                    formatter = formatter.replace("Freezed:", "When inflicted with Freeze:")
+                    formatter = formatter.replace("Shocked:", "When inflicted with Shock:")
+                    formatter = formatter.replace("Skill 2:", "When using skill 2")
+                    formatter = formatter.replace("Capture treasure:", "When you capture the Treasure:")
+                    formatter = formatter.replace("Knocked down:", "When you are Downed: ")
                     tName = formatter
                     // effect = formatter
                 }
@@ -197,9 +220,12 @@ function generateTraitList(start, end) {
             //compile medal list -> start at column 5
             const medals = []
             for (let j = 4; j< splitter.length; j++) {
+                const medalIndex = j < 291 ? (j - 4) : `e${j - 291}` 
                 if(i < 372 ) { // primary traits
-                    if(splitter[j] && splitter[j].toLocaleUpperCase() == "X")
-                    medals.push(j)
+                    if(splitter[j] && splitter[j].toLocaleUpperCase() == "X"){
+                        medals.push(medalIndex)
+
+                    }
                 } 
                 else
                 if(splitter[j] && isNumeric(splitter[j])) {
@@ -216,7 +242,7 @@ function generateTraitList(start, end) {
                         trait.max = 18
                     }
                     
-                    medals.push(j)
+                    medals.push(medalIndex)
                 }
             }
             trait.medals = medals
@@ -278,8 +304,10 @@ function getMappedMedals(row) {
     //compile medal list -> start at column 5
     const medals = []
     for (let j = 4; j< row.length; j++) {
-        if(row[j]) 
-            medals.push(j)
+        if(row[j]) {
+            const medalIndex = j < 291 ? (j - 4) : `e${j - 291}` 
+            medals.push(medalIndex)
+        }
         
     }
     return medals

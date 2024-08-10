@@ -1,10 +1,13 @@
 import winston from 'winston'
 import minimist from 'minimist-lite';
-import Medals from '../data/output/medals1.json' assert {type: "json"}
-import ExtraTraits from '../data/output/eTraits.json' assert {type: "json"}
-import PrimaryTraits from '../data/output/primaryTraits2.json' assert {type: "json"}
-import Tags from '../data/output/tags2.json' assert {type: "json"}
-// import { isObjectEmpty } from './tools';
+import characterMedals from '../data/output/characterMedals.json' assert {type: "json"}
+import eventMedals from '../data/output/eventMedals.json' assert {type: "json"}
+import ExtraTraits from '../data/output/extraTraits.json' assert {type: "json"}
+import PrimaryTraits from '../data/output/primaryTraits.json' assert {type: "json"}
+import Tags from '../data/output/tags.json' assert {type: "json"}
+import { getExtraTrait, getTag, getPrimaryTrait } from './medalStore.js'
+import { isObjectEmpty } from './tools.js'
+import fs from 'fs'
 
 const { combine, timestamp, printf, align } = winston.format;
 
@@ -21,8 +24,8 @@ const logger = winston.createLogger({
       filename: `logs/data-validator-${new Date().toISOString().split('T')[0]}.log`,
     })],
   })
-  function writeObjectToFile(object) {
-    const outfile = `./src/data/output/${outputFile}`
+function writeObjectToFile(object, filename) {
+    const outfile = `./src/data/output/${filename}`
     const outString = JSON.stringify(object, null, 2)
     // const outString = JSON.stringify(object)
     fs.writeFileSync(outfile, outString, err => {
@@ -36,10 +39,11 @@ const primaryTraitFlag = args.p
 const medalFlag = args.m
 const extraFlag = args.e
 const tagFlag = args.t
-
+const last5Flag = args.l
+const testFlag = args.t
 if(medalFlag) {
     let broken = []
-    Medals.forEach( (m, i) => {
+    characterMedals.forEach( (m, i) => {
         try {
             const identifier = `${i}/${m.id}`
             logger.info(`validating ${m.name}`)
@@ -83,13 +87,35 @@ if(primaryTraitFlag) {
     console.log(PrimaryTraits.length)
 }
 if(extraFlag) {
-    console.log(ExtraTraits.length)
-    // Medals.forEach( (m, i) => {
-    //     try {
-    //     }
-    //     catch (e){logger.error(`error at index ${i}: {$e}`)}
-    // })
-    console.log("meow")
+    let broken = []
+    characterMedals.forEach( (m, i) => {
+        try {
+            //verify trait record exists in extra traits
+            if(m.extra_traits.length < 2) {
+                logger.error(`missing extra trait @ ${i} / ${m.id} #traits-${m.extra_traits.length}`)
+                console.log(`missing extra trait @ ${i} / ${m.id} #traits-${m.extra_traits.length}`)
+                broken.push({medal: m.id, mindex: i, traits: m.extra_traits.length})
+            }
+                
+            m.extra_traits.forEach((e, j) => {
+                // let eTrait = getExtraTrait(e)
+                // if (!isObjectEmpty(eTrait))
+                // {
+                    
+                // }
+                // else {
+                //     logger.error(`missing extra trait @ ${j}`)
+                //     broken.push({medal: m.id, mindex: i, bTrait: j})
+                //     console.log(m.id)
+                // }
+            })
+
+        }
+        catch (e){logger.error(`error at index ${i}: {$e}`)}
+    })
+    if(broken.length > 0) {
+        writeObjectToFile(broken, "bad-eTraits.json")
+    }
 }
 if(tagFlag) {
     let list = []
@@ -106,4 +132,18 @@ if(tagFlag) {
     //     }
     //     catch (e){logger.error(`error at index ${i}: {$e}`)}
     // })
+}
+if(last5Flag) {
+    console.log("characters")
+    for(let i = characterMedals.length -6; i < characterMedals.length; i++) {
+        console.log(i, characterMedals[i].name, characterMedals[i].primary, characterMedals[i].extra_traits)
+    }
+    console.log("event")
+    for(let i = eventMedals.length -6; i < eventMedals.length; i++) {
+        console.log(i, eventMedals[i].name, eventMedals[i].primary, eventMedals[i].extra_traits)
+    }
+}
+if(testFlag) {
+    // eventMedals.forEach( (m,i) => {console.log(i+1, m.image.substring(m.image.length-3, m.image.length))})
+    eventMedals.forEach((m,i) => {if(m.extra_traits.length > 6) console.log(i,m.id)} )
 }
