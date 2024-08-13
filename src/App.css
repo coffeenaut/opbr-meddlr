@@ -240,6 +240,12 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.heading-item {
+  padding: .2em;
+}
+.heading-item-child {
+  padding: .2em .5em;
+}
 input {
   background-color: #242424;
 }
