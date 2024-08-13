@@ -768,6 +768,13 @@
     ]
   },
   {
+    "id": "pTrait_zoan_5_damage",
+    "name": "Enemy type Zoan: +5% damage",
+    "medals": [
+      297
+    ]
+  },
+  {
     "id": "pTrait_electrocution_3_speed_20",
     "name": "Enemy inflicted with Shock: +3% speed 20s (not cumul)",
     "medals": [
@@ -1137,7 +1144,8 @@
       "e36",
       "e235",
       296,
-      "e234"
+      "e234",
+      296
     ]
   },
   {
@@ -1190,11 +1198,6 @@
     "medals": [
       "e247"
     ]
-  },
-  {
-    "id": "pTrait_zoan_5_damage",
-    "name": "Character is type Zoan: +5% damage",
-    "medals": []
   },
   {
     "id": "pTrait_perfect_dodge_80_crit_20",
