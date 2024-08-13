@@ -4942,5 +4942,20 @@
       "eTrait_clawed"
     ],
     "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "Vegapunk's Spy",
+    "image": "img_icon_medal_310110297",
+    "id": "stussy_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_zoan_5_damage"
   }
 ]

@@ -314,6 +314,13 @@
     ]
   },
   {
+    "id": "pTrait_0_ally_6_damage_red",
+    "name": "When your allies are not near the same Treasure area: -6% damage taken",
+    "medals": [
+      "e143"
+    ]
+  },
+  {
     "id": "pTrait_ally_ko_4_speed_20",
     "name": "Ally KOed: +4% speed 20s (not cumul)",
     "medals": [
@@ -550,7 +557,8 @@
       185,
       255,
       275,
-      "e129"
+      "e129",
+      "e248"
     ]
   },
   {
@@ -1184,6 +1192,11 @@
     ]
   },
   {
+    "id": "pTrait_zoan_5_damage",
+    "name": "Character is type Zoan: +5% damage",
+    "medals": []
+  },
+  {
     "id": "pTrait_perfect_dodge_80_crit_20",
     "name": "When performing a Perfect Dodge: +80% CRIT 20s (not cumul)",
     "medals": [
@@ -1366,6 +1379,13 @@
     "name": "When hit with Knockback: -5% skill 1 cooldown time",
     "medals": [
       221
+    ]
+  },
+  {
+    "id": "pTrait_projected_3_skill2",
+    "name": "When hit with Knockback: -3% skill 2 cooldown time",
+    "medals": [
+      "e249"
     ]
   },
   {
@@ -1735,8 +1755,7 @@
       171,
       245,
       252,
-      271,
-      "e143"
+      271
     ]
   },
   {

@@ -1,0 +1,28 @@
+[2024-08-13 10:01:46.188 AM] info: 	adding e248 to trait eTrait_atk @ 0
+[2024-08-13 10:01:46.192 AM] info: 	adding e248 to trait eTrait_def @ 1
+[2024-08-13 10:01:46.193 AM] info: 	adding e248 to trait eTrait_crit @ 2
+[2024-08-13 10:01:46.194 AM] info: 	adding e248 to trait eTrait_new_world_atk @ 108
+[2024-08-13 10:01:46.194 AM] info: 	adding e248 to trait eTrait_new_world_def @ 109
+[2024-08-13 10:01:46.195 AM] info: 	adding e248 to trait eTrait_new_world_crit @ 110
+[2024-08-13 10:01:46.196 AM] info: 	adding e248 to trait tag_egghead @ 111
+[2024-08-13 10:01:46.196 AM] info: 	adding e248 to trait tag_navy @ 46
+[2024-08-13 10:01:46.196 AM] info: 	adding e248 to trait pTrait_hitby_2_skill1 @ 71
+[2024-08-13 10:01:46.197 AM] info: 	adding e249 to trait eTrait_hp @ 3
+[2024-08-13 10:01:46.197 AM] info: 	adding e249 to trait eTrait_def @ 1
+[2024-08-13 10:01:46.198 AM] info: 	adding e249 to trait eTrait_crit @ 2
+[2024-08-13 10:01:46.198 AM] info: 	adding e249 to trait eTrait_new_world_health @ 111
+[2024-08-13 10:01:46.198 AM] info: 	adding e249 to trait eTrait_new_world_def @ 109
+[2024-08-13 10:01:46.199 AM] info: 	adding e249 to trait eTrait_new_world_crit @ 110
+[2024-08-13 10:01:46.199 AM] info: 	adding e249 to trait tag_egghead @ 111
+[2024-08-13 10:01:46.199 AM] info: 	adding e249 to trait tag_navy @ 46
+[2024-08-13 10:01:46.200 AM] info: 	adding e249 to trait pTrait_projected_3_skill2 @ 178
+[2024-08-13 10:01:46.200 AM] info: 	writing data to Extra Traits
+[2024-08-13 10:01:46.202 AM] error: 	ENOENT: no such file or directory, open './src/data/output/extraTraits.test.json'
+[2024-08-13 10:02:06.585 AM] info: 	adding 297 to trait eTrait_atk @ 0
+[2024-08-13 10:02:06.588 AM] info: 	adding 297 to trait eTrait_def @ 1
+[2024-08-13 10:02:06.589 AM] info: 	adding 297 to trait eTrait_crit @ 2
+[2024-08-13 10:02:06.589 AM] info: 	adding 297 to trait tag_egghead @ 111
+[2024-08-13 10:02:06.589 AM] info: 	adding 297 to trait tag_6_powers @ 104
+[2024-08-13 10:02:06.590 AM] info: 	adding 297 to trait pTrait_zoan_5_damage @ 152
+[2024-08-13 10:02:06.590 AM] info: 	writing data to Extra Traits
+[2024-08-13 10:02:06.592 AM] error: 	ENOENT: no such file or directory, open './src/data/output/extraTraits.test.json'

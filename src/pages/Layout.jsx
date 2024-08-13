@@ -14,16 +14,16 @@ const Layout = () => {
   }
   return (
     <>
-      <div className='absolute w-full overflow-y-hidden'>
+      <div className='w-full'>
         <div className={"absolute menuoverlay " +  (overlayShown ? "showOverlay" : "hideOverlay")}>
           <Overlay changeOverlay={toggleOverlay}>
             <SideBar items={navInfo} closeBar={toggleOverlay} />
           </Overlay>
         </div>
-        <div className='px-2 fixed lg:relative lg:hidden'>
+        <div className='px-2 sticky lg:relative lg:hidden'>
           <MenuIcon onClick={toggleOverlay} className='icon-large-grey cursor-pointer' />
         </div>
-        <div className='relative z-10 px-2 hidden lg:block'>
+        <div className='z-10 px-2 hidden lg:block'>
           <Navbar items={navInfo}/>
         </div>
         <div className="px-8 py-4">

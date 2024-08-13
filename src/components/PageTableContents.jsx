@@ -5,7 +5,7 @@ const PageTableContents = ({nestedHeadings}) => {
     const Headings = ({ headings, activeId }) => (
       <ul>
         {headings.map((heading) => (
-          <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
+          <li key={heading.id} className={`heading-item ${heading.id === activeId ? "active" : ""}`}>
             <a
               href={`#${heading.id}`}
               onClick={(e) => {
@@ -22,7 +22,7 @@ const PageTableContents = ({nestedHeadings}) => {
                 {heading.items.map((child) => (
                   <li
                     key={child.id}
-                    className={child.id === activeId ? "active" : ""}
+                    className={`heading-item ${child.id === activeId ? "active" : ""}`}
                   >
                     <a
                       href={`#${child.id}`}

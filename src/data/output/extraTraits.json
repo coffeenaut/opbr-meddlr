@@ -354,7 +354,8 @@
       "e241",
       "e242",
       "e244",
-      "e246"
+      "e246",
+      "e248"
     ]
   },
   {
@@ -755,7 +756,9 @@
       "e244",
       "e245",
       "e246",
-      "e247"
+      "e247",
+      "e248",
+      "e249"
     ]
   },
   {
@@ -1132,7 +1135,9 @@
       "e241",
       "e243",
       "e245",
-      "e247"
+      "e247",
+      "e248",
+      "e249"
     ]
   },
   {
@@ -1511,7 +1516,8 @@
       "e244",
       "e245",
       "e246",
-      "e247"
+      "e247",
+      "e249"
     ]
   },
   {
@@ -2926,46 +2932,52 @@
   },
   {
     "id": "eTrait_new_world_atk",
-    "name": "When equipped character is character type Le nouveau monde Increase ATQ",
+    "name": "When equipped character is character type New World Increase ATK",
     "min": 14,
     "max": 18,
     "medals": [
       "e169",
-      "e220"
+      "e220",
+      "e248"
     ]
   },
   {
     "id": "eTrait_new_world_def",
-    "name": "When equipped character is character type Le nouveau monde +% DEF",
+    "name": "When equipped character is character type New World Increase DEF",
     "min": 14,
     "max": 18,
     "medals": [
       "e169",
       "e170",
       "e219",
-      "e220"
+      "e220",
+      "e248",
+      "e249"
     ]
   },
   {
     "id": "eTrait_new_world_crit",
-    "name": "When equipped character is character type Le nouveau monde Increase Proba de CRIT",
+    "name": "When equipped character is character type New World Increase CRIT Probability",
     "min": 14,
     "max": 18,
     "medals": [
       "e169",
       "e170",
       "e219",
-      "e220"
+      "e220",
+      "e248",
+      "e249"
     ]
   },
   {
     "id": "eTrait_new_world_health",
-    "name": "When equipped character is character type Le nouveau monde Increase PV",
+    "name": "When equipped character is character type New World Increase HP",
     "min": 14,
     "max": 18,
     "medals": [
       "e170",
-      "e219"
+      "e219",
+      "e249"
     ]
   },
   {

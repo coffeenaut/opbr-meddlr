@@ -198,7 +198,7 @@
           "eTrait_def",
           "eTrait_crit"
         ],
-        "primary": "pTrait_skill1_5_skill2"
+        "primary": "pTrait_0_ally_6_damage_red"
       },
       {
         "name": "Heavenly Demon",
@@ -4538,5 +4538,42 @@
           "eTrait_cipher_pol_crit"
         ],
         "primary": "pTrait_cipher_pol_3_normal_damage"
+      },
+      {
+        "name": "Shaka",
+        "image": "img_icon_medal_310200251",
+        "id": "shaka_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_def",
+          "eTrait_new_world_crit"
+        ],
+        "primary": "pTrait_hitby_2_skill1"
+      },
+      {
+        "name": "Edison",
+        "image": "img_icon_medal_310200252",
+        "id": "edison_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_health",
+          "eTrait_new_world_def",
+          "eTrait_new_world_crit"
+        ],
+        "primary": "pTrait_projected_3_skill2"
       }
+      
 ]

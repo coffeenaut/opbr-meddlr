@@ -9,11 +9,11 @@ const MiniMedalSet = (props) => {
     const [hovered, setHovered] = useState(false)
     return (
         <>
-            <div className="flex justify-center text-primary cursor-pointer" 
+            <div className="flex justify-center text-primary" 
                 onMouseEnter={() => setHovered(true)} 
                 onMouseLeave={() => setHovered(false)}
-                onClick={() => props.emitLoad(medals, setName)} >{setName}</div>
-            <div className={`flex justify-evenly cutBottomSecondary ${hovered ? "focus-hover" : ""}`}>
+                >{setName}</div>
+            <div className={`flex justify-evenly cutBottomSecondary cursor-pointer ${hovered ? "focus-hover" : ""}`} onClick={() => props.emitLoad(medals, setName)}>
             {
                 medals.length > 0 && medals.map((m,i) => {
                     return <MedalStack medal={m} key={i} showName={false} />
@@ -21,7 +21,7 @@ const MiniMedalSet = (props) => {
             }
             </div>
             {
-                showDelete && <div className="flex -translate-y-8 justify-center font-bold cursor-pointer" onClick={() => props.deleteSet(setName)}>Delete</div>
+                showDelete && <div className="flex -translate-y-8 justify-center font-bold cursor-pointer z-10" onClick={() => props.deleteSet(setName)}>Delete</div>
             }
         </>
     )

@@ -59,7 +59,7 @@ const Disclaimer = () => {
     changes: "4. Changes to Content",
     advice: "5. No Professional Advice",
     endorsement: "6. No Endorsement",
-    enforcement: "7. Liability",
+    enforcement: "7. Liabilities",
     agreement: "Cookie Usage Agreement",
     usage: "Cookie Usage",
     essential: "Essential Cookies",
@@ -76,12 +76,12 @@ const Disclaimer = () => {
     affiliation: "Meddlr is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Bandai Namco Entertainment Inc., or any of its subsidiaries or affiliates. All trademarks, service marks, and company names or logos mentioned in the Application are the property of their respective owners.",
     responsibility: "You are responsible for ensuring that your use of the Application complies with all applicable laws, regulations, and industry standards. You are also responsible for any decisions or actions you take based on the information provided through the Application. Meddlr is not responsible for any outcomes related to your use of the Application.",
     changes: "The content and services provided by the Application is subject to change and may be updated, modified, or removed at any time without prior notice. Meddlr is a community sourced information hub and updates in conjuction with game updates with new medals. Meddlr does not guarantee that any content or service will be available at all times. Should you find any issues or inaccuracies on the site, feel free to open an issue on the GitHub project repo , or alternatively you can reach out on ",
-    advice: "The information provided by the Application does not constitute professional advice, including but not limited to legal, financial, medical, or technical advice. Any information regarding medal sets provided by Meddlr or links shared by users should not be considered 'end-game' mechanics and should be considered model data for in game technique and metrics. Any advice followed on here does not garauntee you getting more combos. You should consult with a qualified professional before making any decisions based on the information provided through the Application.",
+    advice: "The information provided by the Application does not constitute professional advice, including but not limited to legal, financial, medical, or technical advice. Any information regarding medal sets provided by Meddlr or links shared by users should not be considered 'end-game' mechanics and should be considered model data for in game technique and metrics. Any advice followed on here does not garauntee you to get more combos. You should consult with a qualified professional before making any decisions based on the information provided through the Application.",
     endorsement: "References to any products, services, processes, or other information by trade name, trademark, manufacturer, or otherwise within the Application do not constitute or imply an endorsement, sponsorship, or recommendation by Meddlr. Meddlr does not care for and will not ask you any personal information.",
     enforcement: "Meddlr is hosted on Github Pages and is subject to any and all Terms and Conditions stipluated by Github Pages and its parent company. Meddlr is not resposible for any information gathered and used by it's host. Please review the GitHub Prvacy Statement at your discretion ",
-    agreement: "By using Meddlr ('the Application'), you agree to the use of cookies as described in this Cookie Usage Agreement. The Application uses cookies for the following purposes:",
+    agreement: "By using Meddlr, you agree to the use of cookies as described in this Cookie Usage Agreement. The Application uses cookies for the following purposes:",
     // usage: "We use cookies for the following purposes:",
-    essential: "Cookies are necessary for the operation save/bookmarking feature. Without these cookies, the Application's save/bookmark feature may not function properly.",
+    essential: "Cookies are used for the operation save/bookmarking feature. Without these cookies, the Application's save/bookmark feature may not function properly.",
     functional: "These cookies enable the Application to remember your preferences, such as saved medal sets, and provide enhanced, more personalized features."
 
   }
