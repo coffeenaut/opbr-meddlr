@@ -66,7 +66,7 @@ const Usage = () => {
     build: "Medal building is one of the primary purposes of Meddlr and allows users to quickly find medals and drop their selected medals into a set for use on a character. When medals are dropped into one of the three medal slots, Meddlr will calculate matching medal criteria to display any applicable in-game traits when used on a character for the corresponding set of medals. Traits will automatically be limited to the in-game limits and will display red text when the limit is reached. Hovering over the extra trait value will show the total number (without limits). Character specific traits (e.g. When character is of type 'Straw Hat Pirates') may go over the limit for a trait may display incorrectly. It is up to the user to decide if the trait is valid; in-game traits applied may not be as rewarding.",
     drag: "Meddlr features a drag and drop function similar to in-game mechanics to give users intuitive interactivity when medal building. To begin, click (tap), hold, and drag a medal from the medal list. When a medal is in a 'drag state', medal portraits will be highlighted indicating acceptable drop areas.",
     dragNotes: "*dragging functionality is limited to medals from the medal list in 'build' and 'browse' modules.",
-    editMedal: "Medals will randomly generate extra traits when dropped into the medal set. You can change extra trait values by clicking on edit button directly under the medal. ",
+    editMedal: "Medals will randomly generate extra traits when dropped into the medal set (favoring max values). You can change extra trait values by clicking on edit button directly under the medal. ",
     saveMedal: "After adjusting the extra trait value, the checkmark on the top-left of the edit window will save the changes. Extra traits will automatically be applied to the list of traits",
     scrollMobile: "Scrolling on mobile or smaller resolution screens can be tricky due to drag functionality of medals. When dragging medals from the medal list, try tapping on negative spaces to scroll through the list.",
     bookmark: "Medals sets can be saved and reloaded in your bookmarks stored in Meddlr. To save a medal set, click save under the medals in your set and give it a name. You can access these medals anytime in the 'build' section by clicking the bookmark icon.",
@@ -87,7 +87,7 @@ const Usage = () => {
                     <h2 id="usage" className='content-header'>{headers.usage}</h2>
                         <div className='content-text'>{texts.usage}</div>
                         <h2 id="homepage" className='content-header'>{headers.homepage}</h2>
-                        <div className='flex-col lg:flex justify-evenly'>
+                        <div className='flex-col lg:flex lg:justify-center'>
                             <div className='content-text'>{texts.homepage}</div>
                             <video className='lg:h-[350px]' autoPlay loop muted>
                                 <source type="video/webm" src='/opbr-meddlr/usage/tut-categorySelect.webm' />
@@ -98,7 +98,7 @@ const Usage = () => {
                         <div className='content-text'>{texts.build}</div>
                         <h3 id="dragndrop" className='content-header'>{headers.drag}</h3>
                         <div className='content-text'>{texts.drag}</div>
-                        <div className="flex-col lg:flex w-full justify-center lg:h-[350px]">
+                        <div className="flex w-full justify-center lg:h-[350px]">
                             <video autoPlay loop muted>
                                 <source type="video/webm" src='/opbr-meddlr/usage/tut-dragndrop.webm' />
                             </video>
