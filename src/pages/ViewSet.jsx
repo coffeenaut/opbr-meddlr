@@ -3,9 +3,11 @@ import { isObjectEmpty, DiceRoll, HexToInt } from "../util/tools"
 import { GetMedal, getExtraTrait, GetMappedTraitFromKey } from "../util/medalStore"
 import PhotoIcon from '@heroicons/react/20/solid/PhotoIcon'
 import XIcon from "@heroicons/react/20/solid/XMarkIcon"
-import { useState } from "react"
+import { useState, useRef } from "react"
 import TraitList from '../components/TraitList'
 import MedalStack from "../components/MedalStack"
+import Adjectives from '../data/words-adj.json'
+import Nouns from '../data/words-nouns.json'
 import * as htmlToImage from 'html-to-image';
 import { toPng, toJpeg, toBlob, toPixelData, toSvg } from 'html-to-image';
 const ViewSet = () => {
@@ -14,6 +16,8 @@ const ViewSet = () => {
     const [showFocusDrop, setShowFocusDrop]= useState(false)
     const [setImage, setSetImage] = useState("")
     const [cardImage, setCardImage] = useState("")
+    const stackName = useRef("")
+    const cardName = useRef("")
     const qMedals = searchParams.get("medals")
     const qTraits = searchParams.get("t")
     // const traits2 = searchParams.get("t2")
@@ -89,6 +93,12 @@ const ViewSet = () => {
         }
         return medals
     }
+    const generateSillyName = () => {
+        const adj = Adjectives.length > 0 ? Adjectives[DiceRoll(Adjectives.length)] : "really"
+        const noun = Nouns.length > 0 ? Nouns[DiceRoll(Nouns.length)] : "broken"
+        const descriptiveWord = `${adj}-${noun}`
+        return descriptiveWord 
+    }
     function toggleSideMenu() {
         setShowFocusDrop(!showFocusDrop)
     setShowSideLeft(!showSideLeft)
@@ -100,9 +110,10 @@ const ViewSet = () => {
     }
     async function getImageSet() {
         let dlhref = ""
+        stackName.current = generateSillyName()
+        console.log(stackName)
         dlhref = htmlToImage.toPng(document.getElementById('medal-set'))
         .then(function (dataUrl) {
-            console.log(dataUrl)
             return dataUrl
         })
         .catch(function (error) {
@@ -112,9 +123,10 @@ const ViewSet = () => {
     }
     async function getImageCard() {
         let dlhref = ""
+        cardName.current = generateSillyName()
+        console.log(cardName)
         dlhref = htmlToImage.toPng(document.getElementById('medal-set-card'))
         .then(function (dataUrl) {
-            console.log(dataUrl)
             return dataUrl
         })
         .catch(function (error) {
@@ -133,10 +145,10 @@ const ViewSet = () => {
             <div className={`flex fixed flex-col items-end focus-dropdown ${showFocusDrop && "drop-appear"}`}>
                 <div className='flex w-full justify-between'>
                     <div>
-                        <a className="text-sm button-primary" href={setImage} download>Stack</a>
+                        <a className="text-sm button-primary" href={setImage} download={stackName.current}>Stack</a>
                     </div>
                     <div>
-                        <a className="text-sm button-primary" href={cardImage} download>Card</a>
+                        <a className="text-sm button-primary" href={cardImage} download={cardName.current}>Card</a>
                     </div>
                     <XIcon className='cursor-pointer -translate-y-2 icon-small-grey' onClick={(e) => {
                     toggleFocusDrop()
