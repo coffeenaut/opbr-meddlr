@@ -636,7 +636,7 @@ input {
 }
 .primary-tag {
   color: var(--color-tertiary);
-  font-weight: 700
+  font-weight: 700;
 }
 .trait-alternate {
   background-color: var(--color-black-alternate);
@@ -655,7 +655,8 @@ input {
 }
 .trait-tag {
   padding: 0.25em 0.3em;
-  color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-white-mute);
   font-weight: 700;
   border: 2px solid var(--color-secondary);
   border-radius: 0.5em

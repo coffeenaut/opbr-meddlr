@@ -126,7 +126,7 @@ const TraitList = (props) => {
                         }) 
                         : (trait.type === 'primary')
                         ?
-                            <div className='capitalize primary-tag'>Primary</div>
+                            <div className='capitalize primary-tag'>Unique</div>
                         :
                             <div className='capitalize trait-tag'>{trait.tag}</div>
                     }
