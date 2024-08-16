@@ -180,70 +180,73 @@ const Builder = () => {
     shareLink.current = hrefBuilder + medalLink +t
   }
     return (
-      <div className="flex">
-        <div className='flex flex-col'>
-          <div className='justify-center items-center side-icon-tab'>
-            <BookmarkIcon className='sidecon' onClick={toggleSideMenu}/>
-            <ShareIcon className='sidecon' onClick={toggleFocusDrop} />
-          </div>
-          <div className={`flex fixed flex-col items-end focus-dropdown ${showFocusDrop && "drop-appear"}`}>
-            <div className='flex w-full justify-between'>
-            <div className="flex flex-row toolbar">
-              <input className='rounded-sm transparent' type='checkbox' checked={sLinkwTraits} onChange={(e) => 
-                {
-                  setsLinkwTraits(e.target.checked)
-                  setShareUrl(e.target.checked)
-                }}
-                /><span className="text-xs px-1">include traits</span>
+      <Suspense fallback={<Spinner />}>
+        <div className="flex">
+            <div className='flex flex-col'>
+              <div className='justify-center items-center side-icon-tab'>
+                <BookmarkIcon className='sidecon' onClick={toggleSideMenu}/>
+                <ShareIcon className='sidecon' onClick={toggleFocusDrop} />
+              </div>
+              <div className={`flex fixed flex-col items-end focus-dropdown ${showFocusDrop && "drop-appear"}`}>
+                <div className='flex w-full justify-between'>
+                <div className="flex flex-row toolbar">
+                  <input className='rounded-sm transparent' type='checkbox' checked={sLinkwTraits} onChange={(e) => 
+                    {
+                      setsLinkwTraits(e.target.checked)
+                      setShareUrl(e.target.checked)
+                    }}
+                    /><span className="text-xs px-1">include traits</span>
+                </div>
+                <XIcon className='cursor-pointer -translate-y-2 icon-small-grey' onClick={(e) => {
+                  toggleFocusDrop()
+                  e.currentTarget.classList.remove("flash-slow")
+                  }
+                }/>
+                </div>
+                <div className="flex items-center p-0">
+                  <ClipboardIcon className={`rounded-xl cursor-pointer icon-small-primary ${animateClipboard ? "flash-slow" : ""}`} onClick={copyToUClipboard}/>
+                  <input className='rounded-lg' ref={shareLink} value={shareLink.current} readOnly={true} />
+                </div>
+              </div>
             </div>
-            <XIcon className='cursor-pointer -translate-y-2 icon-small-grey' onClick={(e) => {
-              toggleFocusDrop()
-              e.currentTarget.classList.remove("flash-slow")
+            <div className={`flex flex-col gap-y-2 rounded-md phalange ${showSideLeft && "show-phalange"}`}>
+              {
+                storedMedals.length > 0 ? storedMedals.map( (s,i) => {
+                  return (<MiniMedalSet emitLoad={loadSet} deleteSet={deleteStoredMedal} medals={s.medals} name={s.name} key={i} />)
+                })
+                :
+                <div class="text-primary text-center py-10">You have no medals saved</div>
               }
-            }/>
             </div>
-            <div className="flex items-center p-0">
-              <ClipboardIcon className={`rounded-xl cursor-pointer icon-small-primary ${animateClipboard ? "flash-slow" : ""}`} onClick={copyToUClipboard}/>
-              <input className='rounded-lg' ref={shareLink} value={shareLink.current} readOnly={true} />
+          <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
+            <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right'}`}>
+              <div id="medal-set-card" className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
+                <div className={`absolute h-4/6 h-3/4 md:h-3/5 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
+                  <MedalView edit={true} saveMedalTraits={updateMedal} medal={selectedMedal} closeWindow={closeModalWindow}></MedalView>
+                </div>
+                <div className={`flex flex-col fixed justify-end translate-x-32 translate-y-12 focus-dropdown ${showSaveDrop ? "drop-appear" : ""}`}>
+                    <div className='flex justify-between'><span className='text-primary'>Set name</span><XIcon className='-translate-y-2 cursor-pointer icon-small-grey' onClick={toggleSaveDrop}/></div>
+                    <input className="rounded-md" value={setName} onChange={e => setSetName(e.target.value)} />
+                    <div className='py place-self-center clickable-button' 
+                        onClick={ () => {
+                        saveSet()
+                        toggleSaveDrop()
+                        }
+                    }>Save</div>
+                </div>
+                <MedalSet emitSaveDrop={toggleSaveDrop}  modifyMedal={editMedal} removeMedal={deleteMedal} medals={medals}></MedalSet>
+                <TraitList medals={medals}></TraitList>
+              </div>
+              <div className='lg:w-1/2 max-h-[375px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto'>
+                <Suspense fallback={<Spinner />}>
+                  <MedalList dropped={medalSelected}></MedalList>
+                </Suspense>
+              </div>
             </div>
-          </div>
+          </DndProvider>
         </div>
-        <div className={`flex flex-col gap-y-2 rounded-md phalange ${showSideLeft && "show-phalange"}`}>
-          {
-            storedMedals.length > 0 ? storedMedals.map( (s,i) => {
-              return (<MiniMedalSet emitLoad={loadSet} deleteSet={deleteStoredMedal} medals={s.medals} name={s.name} key={i} />)
-            })
-            :
-            <div class="text-primary text-center py-10">You have no medals saved</div>
-          }
-        </div>
-      <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
-        <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right'}`}>
-          <div id="medal-set-card" className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
-            <div className={`absolute h-4/6 h-3/4 md:h-3/5 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
-              <MedalView edit={true} saveMedalTraits={updateMedal} medal={selectedMedal} closeWindow={closeModalWindow}></MedalView>
-            </div>
-            <div className={`flex flex-col fixed justify-end translate-x-32 translate-y-12 focus-dropdown ${showSaveDrop ? "drop-appear" : ""}`}>
-                <div className='flex justify-between'><span className='text-primary'>Set name</span><XIcon className='-translate-y-2 cursor-pointer icon-small-grey' onClick={toggleSaveDrop}/></div>
-                <input className="rounded-md" value={setName} onChange={e => setSetName(e.target.value)} />
-                <div className='py place-self-center clickable-button' 
-                    onClick={ () => {
-                    saveSet()
-                    toggleSaveDrop()
-                    }
-                }>Save</div>
-            </div>
-            <MedalSet emitSaveDrop={toggleSaveDrop}  modifyMedal={editMedal} removeMedal={deleteMedal} medals={medals}></MedalSet>
-            <TraitList medals={medals}></TraitList>
-          </div>
-          <div className='lg:w-1/2 max-h-[375px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto'>
-            <Suspense fallback={<Spinner />}>
-              <MedalList dropped={medalSelected}></MedalList>
-            </Suspense>
-          </div>
-        </div>
-      </DndProvider>
-    </div>
+      </Suspense>
+      
     )
   };
   

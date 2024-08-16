@@ -27,25 +27,27 @@ const Viewer = () => {
     }
     return (
         <>
-            <div className="flex flex-col justify-between md:flex-row justify-evenly gap-x-4">
-            <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
-            <div className={`flex flex-col cutTop items-center md:w-1/2 medal-viewbox ${isMedalViewed ? "expand-box" : ""}`}>
-                <div className='flex'>
-                    <div className='flex items-center gap-2'>
-                        <MedalPortrait editMedal={updateMedal} displayPrimary={true} deleteMedal={closeWindow} position={0} medal={selectedMedal}></MedalPortrait>
+            <Suspense fallback={Spinner}>
+                <div className="flex flex-col justify-between md:flex-row justify-evenly gap-x-4">
+                <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
+                <div className={`flex flex-col cutTop items-center md:w-1/2 medal-viewbox ${isMedalViewed ? "expand-box" : ""}`}>
+                    <div className='flex'>
+                        <div className='flex items-center gap-2'>
+                            <MedalPortrait editMedal={updateMedal} displayPrimary={true} deleteMedal={closeWindow} position={0} medal={selectedMedal}></MedalPortrait>
+                        </div>
                     </div>
+                    <MedalView edit={false} medal={selectedMedal} closeWindow={closeWindow}></MedalView>
                 </div>
-                <MedalView edit={false} medal={selectedMedal} closeWindow={closeWindow}></MedalView>
-            </div>
-                <div className="lg:w-1/2 max-h-[400px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto">
-                    <Suspense fallback={<Spinner />}>
-                        <MedalList dropped={setMedal}></MedalList>
-                    </Suspense>
+                    <div className="lg:w-1/2 max-h-[400px] md:max-h-[650px] lg:max-h-[700px] overflow-y-auto">
+                        <Suspense fallback={<Spinner />}>
+                            <MedalList dropped={setMedal}></MedalList>
+                        </Suspense>
+                        
+                    </div>
+                </DndProvider>
                     
                 </div>
-            </DndProvider>
-                
-            </div>
+            </Suspense>
         </>
     )
 }

@@ -1,4 +1,5 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, Suspense} from 'react'
+import Spinner from '../components/Spinner';
 import PageTableContents from '../components/PageTableContents';
 
 const Disclaimer = () => {
@@ -87,39 +88,42 @@ const Disclaimer = () => {
   }
     return (
         <>
-        <div className='flex justify-between'>
-            <div className='flex w-3/4'>
-                <div className="max-h-[75vh] overflow-y-auto px-4">
-                    <main>
-                    <h2 id="disclaimer" className='content-header'>{headers.disclaimer}</h2>
-                        <div className='content-text'>{texts.disclaimer}</div>
-                        <h2 id="warranty" className='content-header'>{headers.warranty}</h2>
-                        <div className='content-text'>{texts.warranty}</div>
-                        <h3 id="affiliation" className='content-header'>{headers.affiliation}</h3>
-                        <div className='content-text'>{texts.affiliation}</div>
-                        <h3 id="responsibility" className='content-header'>{headers.responsibility}</h3>
-                        <div className='content-text'>{texts.responsibility}</div>
-                        <h2 id="changes" className='content-header'>{headers.changes}</h2>
-                        <div className='content-text'>{texts.changes} <a className="text-primary" href={links.discordContact}>Discord</a></div>
-                        <h2 id="advice" className='content-header'>{headers.advice}</h2>
-                        <div className='content-text'>{texts.advice}</div>
-                        <h3 id="endorsement" className='content-header'>{headers.endorsement}</h3>
-                        <div className='content-text'>{texts.endorsement}</div>
-                        <h3 id="liability" className='content-header'>{headers.enforcement}</h3>
-                        <div className='content-text'>{texts.enforcement} <a className="text-primary" href={links.githubPrivacy}>here</a></div>
+        <Suspense fallback={Spinner}>
+            <div className='flex justify-between'>
+                <div className='flex w-3/4'>
+                    <div className="max-h-[75vh] overflow-y-auto px-4">
+                        <main>
+                        <h2 id="disclaimer" className='content-header'>{headers.disclaimer}</h2>
+                            <div className='content-text'>{texts.disclaimer}</div>
+                            <h2 id="warranty" className='content-header'>{headers.warranty}</h2>
+                            <div className='content-text'>{texts.warranty}</div>
+                            <h3 id="affiliation" className='content-header'>{headers.affiliation}</h3>
+                            <div className='content-text'>{texts.affiliation}</div>
+                            <h3 id="responsibility" className='content-header'>{headers.responsibility}</h3>
+                            <div className='content-text'>{texts.responsibility}</div>
+                            <h2 id="changes" className='content-header'>{headers.changes}</h2>
+                            <div className='content-text'>{texts.changes} <a className="text-primary" href={links.discordContact}>Discord</a></div>
+                            <h2 id="advice" className='content-header'>{headers.advice}</h2>
+                            <div className='content-text'>{texts.advice}</div>
+                            <h3 id="endorsement" className='content-header'>{headers.endorsement}</h3>
+                            <div className='content-text'>{texts.endorsement}</div>
+                            <h3 id="liability" className='content-header'>{headers.enforcement}</h3>
+                            <div className='content-text'>{texts.enforcement} <a className="text-primary" href={links.githubPrivacy}>here</a></div>
 
-                        <h2 id="cookie-agreement" className='content-header'>{headers.agreement}</h2>
-                        <div className='content-text'>{texts.agreement}</div>
-                        <div className='content-text'>{texts.essential}</div>
-                        <div className='content-text'>{texts.functional}</div>
-                    </main>  
+                            <h2 id="cookie-agreement" className='content-header'>{headers.agreement}</h2>
+                            <div className='content-text'>{texts.agreement}</div>
+                            <div className='content-text'>{texts.essential}</div>
+                            <div className='content-text'>{texts.functional}</div>
+                        </main>  
+                    </div>
                 </div>
-            </div>
-            <div className='flex w-1/4'>
-                <PageTableContents nestedHeadings={nestedHeadings} />
-            </div>
+                <div className='flex w-1/4'>
+                    <PageTableContents nestedHeadings={nestedHeadings} />
+                </div>
 
-        </div>
+            </div>
+        </Suspense>
+        
     </>
      )
 }

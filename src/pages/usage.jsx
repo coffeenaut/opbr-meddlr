@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, Suspense} from 'react'
 import BookmarkIcon from '@heroicons/react/20/solid/BookmarkIcon'
 import XIcon from '@heroicons/react/20/solid/XMarkIcon'
 import ShareIcon from '@heroicons/react/20/solid/ShareIcon'
@@ -7,6 +7,7 @@ import BookIcon from '@heroicons/react/20/solid/BookOpenIcon'
 import PhotoIcon from '@heroicons/react/20/solid/PhotoIcon'
 import PageTableContents from '../components/PageTableContents';
 import BookOpenIcon from '@heroicons/react/20/solid/BookOpenIcon'
+import Spinner from '../components/Spinner'
 
 const Usage = () => {
     const [homeCategorySelectValue, setHomeCategorySelectValue] = useState('')
@@ -80,6 +81,7 @@ const Usage = () => {
   }
     return (
         <>
+        <Suspense fallback={Spinner}>
         <div className='flex justify-evenly'>
             <div className='flex w-full lg:w-3/4'>
                 <div className="lg:max-h-[75vh] overflow-y-auto px-4">
@@ -137,6 +139,7 @@ const Usage = () => {
             </div>
 
         </div>
+        </Suspense>
     </>
      )
 }
