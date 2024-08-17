@@ -44,11 +44,11 @@ const Home = () => {
     return (
         <>
         <div className="flex flex-col lg:flex-row justify-start">
-          <div className={`flex flex-col fixed place-self-end top-2 justify-center items-center lg:hidden ${displaySide ? "hide" : "show"}`}>
+          <div className={`flex-col fixed place-self-end top-2 lg:hidden ${displaySide ? "hide" : "show"}`}>
             <BookIcon onClick={toggleSidePanel} className={` icon-medium-grey cursor-pointer bookIcon`}/>
-            <div className="text-xs text-primary font-bold">set list</div>
+            <div className="text-xs text-center text-primary font-bold">set list</div>
           </div>
-          <div className={`flex flex-col max-h-[95%] lg:flex-row fixed justify-between z-10 responsive-panel ${displaySide ? "showPanel" : ""}`}>
+          <div className={`flex flex-col max-h-[95%] lg:flex-row w-[95%] fixed justify-between z-10 responsive-panel ${displaySide ? "showPanel" : ""}`}>
             <div className="flex-col w-80 md:w-auto">
             <div className="flex justify-center font-bold">Sets by role</div>
               <div className="flex flex-col gap-y-4 side-panel">
