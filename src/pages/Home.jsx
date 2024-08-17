@@ -44,32 +44,35 @@ const Home = () => {
     return (
         <>
         <div className="flex flex-col lg:flex-row justify-start">
-          <BookIcon onClick={toggleSidePanel} className={`fixed left-2 top-40 icon-medium-grey cursor-pointer lg:hidden ${displaySide ? "hide" : "show"}`}/>
-          <div className={`flex flex-col max-h-[95%] lg:flex-row w-[95%] fixed justify-between z-10 responsive-panel ${displaySide ? "showPanel" : ""}`}>
-            <div className="flex-col w-[60%] md:w-auto">
+          <div className={`flex flex-col fixed place-self-end top-2 justify-center items-center lg:hidden ${displaySide ? "hide" : "show"}`}>
+            <BookIcon onClick={toggleSidePanel} className={` icon-medium-grey cursor-pointer bookIcon`}/>
+            <div className="text-xs text-primary font-bold">set list</div>
+          </div>
+          <div className={`flex flex-col max-h-[95%] lg:flex-row fixed justify-between z-10 responsive-panel ${displaySide ? "showPanel" : ""}`}>
+            <div className="flex-col w-80 md:w-auto">
             <div className="flex justify-center font-bold">Sets by role</div>
               <div className="flex flex-col gap-y-4 side-panel">
                 <div>
                   <div className="category-divide">Runner</div>
-                  <div className="w-full">
+                  <div className="lg:w-60 xl:w-auto">
                       <Carousel cards={MedalSet({filter: "runner", emitLoadSet: loadSet})}></Carousel>
                   </div>
                 </div>
                 <div>
                   <div className="category-divide">Attacker</div>
-                  <div>
+                  <div className="lg:w-60 xl:w-auto">
                       <Carousel cards={MedalSet({filter: "attacker", emitLoadSet: loadSet})}></Carousel>
                   </div>
                 </div>
                 <div>
                   <div className="category-divide">Defender</div>
-                  <div>
+                  <div className="lg:w-60 xl:w-auto">
                       <Carousel cards={MedalSet({filter: "defender", emitLoadSet: loadSet})}></Carousel>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex-col max-h-[45%] lg:max-h-full w-[60%] md:w-auto">
+            <div className="flex-col max-h-[45%] lg:max-h-full w-80 md:w-auto">
               <div className="flex justify-center font-bold">By Categories</div>
               <div className="flex flex-col gap-y-4 side-panel">
                   <select className="flex w-full rounded-lg form-input" 
