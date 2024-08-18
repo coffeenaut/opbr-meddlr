@@ -100,7 +100,6 @@ const MedalList = (props) => {
         let result = []
         if(searchTerm) {
             result = SearchMedal(searchTerm)
-            console.log(result)
         }
         if(result.length > 0) {
             setMedals([...result])
