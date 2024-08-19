@@ -191,152 +191,6 @@
       284,
       285,
       286,
-      "e0",
-      "e3",
-      "e6",
-      "e7",
-      "e8",
-      "e11",
-      "e13",
-      "e14",
-      "e15",
-      "e17",
-      "e19",
-      "e20",
-      "e21",
-      "e22",
-      "e23",
-      "e24",
-      "e25",
-      "e26",
-      "e27",
-      "e28",
-      "e30",
-      "e33",
-      "e35",
-      "e37",
-      "e38",
-      "e40",
-      "e42",
-      "e43",
-      "e44",
-      "e45",
-      "e47",
-      "e50",
-      "e51",
-      "e52",
-      "e55",
-      "e56",
-      "e59",
-      "e61",
-      "e64",
-      "e65",
-      "e67",
-      "e68",
-      "e69",
-      "e70",
-      "e72",
-      "e73",
-      "e74",
-      "e76",
-      "e82",
-      "e84",
-      "e85",
-      "e86",
-      "e88",
-      "e89",
-      "e92",
-      "e94",
-      "e95",
-      "e97",
-      "e99",
-      "e100",
-      "e102",
-      "e103",
-      "e105",
-      "e106",
-      "e108",
-      "e111",
-      "e113",
-      "e114",
-      "e115",
-      "e117",
-      "e118",
-      "e119",
-      "e121",
-      "e122",
-      "e124",
-      "e127",
-      "e129",
-      "e130",
-      "e131",
-      "e133",
-      "e134",
-      "e135",
-      "e136",
-      "e137",
-      "e139",
-      "e140",
-      "e141",
-      "e142",
-      "e143",
-      "e145",
-      "e147",
-      "e149",
-      "e151",
-      "e152",
-      "e153",
-      "e155",
-      "e157",
-      "e158",
-      "e159",
-      "e161",
-      "e162",
-      "e164",
-      "e166",
-      "e167",
-      "e168",
-      "e170",
-      "e172",
-      "e175",
-      "e177",
-      "e178",
-      "e179",
-      "e181",
-      "e183",
-      "e185",
-      "e186",
-      "e188",
-      "e190",
-      "e192",
-      "e194",
-      "e195",
-      "e196",
-      "e197",
-      "e199",
-      "e202",
-      "e203",
-      "e205",
-      "e206",
-      "e209",
-      "e211",
-      "e212",
-      "e214",
-      "e216",
-      "e218",
-      "e219",
-      "e221",
-      "e222",
-      "e223",
-      "e225",
-      "e226",
-      "e228",
-      "e229",
-      "e231",
-      "e232",
-      "e234",
-      "e235",
-      "e236",
       287,
       289,
       290,
@@ -344,18 +198,7 @@
       293,
       295,
       296,
-      "e234",
-      "e235",
-      "e236",
-      "e237",
-      "e238",
-      "e239",
-      "e240",
-      "e241",
-      "e242",
-      "e244",
-      "e246",
-      "e248"
+      297
     ]
   },
   {
@@ -517,248 +360,12 @@
       284,
       285,
       286,
-      "e0",
-      "e1",
-      "e2",
-      "e7",
-      "e8",
-      "e9",
-      "e10",
-      "e11",
-      "e13",
-      "e14",
-      "e15",
-      "e16",
-      "e17",
-      "e18",
-      "e19",
-      "e20",
-      "e21",
-      "e22",
-      "e23",
-      "e24",
-      "e25",
-      "e26",
-      "e27",
-      "e28",
-      "e29",
-      "e30",
-      "e31",
-      "e32",
-      "e33",
-      "e34",
-      "e38",
-      "e40",
-      "e41",
-      "e42",
-      "e43",
-      "e44",
-      "e45",
-      "e46",
-      "e47",
-      "e48",
-      "e49",
-      "e50",
-      "e51",
-      "e52",
-      "e53",
-      "e56",
-      "e57",
-      "e58",
-      "e59",
-      "e60",
-      "e61",
-      "e62",
-      "e67",
-      "e68",
-      "e69",
-      "e70",
-      "e71",
-      "e72",
-      "e73",
-      "e74",
-      "e75",
-      "e76",
-      "e77",
-      "e78",
-      "e79",
-      "e80",
-      "e81",
-      "e82",
-      "e83",
-      "e84",
-      "e85",
-      "e86",
-      "e87",
-      "e88",
-      "e89",
-      "e90",
-      "e91",
-      "e92",
-      "e93",
-      "e94",
-      "e95",
-      "e96",
-      "e97",
-      "e98",
-      "e99",
-      "e100",
-      "e101",
-      "e102",
-      "e103",
-      "e104",
-      "e105",
-      "e106",
-      "e107",
-      "e108",
-      "e109",
-      "e110",
-      "e111",
-      "e112",
-      "e113",
-      "e114",
-      "e115",
-      "e116",
-      "e117",
-      "e118",
-      "e119",
-      "e120",
-      "e121",
-      "e122",
-      "e123",
-      "e124",
-      "e125",
-      "e126",
-      "e127",
-      "e128",
-      "e129",
-      "e130",
-      "e131",
-      "e132",
-      "e133",
-      "e134",
-      "e135",
-      "e136",
-      "e137",
-      "e138",
-      "e139",
-      "e140",
-      "e141",
-      "e142",
-      "e143",
-      "e144",
-      "e145",
-      "e146",
-      "e147",
-      "e148",
-      "e149",
-      "e150",
-      "e151",
-      "e152",
-      "e153",
-      "e154",
-      "e155",
-      "e156",
-      "e157",
-      "e158",
-      "e159",
-      "e160",
-      "e161",
-      "e162",
-      "e163",
-      "e165",
-      "e166",
-      "e167",
-      "e168",
-      "e169",
-      "e170",
-      "e171",
-      "e172",
-      "e173",
-      "e174",
-      "e175",
-      "e176",
-      "e177",
-      "e178",
-      "e179",
-      "e180",
-      "e181",
-      "e182",
-      "e183",
-      "e184",
-      "e185",
-      "e186",
-      "e187",
-      "e188",
-      "e189",
-      "e190",
-      "e191",
-      "e192",
-      "e193",
-      "e194",
-      "e195",
-      "e196",
-      "e197",
-      "e198",
-      "e199",
-      "e200",
-      "e201",
-      "e202",
-      "e203",
-      "e204",
-      "e205",
-      "e206",
-      "e207",
-      "e208",
-      "e209",
-      "e210",
-      "e211",
-      "e212",
-      "e213",
-      "e214",
-      "e215",
-      "e216",
-      "e217",
-      "e218",
-      "e219",
-      "e220",
-      "e221",
-      "e222",
-      "e223",
-      "e224",
-      "e225",
-      "e226",
-      "e227",
-      "e228",
-      "e229",
-      "e230",
-      "e231",
-      "e232",
-      "e233",
-      "e234",
-      "e235",
-      "e236",
       288,
       289,
       292,
       293,
       294,
-      "e234",
-      "e235",
-      "e236",
-      "e237",
-      "e238",
-      "e239",
-      "e240",
-      "e241",
-      "e242",
-      "e243",
-      "e244",
-      "e245",
-      "e246",
-      "e247",
-      "e248",
-      "e249"
+      297
     ]
   },
   {
@@ -964,180 +571,13 @@
       281,
       282,
       283,
-      "e0",
-      "e1",
-      "e2",
-      "e7",
-      "e9",
-      "e10",
-      "e11",
-      "e12",
-      "e13",
-      "e14",
-      "e15",
-      "e16",
-      "e18",
-      "e21",
-      "e22",
-      "e26",
-      "e27",
-      "e28",
-      "e29",
-      "e30",
-      "e31",
-      "e32",
-      "e34",
-      "e36",
-      "e37",
-      "e39",
-      "e41",
-      "e45",
-      "e46",
-      "e48",
-      "e49",
-      "e51",
-      "e52",
-      "e53",
-      "e54",
-      "e55",
-      "e56",
-      "e57",
-      "e58",
-      "e60",
-      "e62",
-      "e63",
-      "e64",
-      "e65",
-      "e66",
-      "e67",
-      "e68",
-      "e71",
-      "e72",
-      "e73",
-      "e74",
-      "e75",
-      "e76",
-      "e77",
-      "e78",
-      "e79",
-      "e80",
-      "e81",
-      "e83",
-      "e87",
-      "e90",
-      "e91",
-      "e93",
-      "e96",
-      "e98",
-      "e99",
-      "e100",
-      "e101",
-      "e102",
-      "e104",
-      "e106",
-      "e107",
-      "e109",
-      "e110",
-      "e112",
-      "e113",
-      "e114",
-      "e116",
-      "e117",
-      "e119",
-      "e120",
-      "e121",
-      "e123",
-      "e125",
-      "e126",
-      "e127",
-      "e128",
-      "e129",
-      "e130",
-      "e131",
-      "e132",
-      "e135",
-      "e136",
-      "e138",
-      "e141",
-      "e144",
-      "e145",
-      "e146",
-      "e148",
-      "e150",
-      "e152",
-      "e154",
-      "e156",
-      "e157",
-      "e158",
-      "e160",
-      "e161",
-      "e164",
-      "e165",
-      "e167",
-      "e169",
-      "e170",
-      "e171",
-      "e173",
-      "e174",
-      "e175",
-      "e176",
-      "e178",
-      "e180",
-      "e181",
-      "e182",
-      "e184",
-      "e185",
-      "e187",
-      "e189",
-      "e191",
-      "e193",
-      "e194",
-      "e195",
-      "e196",
-      "e197",
-      "e198",
-      "e200",
-      "e201",
-      "e202",
-      "e203",
-      "e204",
-      "e207",
-      "e208",
-      "e210",
-      "e211",
-      "e212",
-      "e213",
-      "e214",
-      "e215",
-      "e216",
-      "e217",
-      "e219",
-      "e220",
-      "e221",
-      "e222",
-      "e224",
-      "e226",
-      "e227",
-      "e229",
-      "e230",
-      "e231",
-      "e232",
-      "e234",
       287,
       288,
       290,
       292,
       294,
       295,
-      "e235",
-      "e236",
-      "e239",
-      "e241",
-      "e243",
-      "e245",
-      "e247",
-      "e248",
-      "e249"
+      297
     ]
   },
   {
@@ -1337,187 +777,13 @@
       284,
       285,
       286,
-      "e1",
-      "e2",
-      "e4",
-      "e5",
-      "e7",
-      "e8",
-      "e9",
-      "e10",
-      "e11",
-      "e15",
-      "e16",
-      "e17",
-      "e18",
-      "e19",
-      "e22",
-      "e23",
-      "e24",
-      "e28",
-      "e30",
-      "e31",
-      "e32",
-      "e33",
-      "e34",
-      "e35",
-      "e37",
-      "e38",
-      "e39",
-      "e40",
-      "e41",
-      "e42",
-      "e43",
-      "e45",
-      "e46",
-      "e47",
-      "e48",
-      "e49",
-      "e52",
-      "e53",
-      "e56",
-      "e57",
-      "e58",
-      "e59",
-      "e60",
-      "e61",
-      "e62",
-      "e65",
-      "e68",
-      "e69",
-      "e70",
-      "e74",
-      "e76",
-      "e77",
-      "e78",
-      "e79",
-      "e80",
-      "e81",
-      "e82",
-      "e83",
-      "e84",
-      "e85",
-      "e86",
-      "e87",
-      "e88",
-      "e89",
-      "e90",
-      "e91",
-      "e92",
-      "e93",
-      "e94",
-      "e95",
-      "e96",
-      "e97",
-      "e100",
-      "e102",
-      "e103",
-      "e104",
-      "e106",
-      "e107",
-      "e108",
-      "e109",
-      "e110",
-      "e111",
-      "e114",
-      "e115",
-      "e117",
-      "e119",
-      "e121",
-      "e122",
-      "e123",
-      "e124",
-      "e125",
-      "e127",
-      "e131",
-      "e132",
-      "e133",
-      "e136",
-      "e137",
-      "e138",
-      "e139",
-      "e141",
-      "e142",
-      "e143",
-      "e145",
-      "e146",
-      "e147",
-      "e148",
-      "e149",
-      "e150",
-      "e152",
-      "e153",
-      "e154",
-      "e155",
-      "e158",
-      "e159",
-      "e161",
-      "e164",
-      "e165",
-      "e167",
-      "e168",
-      "e170",
-      "e171",
-      "e172",
-      "e173",
-      "e175",
-      "e176",
-      "e178",
-      "e179",
-      "e181",
-      "e182",
-      "e183",
-      "e185",
-      "e186",
-      "e187",
-      "e188",
-      "e189",
-      "e190",
-      "e191",
-      "e192",
-      "e197",
-      "e198",
-      "e199",
-      "e200",
-      "e203",
-      "e204",
-      "e205",
-      "e206",
-      "e207",
-      "e208",
-      "e209",
-      "e212",
-      "e214",
-      "e216",
-      "e217",
-      "e219",
-      "e222",
-      "e223",
-      "e224",
-      "e226",
-      "e227",
-      "e229",
-      "e233",
-      "e235",
-      "e236",
       288,
       289,
       291,
       292,
       293,
       294,
-      296,
-      "e234",
-      "e237",
-      "e238",
-      "e240",
-      "e242",
-      "e243",
-      "e244",
-      "e245",
-      "e246",
-      "e247",
-      "e249"
+      296
     ]
   },
   {
@@ -1563,9 +829,7 @@
       232,
       241,
       262,
-      274,
-      "e53",
-      "e64"
+      274
     ]
   },
   {
@@ -1625,8 +889,7 @@
       143,
       176,
       185,
-      248,
-      "e52"
+      248
     ]
   },
   {
@@ -1707,8 +970,7 @@
       76,
       92,
       93,
-      136,
-      "e37"
+      136
     ]
   },
   {
@@ -1764,12 +1026,7 @@
       208,
       212,
       271,
-      275,
-      "e33",
-      "e34",
-      "e35",
-      "e61",
-      "e62"
+      275
     ]
   },
   {
@@ -1794,8 +1051,7 @@
       240,
       250,
       259,
-      277,
-      "e63"
+      277
     ]
   },
   {
@@ -1866,82 +1122,56 @@
     "name": "When equipped character is character type Revolutionary army Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e210",
-      "e211"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_revolutionary_army_def",
     "name": "When equipped character is character type Revolutionary army Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e209",
-      "e210",
-      "e211",
-      "e212"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_revolutionary_army_crit",
     "name": "When equipped character is character type Revolutionary army Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e209",
-      "e210",
-      "e211",
-      "e212"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_revolutionary_army_health",
     "name": "When equipped character is character type Revolutionary army Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e209",
-      "e212"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_longrangenormalattacks_atk",
     "name": "When equipped character is character type Long range normal attacks Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e139",
-      "e233"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_longrangenormalattacks_def",
     "name": "When equipped character is character type Long range normal attacks Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e139"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_longrangenormalattacks_crit",
     "name": "When equipped character is character type Long range normal attacks Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e233"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_longrangenormalattacks_health",
     "name": "When equipped character is character type Long range normal attacks Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e139",
-      "e233"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_buggy_delivery_atk",
@@ -1953,277 +1183,161 @@
     "name": "When equipped character is character type Buggy's Delivery Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e76",
-      "e77"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_buggy_delivery_crit",
     "name": "When equipped character is character type Buggy's Delivery Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e76",
-      "e77"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_buggy_delivery_health",
     "name": "When equipped character is character type Buggy's Delivery Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e76",
-      "e77"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_baroque_works_atk",
     "name": "When equipped character is character type Baroque Works Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e101",
-      "e102",
-      "e104"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_baroque_works_def",
     "name": "When equipped character is character type Baroque Works Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e101",
-      "e102",
-      "e103",
-      "e104"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_baroque_works_crit",
     "name": "When equipped character is character type Baroque Works Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e101",
-      "e103"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_baroque_works_health",
     "name": "When equipped character is character type Baroque Works Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e102",
-      "e103",
-      "e104"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_captain_atk",
     "name": "When equipped character is character type Captain Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e184"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_captain_def",
     "name": "When equipped character is character type Captain Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e86",
-      "e183",
-      "e184"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_captain_crit",
     "name": "When equipped character is character type Captain Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e86",
-      "e183",
-      "e184"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_captain_health",
     "name": "When equipped character is character type Captain Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e86",
-      "e183"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_cipher_pol_atk",
     "name": "When equipped character is character type Cipher Pol Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e71",
-      "e242",
-      "e246"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_cipher_pol_def",
     "name": "When equipped character is character type Cipher Pol Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e70",
-      "e71",
-      "e242",
-      "e243",
-      "e246",
-      "e247"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_cipher_pol_crit",
     "name": "When equipped character is character type Cipher Pol Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e70",
-      "e71",
-      "e243",
-      "e247"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_cipher_pol_health",
     "name": "When equipped character is character type Cipher Pol Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e70",
-      "e242",
-      "e243",
-      "e246",
-      "e247"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kozuki_clan_atk",
     "name": "When equipped character is character type Kozuki Clan / Kozuki Clan Servant Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e84",
-      "e85",
-      "e123",
-      "e165",
-      "e166"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kozuki_clan_def",
     "name": "When equipped character is character type Kozuki Clan / Kozuki Clan Servant Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e84",
-      "e85",
-      "e123",
-      "e124",
-      "e165",
-      "e166"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kozuki_clan_crit",
     "name": "When equipped character is character type Kozuki Clan / Kozuki Clan Servant Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e124",
-      "e166"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kozuki_clan_health",
     "name": "When equipped character is character type Kozuki Clan / Kozuki Clan Servant Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e84",
-      "e85",
-      "e123",
-      "e124",
-      "e165"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_donquixote_family_atk",
     "name": "When equipped character is character type Don Quixote Family Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e72",
-      "e73",
-      "e112",
-      "e113",
-      "e114",
-      "e161",
-      "e162",
-      "e163"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_donquixote_family_def",
     "name": "When equipped character is character type Don Quixote Family Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e72",
-      "e73",
-      "e111",
-      "e112",
-      "e113",
-      "e114",
-      "e161",
-      "e162",
-      "e163",
-      "e164"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_donquixote_family_crit",
     "name": "When equipped character is character type Don Quixote Family Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e72",
-      "e73",
-      "e111",
-      "e112",
-      "e113",
-      "e162",
-      "e163",
-      "e164"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_donquixote_family_health",
     "name": "When equipped character is character type Don Quixote Family Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e111",
-      "e114",
-      "e161",
-      "e164"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kuja_pirates_atk",
@@ -2235,30 +1349,21 @@
     "name": "When equipped character is character type Kuja Pirates Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e78",
-      "e79"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kuja_pirates_crit",
     "name": "When equipped character is character type Kuja Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e78",
-      "e79"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_kuja_pirates_health",
     "name": "When equipped character is character type Kuja Pirates Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e78",
-      "e79"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_whitebeard_pirates_atk",
@@ -2266,9 +1371,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      286,
-      "e110",
-      "e138"
+      286
     ]
   },
   {
@@ -2277,11 +1380,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      286,
-      "e109",
-      "e110",
-      "e137",
-      "e138"
+      286
     ]
   },
   {
@@ -2289,10 +1388,7 @@
     "name": "When equipped character is character type Whitebeard Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e109",
-      "e137"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_whitebeard_pirates_health",
@@ -2300,11 +1396,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      286,
-      "e109",
-      "e110",
-      "e137",
-      "e138"
+      286
     ]
   },
   {
@@ -2312,38 +1404,28 @@
     "name": "When equipped character is character type Blackbeard Pirates Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e135",
-      "e136"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_blackbeard_pirates_def",
     "name": "When equipped character is character type Blackbeard Pirates Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e135",
-      "e136"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_blackbeard_pirates_crit",
     "name": "When equipped character is character type Blackbeard Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e135"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_blackbeard_pirates_health",
     "name": "When equipped character is character type Blackbeard Pirates Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e136"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_strawhat_pirates_atk",
@@ -2351,34 +1433,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      284,
-      "e68",
-      "e69",
-      "e83",
-      "e93",
-      "e94",
-      "e107",
-      "e117",
-      "e118",
-      "e130",
-      "e132",
-      "e148",
-      "e150",
-      "e151",
-      "e152",
-      "e154",
-      "e157",
-      "e158",
-      "e176",
-      "e187",
-      "e191",
-      "e205",
-      "e215",
-      "e236",
-      "e236",
-      "e237",
-      "e240",
-      "e241"
+      284
     ]
   },
   {
@@ -2387,46 +1442,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      284,
-      "e68",
-      "e69",
-      "e82",
-      "e83",
-      "e93",
-      "e94",
-      "e107",
-      "e108",
-      "e117",
-      "e118",
-      "e130",
-      "e131",
-      "e132",
-      "e147",
-      "e148",
-      "e149",
-      "e150",
-      "e151",
-      "e152",
-      "e153",
-      "e154",
-      "e157",
-      "e158",
-      "e159",
-      "e175",
-      "e176",
-      "e186",
-      "e187",
-      "e190",
-      "e191",
-      "e205",
-      "e206",
-      "e215",
-      "e216",
-      "e236",
-      "e236",
-      "e237",
-      "e240",
-      "e241"
+      284
     ]
   },
   {
@@ -2434,27 +1450,7 @@
     "name": "When equipped character is character type Strawhat Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e82",
-      "e108",
-      "e118",
-      "e130",
-      "e131",
-      "e147",
-      "e149",
-      "e151",
-      "e153",
-      "e157",
-      "e159",
-      "e175",
-      "e186",
-      "e190",
-      "e206",
-      "e215",
-      "e216",
-      "e236",
-      "e241"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_strawhat_pirates_health",
@@ -2462,39 +1458,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      284,
-      "e68",
-      "e69",
-      "e82",
-      "e83",
-      "e93",
-      "e94",
-      "e107",
-      "e108",
-      "e117",
-      "e131",
-      "e132",
-      "e147",
-      "e148",
-      "e149",
-      "e150",
-      "e152",
-      "e153",
-      "e154",
-      "e158",
-      "e159",
-      "e175",
-      "e176",
-      "e186",
-      "e187",
-      "e190",
-      "e191",
-      "e205",
-      "e206",
-      "e216",
-      "e236",
-      "e237",
-      "e240"
+      284
     ]
   },
   {
@@ -2503,12 +1467,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      285,
-      "e121",
-      "e227",
-      "e228",
-      "e234",
-      "e235"
+      285
     ]
   },
   {
@@ -2517,14 +1476,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      285,
-      "e121",
-      "e122",
-      "e155",
-      "e227",
-      "e228",
-      "e234",
-      "e235"
+      285
     ]
   },
   {
@@ -2532,13 +1484,7 @@
     "name": "When equipped character is character type Roger Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e122",
-      "e155",
-      "e228",
-      "e234",
-      "e235"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_roger_pirates_health",
@@ -2546,11 +1492,7 @@
     "min": 14,
     "max": 18,
     "medals": [
-      285,
-      "e121",
-      "e122",
-      "e155",
-      "e227"
+      285
     ]
   },
   {
@@ -2558,30 +1500,21 @@
     "name": "When equipped character is character type Red-Haired Pirates Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e156",
-      "e160"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_redhaired_pirates_def",
     "name": "When equipped character is character type Red-Haired Pirates Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e156",
-      "e160"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_redhaired_pirates_crit",
     "name": "When equipped character is character type Red-Haired Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e156",
-      "e160"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_redhaired_pirates_health",
@@ -2593,506 +1526,266 @@
     "name": "When equipped character is character type Animal Kingdom Pirates Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e128",
-      "e129",
-      "e144",
-      "e171",
-      "e208",
-      "e213"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_animal_kingdom_pirates_def",
     "name": "When equipped character is character type Animal Kingdom Pirates Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e127",
-      "e128",
-      "e129",
-      "e143",
-      "e144",
-      "e171",
-      "e172",
-      "e207",
-      "e208",
-      "e213",
-      "e214"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_animal_kingdom_pirates_crit",
     "name": "When equipped character is character type Animal Kingdom Pirates Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e127",
-      "e128",
-      "e129",
-      "e143",
-      "e144",
-      "e172",
-      "e207",
-      "e213",
-      "e214"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_animal_kingdom_pirates_health",
     "name": "When equipped character is character type Animal Kingdom Pirates Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e127",
-      "e143",
-      "e171",
-      "e172",
-      "e207",
-      "e208",
-      "e214"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_charlotte_family_atk",
     "name": "When equipped character is character type Charlotte Family Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e75",
-      "e98",
-      "e146",
-      "e174",
-      "e178",
-      "e180",
-      "e196"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_charlotte_family_def",
     "name": "When equipped character is character type Charlotte Family Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e74",
-      "e75",
-      "e97",
-      "e98",
-      "e145",
-      "e146",
-      "e173",
-      "e174",
-      "e178",
-      "e179",
-      "e180",
-      "e196",
-      "e197"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_charlotte_family_crit",
     "name": "When equipped character is character type Charlotte Family Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e74",
-      "e75",
-      "e97",
-      "e98",
-      "e145",
-      "e173",
-      "e174",
-      "e179",
-      "e180",
-      "e196",
-      "e197"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_charlotte_family_health",
     "name": "When equipped character is character type Charlotte Family Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e74",
-      "e97",
-      "e145",
-      "e146",
-      "e173",
-      "e178",
-      "e179",
-      "e197"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_worst_generation_atk",
     "name": "When equipped character is character type Worst Generation Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e66",
-      "e67",
-      "e99",
-      "e198",
-      "e202",
-      "e204",
-      "e244"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_worst_generation_def",
     "name": "When equipped character is character type Worst Generation Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e66",
-      "e67",
-      "e99",
-      "e100",
-      "e198",
-      "e199",
-      "e202",
-      "e203",
-      "e204",
-      "e244",
-      "e245"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_worst_generation_crit",
     "name": "When equipped character is character type Worst Generation Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e66",
-      "e67",
-      "e99",
-      "e100",
-      "e199",
-      "e202",
-      "e203",
-      "e245"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_worst_generation_health",
     "name": "When equipped character is character type Worst Generation Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e100",
-      "e198",
-      "e199",
-      "e203",
-      "e204",
-      "e244",
-      "e245"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_germa66_atk",
     "name": "When equipped character is character type Germa 66 Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e133",
-      "e134"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_germa66_def",
     "name": "When equipped character is character type Germa 66 Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e133",
-      "e134"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_germa66_crit",
     "name": "When equipped character is character type Germa 66 Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e134"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_germa66_health",
     "name": "When equipped character is character type Germa 66 Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e133"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_grand_line_atk",
     "name": "When equipped character is character type Grand Line Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e141",
-      "e142",
-      "e185",
-      "e230",
-      "e231"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_grand_line_def",
     "name": "When equipped character is character type Grand Line Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e141",
-      "e142",
-      "e185",
-      "e229",
-      "e230",
-      "e231",
-      "e232"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_grand_line_crit",
     "name": "When equipped character is character type Grand Line Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e229",
-      "e230",
-      "e231",
-      "e232"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_grand_line_health",
     "name": "When equipped character is character type Grand Line Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e141",
-      "e142",
-      "e185",
-      "e229",
-      "e232"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_fish-man_atk",
     "name": "When equipped character is character type Fish-Man Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e120",
-      "e193",
-      "e194",
-      "e195"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_fish-man_def",
     "name": "When equipped character is character type Fish-Man Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e119",
-      "e120",
-      "e192",
-      "e193",
-      "e194",
-      "e195"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_fish-man_crit",
     "name": "When equipped character is character type Fish-Man Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e119",
-      "e120",
-      "e192",
-      "e193",
-      "e194",
-      "e195"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_fish-man_health",
     "name": "When equipped character is character type Fish-Man Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e119",
-      "e192"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_new_world_atk",
     "name": "When equipped character is character type New World Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e169",
-      "e220",
-      "e248"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_new_world_def",
     "name": "When equipped character is character type New World Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e169",
-      "e170",
-      "e219",
-      "e220",
-      "e248",
-      "e249"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_new_world_crit",
     "name": "When equipped character is character type New World Increase CRIT Probability",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e169",
-      "e170",
-      "e219",
-      "e220",
-      "e248",
-      "e249"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_new_world_health",
     "name": "When equipped character is character type New World Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e170",
-      "e219",
-      "e249"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_logia_atk",
     "name": "When equipped character is character type Logia Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e116",
-      "e140",
-      "e222"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_logia_def",
     "name": "When equipped character is character type Logia Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e116",
-      "e125",
-      "e140",
-      "e222"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_logia_crit",
     "name": "When equipped character is character type Logia Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e116",
-      "e125",
-      "e140"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_logia_health",
     "name": "When equipped character is character type Logia Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e125",
-      "e222",
-      "e235"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_navy_atk",
     "name": "When equipped character is character type Navy Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e167",
-      "e235",
-      "e234"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_navy_def",
     "name": "When equipped character is character type Navy Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e89",
-      "e90",
-      "e167",
-      "e168",
-      "e235",
-      "e234"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_navy_crit",
     "name": "When equipped character is character type Navy Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e89",
-      "e90",
-      "e168"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_navy_health",
     "name": "When equipped character is character type Navy Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e89",
-      "e90",
-      "e167",
-      "e168",
-      "e234"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_ninja_atk",
     "name": "When equipped character is character type Ninja Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e87",
-      "e88"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_ninja_def",
     "name": "When equipped character is character type Ninja Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e87",
-      "e88"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_ninja_crit",
@@ -3104,244 +1797,146 @@
     "name": "When equipped character is character type Ninja Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e87",
-      "e88"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_paramecia_atk",
     "name": "When equipped character is character type Paramecia Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e126",
-      "e177",
-      "e201",
-      "e217",
-      "e218",
-      "e224",
-      "e238",
-      "e239"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_paramecia_def",
     "name": "When equipped character is character type Paramecia Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e126",
-      "e177",
-      "e200",
-      "e201",
-      "e217",
-      "e218",
-      "e223",
-      "e224",
-      "e238",
-      "e239"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_paramecia_crit",
     "name": "When equipped character is character type Paramecia Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e126",
-      "e177",
-      "e200",
-      "e201",
-      "e218",
-      "e223",
-      "e239"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_paramecia_health",
     "name": "When equipped character is character type Paramecia Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e200",
-      "e217",
-      "e223",
-      "e224",
-      "e238"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_alabasta_kingdom_atk",
     "name": "When equipped character is character type Alabasta Kingdom Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e105"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_alabasta_kingdom_def",
     "name": "When equipped character is character type Alabasta Kingdom Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e105",
-      "e106"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_alabasta_kingdom_crit",
     "name": "When equipped character is character type Alabasta Kingdom Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e105",
-      "e106"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_alabasta_kingdom_health",
     "name": "When equipped character is character type Alabasta Kingdom Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e106"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_chambres_atk",
     "name": "When equipped character is character type Chambres Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e81"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_chambres_def",
     "name": "When equipped character is character type Chambres Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e80",
-      "e81"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_chambres_crit",
     "name": "When equipped character is character type Chambres Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e80"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_chambres_health",
     "name": "When equipped character is character type Chambres Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e80",
-      "e81"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_minks_tribe_atk",
     "name": "When equipped character is character type Minks Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e91",
-      "e96",
-      "e182",
-      "e225"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_minks_tribe_def",
     "name": "When equipped character is character type Minks Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e91",
-      "e92",
-      "e95",
-      "e96",
-      "e181",
-      "e182",
-      "e225",
-      "e226"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_minks_tribe_crit",
     "name": "When equipped character is character type Minks Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e92",
-      "e95",
-      "e181",
-      "e225",
-      "e226"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_minks_tribe_health",
     "name": "When equipped character is character type Minks Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e91",
-      "e92",
-      "e95",
-      "e96",
-      "e181",
-      "e182",
-      "e226"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_zoan_atk",
     "name": "When equipped character is character type Zoan Increase ATK",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e189",
-      "e221"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_zoan_def",
     "name": "When equipped character is character type Zoan Increase DEF",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e188",
-      "e189",
-      "e221"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_zoan_crit",
     "name": "When equipped character is character type Zoan Increase CRIT Proba",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e188",
-      "e221"
-    ]
+    "medals": []
   },
   {
     "id": "eTrait_zoan_health",
     "name": "When equipped character is character type Zoan Increase HP",
     "min": 14,
     "max": 18,
-    "medals": [
-      "e188",
-      "e189"
-    ]
+    "medals": []
   }
 ]
