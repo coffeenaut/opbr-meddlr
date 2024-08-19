@@ -14,7 +14,8 @@
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/medFavicon.svg"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.6",
@@ -23,7 +24,9 @@
     "autoprefixer": "^10.4.16",
     "copy-to-clipboard": "^3.3.3",
     "csv-parse": "^5.5.6",
+    "downloadjs": "^1.4.7",
     "fs": "^0.0.1-security",
+    "html-to-image": "^1.11.11",
     "minimist-lite": "^2.2.1",
     "react": "^18.2.0",
     "react-device-detect": "^2.2.3",
@@ -32,12 +35,14 @@
     "react-dnd-touch-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
+    "vite-plugin-pwa": "^0.20.1",
     "winston": "^3.13.0"
   },
   "devDependencies": {
     "@heroicons/react": "^2.0.18",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@vite-pwa/assets-generator": "^0.2.4",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
