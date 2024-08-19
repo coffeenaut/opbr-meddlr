@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.059286mm"
+   height="10.059302mm"
+   viewBox="0 0 10.059286 10.059302"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-142.48082,-245.00153)">
+    <g
+       id="g19">
+      <circle
+         style="fill:#ff8225;fill-opacity:0.909804;stroke:#282828;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+         id="med-favicon-inner"
+         cx="147.55992"
+         cy="250.00754"
+         r="4.3475413" />
+      <circle
+         style="fill:none;fill-opacity:0.909804;stroke:#ff8225;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+         id="med-favicon-outer"
+         cx="147.51047"
+         cy="250.03119"
+         r="4.7650647" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15141px;font-family:P052;-inkscape-font-specification:P052;fill:#282828;fill-opacity:0.909804;stroke:none;stroke-width:0.461355;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.909804"
+         x="145.54961"
+         y="251.00835"
+         id="med-favicon-m"
+         transform="scale(0.99574519,1.004273)"><tspan
+           id="tspan19"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15141px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#282828;fill-opacity:0.909804;stroke:none;stroke-width:0.461355;stroke-dasharray:none"
+           x="145.54961"
+           y="251.00835">M</tspan></text>
+    </g>
+  </g>
+</svg>
