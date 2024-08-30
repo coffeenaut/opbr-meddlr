@@ -1,5 +1,4 @@
 [
-  {},
   {
     "name": "Luffy",
     "image": "img_icon_medal_310110001",
@@ -4777,7 +4776,7 @@
   {
     "name": "Axe",
     "image": "img_icon_medal_310110287",
-    "id": "sentomaru_egg",
+    "id": "sentomaru_2yaf",
     "tags": [
       "tag_navy"
     ],
@@ -4805,7 +4804,7 @@
   {
     "name": "Egghead Luffy",
     "image": "img_icon_medal_310110289",
-    "id": "luffy_egg",
+    "id": "luffy_eggh",
     "tags": [
       "tag_egghead",
       "tag_strawhat_pirates",
@@ -4841,7 +4840,7 @@
   {
     "name": "Egghead Zoro",
     "image": "img_icon_medal_310110291",
-    "id": "zoro_egg",
+    "id": "zoro_eggh",
     "tags": [
       "tag_egghead",
       "tag_strawhat_pirates",
@@ -4911,7 +4910,7 @@
   {
     "name": "Nose Pistol",
     "image": "img_icon_medal_310110295",
-    "id": "kaku_egg",
+    "id": "kaku_eggh",
     "tags": [
       "tag_egghead",
       "tag_cipher_pol",
@@ -4929,7 +4928,7 @@
   {
     "name": "Lucci",
     "image": "img_icon_medal_310110296",
-    "id": "lucci_egg",
+    "id": "lucci_eggh",
     "tags": [
       "tag_egghead",
       "tag_cipher_pol",
@@ -4958,5 +4957,23 @@
       "eTrait_crit"
     ],
     "primary": "pTrait_zoan_5_damage"
+  },
+  {
+    "name": "Red-Haired Divine Departure",
+    "image": "img_icon_medal_310110298",
+    "id": "shanks_kamu",
+    "tags": [
+      "tag_egghead",
+      "tag_red_haired_pirates",
+      "tag_captain",
+      "tag_4_emperors",
+      "tag_roger_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_capture_8_skill2"
   }
 ]

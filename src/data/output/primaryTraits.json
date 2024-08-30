@@ -1145,7 +1145,8 @@
       "e235",
       296,
       "e234",
-      296
+      296,
+      298
     ]
   },
   {
@@ -1610,7 +1611,8 @@
     "medals": [
       235,
       "e97",
-      "e215"
+      "e215",
+      "e250"
     ]
   },
   {
@@ -2108,6 +2110,13 @@
     "name": "Treasure: +5% normal damage",
     "medals": [
       230
+    ]
+  },
+  {
+    "id": "pTrait_treasure_10_dodge",
+    "name": "Treasure: +10% dodge cooldown time",
+    "medals": [
+      "e251"
     ]
   }
 ]

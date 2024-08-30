@@ -4574,6 +4574,41 @@
           "eTrait_new_world_crit"
         ],
         "primary": "pTrait_projected_3_skill2"
+      },
+      {
+        "name": "Roger (Captain)",
+        "image": "img_icon_medal_310200253",
+        "id": "roger_ev01",
+        "tags": [
+          "tag_captain",
+          "tag_roger_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_roger_pirates_health",
+          "eTrait_roger_pirates_atk",
+          "eTrait_roger_pirates_def"
+        ],
+        "primary": "pTrait_health_70_5_damage"
+      },
+      {
+        "name": "Rayleigh (First Mate)",
+        "image": "img_icon_medal_310200254",
+        "id": "rayliegh_ev02",
+        "tags": [
+          "tag_roger_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk",
+          "eTrait_roger_pirates_health",
+          "eTrait_roger_pirates_def",
+          "eTrait_roger_pirates_atk"
+        ],
+        "primary": "pTrait_treasure_10_dodge"
       }
       
 ]
