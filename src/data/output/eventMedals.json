@@ -4596,7 +4596,7 @@
       {
         "name": "Rayleigh (First Mate)",
         "image": "img_icon_medal_310200254",
-        "id": "rayliegh_ev02",
+        "id": "rayleigh_ev02",
         "tags": [
           "tag_roger_pirates"
         ],
@@ -4609,6 +4609,43 @@
           "eTrait_roger_pirates_atk"
         ],
         "primary": "pTrait_treasure_10_dodge"
+      },
+      {
+        "name": "Oden (2nd Division Commander)",
+        "image": "img_icon_medal_310200255",
+        "id": "oden_ev02",
+        "tags": [
+          "tag_whitebeard_pirates",
+          "tag_kozuki_clan",
+          "tag_whitebeard_pirates_commander"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_whitebeard_pirates_atk",
+          "eTrait_whitebeard_pirates_def",
+          "eTrait_whitebeard_pirates_crit"
+        ],
+        "primary": "pTrait_ally_ko_6_skill2"
+      },
+      {
+        "name": "Izo (Young)",
+        "image": "img_icon_medal_310200256",
+        "id": "izo_ev03",
+        "tags": [
+          "tag_whitebeard_pirates",
+          "tag_kozuki_clan"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_whitebeard_pirates_atk",
+          "eTrait_whitebeard_pirates_def",
+          "eTrait_whitebeard_pirates_crit"
+        ],
+        "primary": "pTrait_health_70_10_skill2"
       }
       
 ]
