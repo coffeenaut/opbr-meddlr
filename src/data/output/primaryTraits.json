@@ -506,7 +506,8 @@
     "id": "pTrait_hit_capture_3_skill1",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 1 cooldown time",
     "medals": [
-      "e150"
+      "e150",
+      "e256"
     ]
   },
   {
@@ -776,6 +777,11 @@
     ]
   },
   {
+    "id": "pTrait_power_holders_5_damage",
+    "name": "Enemy type Power Users: +3% damage",
+    "medals": []
+  },
+  {
     "id": "pTrait_electrocution_3_speed_20",
     "name": "Enemy inflicted with Shock: +3% speed 20s (not cumul)",
     "medals": [
@@ -1025,6 +1031,14 @@
     ]
   },
   {
+    "id": "pTrait_projection_3_skill1",
+    "name": "When you Knockback an enemy: -3% skill 1 cooldown time",
+    "medals": [
+      "e259",
+      "e259"
+    ]
+  },
+  {
     "id": "pTrait_projection_5_skill1",
     "name": "When you Knockback an enemy: -5% skill 1 cooldown time",
     "medals": [
@@ -1041,6 +1055,13 @@
     ]
   },
   {
+    "id": "pTrait_projection_heal_2",
+    "name": "When you Knockback an enemy: 2% heal",
+    "medals": [
+      "e255"
+    ]
+  },
+  {
     "id": "pTrait_projection_heal_3",
     "name": "When you Knockback an enemy: 3% heal",
     "medals": [
@@ -1053,7 +1074,9 @@
       246,
       259,
       "e229",
-      288
+      288,
+      304,
+      304
     ]
   },
   {
@@ -1147,7 +1170,8 @@
       296,
       "e234",
       296,
-      298
+      298,
+      303
     ]
   },
   {
@@ -1614,7 +1638,8 @@
       235,
       "e97",
       "e215",
-      "e250"
+      "e250",
+      300
     ]
   },
   {
@@ -1679,7 +1704,8 @@
       267,
       274,
       "e99",
-      292
+      292,
+      301
     ]
   },
   {
@@ -1762,7 +1788,8 @@
       171,
       245,
       252,
-      271
+      271,
+      "e254"
     ]
   },
   {
@@ -1781,7 +1808,8 @@
     "medals": [
       166,
       189,
-      "e179"
+      "e179",
+      302
     ]
   },
   {
@@ -1826,7 +1854,8 @@
       "e130",
       "e149",
       "e201",
-      "e230"
+      "e230",
+      "e257"
     ]
   },
   {
@@ -1986,7 +2015,8 @@
     "medals": [
       "e11",
       "e87",
-      "e147"
+      "e147",
+      "e258"
     ]
   },
   {

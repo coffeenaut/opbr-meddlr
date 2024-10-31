@@ -340,7 +340,15 @@
       "e250",
       "e251",
       "e252",
-      "e253"
+      "e253",
+      "e259",
+      301,
+      302,
+      303,
+      "e255",
+      "e256",
+      "e257",
+      "e259"
     ]
   },
   {
@@ -746,7 +754,19 @@
       "e250",
       "e251",
       "e252",
-      "e253"
+      "e253",
+      304,
+      "e259",
+      300,
+      301,
+      303,
+      304,
+      "e254",
+      "e255",
+      "e256",
+      "e257",
+      "e258",
+      "e259"
     ]
   },
   {
@@ -1113,7 +1133,16 @@
       "e248",
       "e249",
       "e252",
-      "e253"
+      "e253",
+      304,
+      300,
+      301,
+      303,
+      304,
+      "e254",
+      "e255",
+      "e257",
+      "e258"
     ]
   },
   {
@@ -1494,7 +1523,16 @@
       "e249",
       298,
       "e250",
-      "e251"
+      "e251",
+      304,
+      "e259",
+      300,
+      302,
+      304,
+      "e254",
+      "e256",
+      "e258",
+      "e259"
     ]
   },
   {
@@ -1504,7 +1542,8 @@
     "max": 36,
     "medals": [
       217,
-      259
+      259,
+      302
     ]
   },
   {
@@ -3015,7 +3054,9 @@
     "max": 18,
     "medals": [
       "e167",
-      "e234"
+      "e234",
+      "e256",
+      "e257"
     ]
   },
   {
@@ -3028,7 +3069,9 @@
       "e90",
       "e167",
       "e168",
-      "e234"
+      "e234",
+      "e256",
+      "e257"
     ]
   },
   {
@@ -3039,7 +3082,8 @@
     "medals": [
       "e89",
       "e90",
-      "e168"
+      "e168",
+      "e257"
     ]
   },
   {
@@ -3052,7 +3096,8 @@
       "e90",
       "e167",
       "e168",
-      "e234"
+      "e234",
+      "e256"
     ]
   },
   {
@@ -3091,6 +3136,44 @@
     ]
   },
   {
+    "id": "eTrait_giant_pirate_crew_atk",
+    "name": "When equipped character is character type Giant Pirate Crew Increase ATK",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e255"
+    ]
+  },
+  {
+    "id": "eTrait_giant_pirate_crew_def",
+    "name": "When equipped character is character type Giant Pirate Crew Increase DEF",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e254",
+      "e255"
+    ]
+  },
+  {
+    "id": "eTrait_giant_pirate_crew_crit",
+    "name": "When equipped character is character type Giant Pirate Crew Increase CRIT Proba",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e254",
+      "e255"
+    ]
+  },
+  {
+    "id": "eTrait_giant_pirate_crew_health",
+    "name": "When equipped character is character type Giant Pirate Crew Increase HP",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e254"
+    ]
+  },
+  {
     "id": "eTrait_paramecia_atk",
     "name": "When equipped character is character type Paramecia Increase ATK",
     "min": 14,
@@ -3103,7 +3186,9 @@
       "e218",
       "e224",
       "e238",
-      "e239"
+      "e239",
+      "e259",
+      "e259"
     ]
   },
   {
@@ -3121,7 +3206,10 @@
       "e223",
       "e224",
       "e238",
-      "e239"
+      "e239",
+      "e259",
+      "e258",
+      "e259"
     ]
   },
   {
@@ -3136,7 +3224,8 @@
       "e201",
       "e218",
       "e223",
-      "e239"
+      "e239",
+      "e258"
     ]
   },
   {
@@ -3149,7 +3238,10 @@
       "e217",
       "e223",
       "e224",
-      "e238"
+      "e238",
+      "e259",
+      "e258",
+      "e259"
     ]
   },
   {
