@@ -42,7 +42,8 @@
       179,
       249,
       "e23",
-      "e244"
+      "e244",
+      "e273"
     ]
   },
   {
@@ -252,7 +253,8 @@
     "id": "pTrait_0_ally_13_skill1",
     "name": "When your allies are not near the same Treasure area: +13% skill 1 cooldown speed",
     "medals": [
-      "e44"
+      "e44",
+      "e275"
     ]
   },
   {
@@ -361,14 +363,16 @@
     "name": "Ally KOed: -4% skill 2 cooldown time",
     "medals": [
       "e108",
-      "e222"
+      "e222",
+      "e269"
     ]
   },
   {
     "id": "pTrait_ally_ko_6_skill1",
     "name": "Ally KOed: -6% skill 1 cooldown time",
     "medals": [
-      "e13"
+      "e13",
+      "e262"
     ]
   },
   {
@@ -376,8 +380,7 @@
     "name": "Ally KOed: -6% skill 2 cooldown time",
     "medals": [
       178,
-      "e183",
-      "e252"
+      "e183"
     ]
   },
   {
@@ -417,7 +420,8 @@
     "name": "Ally KOed: 3% heal",
     "medals": [
       225,
-      "e34"
+      "e34",
+      312
     ]
   },
   {
@@ -506,15 +510,21 @@
     "id": "pTrait_hit_capture_3_skill1",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 1 cooldown time",
     "medals": [
-      "e150",
-      "e256"
+      "e150"
     ]
+  },
+  {
+    "id": "pTrait_hit_capture_2_skill2",
+    "name": "When attacking an enemy capturing the Treasure: -2% skill 2 cooldown time",
+    "medals": []
   },
   {
     "id": "pTrait_hit_capture_3_skill2",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 2 cooldown time",
     "medals": [
-      "e186"
+      "e186",
+      313,
+      "e278"
     ]
   },
   {
@@ -622,6 +632,13 @@
     "name": "When attacked by an enemy by atk up: -5% damage taken",
     "medals": [
       "e163"
+    ]
+  },
+  {
+    "id": "pTrait_crit_2_health",
+    "name": "When Critical occurs: Recover 2% health",
+    "medals": [
+      323
     ]
   },
   {
@@ -770,16 +787,16 @@
     ]
   },
   {
+    "id": "pTrait_fishman_1_damage",
+    "name": "Enemy Fish-Man: +1% damage",
+    "medals": []
+  },
+  {
     "id": "pTrait_zoan_5_damage",
     "name": "Enemy type Zoan: +5% damage",
     "medals": [
       297
     ]
-  },
-  {
-    "id": "pTrait_power_holders_5_damage",
-    "name": "Enemy type Power Users: +3% damage",
-    "medals": []
   },
   {
     "id": "pTrait_electrocution_3_speed_20",
@@ -918,6 +935,14 @@
     ]
   },
   {
+    "id": "pTrait_enemy_ko_3_skill2",
+    "name": "After you or an ally KO an enemy: -3% skill 2 cooldown time",
+    "medals": [
+      3,
+      "e274"
+    ]
+  },
+  {
     "id": "pTrait_ko_4_skill1",
     "name": "After KOing an enemy: -4% skill 1 cooldown time",
     "medals": [
@@ -949,7 +974,17 @@
       102,
       153,
       203,
-      "e207"
+      "e207",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267",
+      "e267"
     ]
   },
   {
@@ -961,7 +996,9 @@
       "e40",
       "e78",
       "e115",
-      "e223"
+      "e223",
+      "e260",
+      "e279"
     ]
   },
   {
@@ -978,7 +1015,8 @@
     "name": "After KOing an enemy: 5% heal",
     "medals": [
       197,
-      "e155"
+      "e155",
+      319
     ]
   },
   {
@@ -1020,7 +1058,8 @@
     "id": "pTrait_knockdown_3_skill2",
     "name": "When you Down an enemy: -3% skill 2 cooldown time",
     "medals": [
-      "e243"
+      "e243",
+      "e261"
     ]
   },
   {
@@ -1031,34 +1070,21 @@
     ]
   },
   {
-    "id": "pTrait_projection_3_skill1",
-    "name": "When you Knockback an enemy: -3% skill 1 cooldown time",
-    "medals": [
-      "e259",
-      "e259"
-    ]
-  },
-  {
     "id": "pTrait_projection_5_skill1",
     "name": "When you Knockback an enemy: -5% skill 1 cooldown time",
     "medals": [
       "e127",
       "e151",
-      "e200"
+      "e200",
+      "e270"
     ]
   },
   {
     "id": "pTrait_projection_5_skill2",
     "name": "When you Knockback an enemy: -5% skill 2 cooldown time",
     "medals": [
-      "e209"
-    ]
-  },
-  {
-    "id": "pTrait_projection_heal_2",
-    "name": "When you Knockback an enemy: 2% heal",
-    "medals": [
-      "e255"
+      "e209",
+      "e264"
     ]
   },
   {
@@ -1076,7 +1102,7 @@
       "e229",
       288,
       304,
-      304
+      320
     ]
   },
   {
@@ -1160,6 +1186,13 @@
     ]
   },
   {
+    "id": "pTrait_capture_6_skill2",
+    "name": "When you capture the Treasure: -6% skill 2 cooldown time",
+    "medals": [
+      "e282"
+    ]
+  },
+  {
     "id": "pTrait_capture_8_skill2",
     "name": "When you capture the Treasure: -8% skill 2 cooldown time",
     "medals": [
@@ -1170,8 +1203,9 @@
       296,
       "e234",
       296,
-      298,
-      303
+      303,
+      307,
+      "e272"
     ]
   },
   {
@@ -1244,6 +1278,13 @@
     "name": "When performing a Perfect Dodge: +90% CRIT 20s (not cumul)",
     "medals": [
       "e122"
+    ]
+  },
+  {
+    "id": "pTrait_perfect_dodge_3_skill1",
+    "name": "When performing a Perfect Dodge: -3% skill 1 cooldown time",
+    "medals": [
+      317
     ]
   },
   {
@@ -1400,7 +1441,8 @@
     "name": "When you are Downed:  -4% skill 2 cooldown time",
     "medals": [
       188,
-      208
+      208,
+      326
     ]
   },
   {
@@ -1547,7 +1589,8 @@
     "id": "pTrait_health_50_3_normal_damage",
     "name": "When HP is more than 50%: +3% normal damage",
     "medals": [
-      "e170"
+      "e170",
+      "e271"
     ]
   },
   {
@@ -1583,7 +1626,8 @@
       13,
       "e37",
       "e98",
-      "e212"
+      "e212",
+      "e265"
     ]
   },
   {
@@ -1594,8 +1638,7 @@
       "e71",
       "e146",
       "e154",
-      "e210",
-      "e253"
+      "e210"
     ]
   },
   {
@@ -1621,7 +1664,8 @@
     "medals": [
       "e19",
       "e50",
-      "e137"
+      "e137",
+      305
     ]
   },
   {
@@ -1638,8 +1682,17 @@
       235,
       "e97",
       "e215",
-      "e250",
-      300
+      311,
+      311,
+      311,
+      311,
+      311,
+      311,
+      311,
+      311,
+      311,
+      311,
+      321
     ]
   },
   {
@@ -1705,7 +1758,10 @@
       274,
       "e99",
       292,
-      301
+      308,
+      318,
+      322,
+      325
     ]
   },
   {
@@ -1788,8 +1844,7 @@
       171,
       245,
       252,
-      271,
-      "e254"
+      271
     ]
   },
   {
@@ -1799,7 +1854,8 @@
       82,
       96,
       "e14",
-      "e239"
+      "e239",
+      "e266"
     ]
   },
   {
@@ -1920,7 +1976,8 @@
       56,
       65,
       101,
-      162
+      162,
+      "e276"
     ]
   },
   {
@@ -2027,7 +2084,8 @@
       194,
       199,
       200,
-      "e227"
+      "e227",
+      324
     ]
   },
   {
@@ -2036,7 +2094,8 @@
     "medals": [
       "e59",
       "e90",
-      "e245"
+      "e245",
+      "e263"
     ]
   },
   {
@@ -2067,7 +2126,12 @@
       229,
       "e76",
       "e86",
-      294
+      294,
+      314,
+      316,
+      "e268",
+      "e277",
+      "e281"
     ]
   },
   {
@@ -2083,7 +2147,10 @@
     "medals": [
       "e17",
       289,
-      293
+      293,
+      306,
+      310,
+      315
     ]
   },
   {
@@ -2148,7 +2215,7 @@
     "id": "pTrait_treasure_10_dodge",
     "name": "Treasure: +10% dodge cooldown time",
     "medals": [
-      "e251"
+      "e280"
     ]
   }
 ]

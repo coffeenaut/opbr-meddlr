@@ -1,4 +1,5 @@
 [
+  {},
   {
     "name": "Luffy",
     "image": "img_icon_medal_310110001",
@@ -4975,5 +4976,451 @@
       "eTrait_%_block"
     ],
     "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "Dorry",
+    "image": "img_icon_medal_310110299",
+    "id": "dorry_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_giant_pirate_crew",
+      "tag_captain",
+      "tag_giant"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage"
+  },
+  {
+    "name": "Broggy",
+    "image": "img_icon_medal_310110300",
+    "id": "brogy_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_giant_pirate_crew",
+      "tag_captain",
+      "tag_giant"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Halloween Uta",
+    "image": "img_icon_medal_310110301",
+    "id": "uta_hall",
+    "tags": [
+      "tag_film_red",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_singsing"
+    ],
+    "primary": "pTrait_skill2_5_skill1"
+  },
+  {
+    "name": "Punk-02",
+    "image": "img_icon_medal_310110302",
+    "id": "lilith_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_satellite"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "S-Bear",
+    "image": "img_icon_medal_310110303",
+    "id": "sbear_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_paramecia",
+      "tag_seraphim"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "Punk-05",
+    "image": "img_icon_medal_310110304",
+    "id": "atlas_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_satellite"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_13_skill2"
+  },
+  {
+    "name": "Punk-06",
+    "image": "img_icon_medal_310110305",
+    "id": "york_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "S-Shark",
+    "image": "img_icon_medal_310110306",
+    "id": "sshark_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_seraphim",
+      "tag_paramecia",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_capture_8_skill2"
+  },
+  {
+    "name": "Sanji Egghead",
+    "image": "img_icon_medal_310110307",
+    "id": "sanji_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Egghead Bonney",
+    "image": "img_icon_medal_310110308",
+    "id": "bonie_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_bonney_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_hit_capture_2_skill1"
+  },
+  {
+    "name": "Lt. Commander Helmeppo",
+    "image": "img_icon_medal_310110309",
+    "id": "sbear_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_de",
+      "eTrait_atk"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "Galaxy Impact",
+    "image": "img_icon_medal_310110310",
+    "id": "garp_hach",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_vice_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage"
+  },
+  {
+    "name": "The Future of the Navy",
+    "image": "img_icon_medal_310110311",
+    "id": "coby_capt",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_navy_captain",
+      "tag_6_powers",
+      "tag_sword"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ally_ko_heal_3"
+  },
+  {
+    "name": "Former Senior Apprentice",
+    "image": "img_icon_medal_310110312",
+    "id": "aokiji_hach",
+    "tags": [
+      "tag_egghead",
+      "tag_logia",
+      "tag_black_beard_pirates",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_iceball"
+    ],
+    "primary": "pTrait_hit_capture_3_skill2"
+  },
+  {
+    "name": "Revolutionary Army Female Soldier",
+    "image": "img_icon_medal_310110313",
+    "id": "koala_vale",
+    "tags": [
+      "tag_egghead",
+      "tag_revolutionnary_army",
+      "tag_fishman_karate"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Rook Check",
+    "image": "img_icon_medal_310110314",
+    "id": "sabo_ente",
+    "tags": [
+      "tag_egghead",
+      "tag_revolutionnary_army",
+      "tag_logia",
+      "tag_chief_of_staff",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_aflame"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "Ichiji",
+    "image": "img_icon_medal_310110315",
+    "id": "ichiji_orig",
+    "tags": [
+      "tag_zou",
+      "tag_royalty",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage"
+  },
+  {
+    "name": "Niji",
+    "image": "img_icon_medal_310110316",
+    "id": "niji_orig",
+    "tags": [
+      "tag_zou",
+      "tag_royalty",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_perfect_dodge_3_skill1"
+  },
+  {
+    "name": "Yonji",
+    "image": "img_icon_medal_310110317",
+    "id": "yonji_orig",
+    "tags": [
+      "tag_zou",
+      "tag_royalty",
+      "tag_germa_66"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Invisible Strike",
+    "image": "img_icon_medal_310110318",
+    "id": "shiryu_hach",
+    "tags": [
+      "tag_egghead",
+      "tag_paramecia",
+      "tag_black_beard_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_ko_heal_5"
+  },
+  {
+    "name": "Galleon Lariat",
+    "image": "img_icon_medal_310110319",
+    "id": "burgess_hach",
+    "tags": [
+      "tag_egghead",
+      "tag_paramecia",
+      "tag_helmsman",
+      "tag_black_beard_pirates"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_projection_heal_3"
+  },
+  {
+    "name": "St. Charlos",
+    "image": "img_icon_medal_310110320",
+    "id": "charlos_orig",
+    "tags": [
+      "tag_sabaody",
+      "tag_world_noble"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage"
+  },
+  {
+    "name": "Leo",
+    "image": "img_icon_medal_310110321",
+    "id": "leo_orig",
+    "tags": [
+      "tag_reverie",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_sewsew"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Sai",
+    "image": "img_icon_medal_310110322",
+    "id": "sai_orig",
+    "tags": [
+      "tag_reverie",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_crit_2_health"
+  },
+  {
+    "name": "Flail",
+    "image": "img_icon_medal_310110323",
+    "id": "luffy_afro",
+    "tags": [
+      "tag_sky_island",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_treasure_13_skill2"
+  },
+  {
+    "name": "Foxy",
+    "image": "img_icon_medal_310110324",
+    "id": "foxy_orig",
+    "tags": [
+      "tag_sky_island",
+      "tag_foxy_pirates",
+      "tag_paramecia",
+      "tag_captain"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_slowslow"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Armée de l'Air Power Shoot",
+    "image": "img_icon_medal_310110325",
+    "id": "sanji_davy",
+    "tags": [
+      "tag_sky_island",
+      "tag_strawhat_pirates",
+      "tag_cook"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_knockdowned_4_skill2"
   }
 ]
