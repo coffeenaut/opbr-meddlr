@@ -1,12 +1,12 @@
 [
     {
         "name": "Triple Luffy",
-        "categories": ["attacker", "6 tags"],
+        "categories": ["attacker", "tags+"],
         "medals": [{"name":"Luffy (Post-Onigashima)","image":"img_icon_medal_310200224","id":"luffy_ev07","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_zoan","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_zoan_atk","eTrait_zoan_def","eTrait_zoan_crit"],"primary":"pTrait_3_damage_treasure","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Three Captains Luffy","image":"img_icon_medal_310200205","id":"luffy_ev06","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_worst_generation_atk","eTrait_worst_generation_def","eTrait_worst_generation_crit"],"primary":"pTrait_treasure_3_damage_red","set_traits":["0","1","1"],"set_traits_values":[14,14,14]},{"name":"Red Roc","image":"img_icon_medal_310200178","id":"luffy_ev04","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_hp","eTrait_strawhat_pirates_def","eTrait_strawhat_pirates_crit","eTrait_strawhat_pirates_health"],"primary":"pTrait_weak_element_5_damage","set_traits":["3","3","3"],"set_traits_values":[14,14,14]}]
     },
     {
         "name": "High Damage",
-        "categories": ["attacker", "damage", "6 tags"],
+        "categories": ["attacker", "damage", "tags+"],
         "medals": [{"name":"King Kong Gun","image":"img_icon_medal_310110082","id":"luffy_boun","tags":["tag_dressrosa","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_crit","eTrait_hp","eTrait_tremor"],"primary":"pTrait_0_ally_5_damage","set_traits":["1","2","2"],"set_traits_values":[14,36,36]},{"name":"Lucy (Luffy)","image":"img_icon_medal_310200096","id":"luffy_ev02","tags":["tag_dressrosa","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_def","eTrait_crit","eTrait_hp","eTrait_strawhat_pirates_atk","eTrait_strawhat_pirates_def","eTrait_strawhat_pirates_health"],"primary":"pTrait_capture_heal_5","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Fire-Fist Pistol Red Hawk","image":"img_icon_medal_310110148","id":"luffy_dres","tags":["tag_dressrosa","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_crit","eTrait_hp","eTrait_%_blocked"],"primary":"pTrait_enemy_treasure_5_damage","set_traits":["1","1","1"],"set_traits_values":[14,14,14]}]
     },
     {
@@ -21,12 +21,12 @@
     },
     {
         "name": "Triple Boa",
-        "categories": ["runner", "attacker", "defender", "6 tags"],
+        "categories": ["runner", "attacker", "defender", "tags+"],
         "medals": [{"name":"Hancock","image":"img_icon_medal_310110054","id":"boahancock_orig","tags":["tag_sabaody","tag_7_warlords_of_the_sea","tag_paramecia","tag_captain","tag_gorgon_sisters","tag_kuja_pirates"],"extra_traits":["eTrait_atk","eTrait_hp","eTrait_entrance"],"primary":"pTrait_more_13_skill1","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Bikini Hancock","image":"img_icon_medal_310110075","id":"boahancock_swim","tags":["tag_bikini","tag_7_warlords_of_the_sea","tag_paramecia","tag_captain","tag_gorgon_sisters","tag_kuja_pirates"],"extra_traits":["eTrait_crit","eTrait_hp","eTrait_stun"],"primary":"pTrait_less_5_damage","set_traits":["1","1","1"],"set_traits_values":[14,14,14]},{"name":"Perfume Femur","image":"img_icon_medal_310110141","id":"boahancock_2yaf","tags":["tag_sabaody","tag_7_warlords_of_the_sea","tag_paramecia","tag_captain","tag_gorgon_sisters","tag_kuja_pirates"],"extra_traits":["eTrait_crit","eTrait_hp","eTrait_entrance"],"primary":"pTrait_enemy_treasure_5_damage","set_traits":["1","2","2"],"set_traits_values":[14,36,36]}]
     },
     {
         "name": "Triple Kaido",
-        "categories": ["attacker", "runner", "defender", "6 tags"],
+        "categories": ["attacker", "runner", "defender", "tags+"],
         "medals": [{"name":"Kaido","image":"img_icon_medal_310110100","id":"kaido_orig","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_captain","tag_former_rocks_pirates","tag_4_emperors"],"extra_traits":["eTrait_def","eTrait_crit","eTrait_hp"],"primary":"pTrait_hitby_2_skill1","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Blast Breath","image":"img_icon_medal_310110199","id":"kaido_drag","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_captain","tag_former_rocks_pirates","tag_4_emperors"],"extra_traits":["eTrait_atk","eTrait_crit","eTrait_aflame"],"primary":"pTrait_allied_treasure_5_damage","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Kaido (Human-Monster Form)","image":"img_icon_medal_310200210","id":"kaido_ev02","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_captain","tag_former_rocks_pirates","tag_4_emperors"],"extra_traits":["eTrait_def","eTrait_crit","eTrait_hp","eTrait_animal_kingdom_pirates_def","eTrait_animal_kingdom_pirates_crit","eTrait_animal_kingdom_pirates_health"],"primary":"pTrait_ko_8_skill1","set_traits":["2","2","2"],"set_traits_values":[14,14,14]}]
     },
     {
@@ -46,7 +46,7 @@
     },
     {
         "name": "Rubber Defense",
-        "categories": ["defender", "damage reduction", "6 tags"],
+        "categories": ["defender", "damage reduction", "tags+"],
         "medals": [{"name":"Gear Five","image":"img_icon_medal_310110262","id":"luffy_fift","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_zoan","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_crit","eTrait_shock"],"primary":"pTrait_projection_heal_3","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Raid Luffy","image":"img_icon_medal_310110170","id":"luffy_atta","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit"],"primary":"pTrait_allied_treasure_5_damage_red","set_traits":["1","1","1"],"set_traits_values":[14,14,14]},{"name":"Three Captains Luffy","image":"img_icon_medal_310200205","id":"luffy_ev06","tags":["tag_land_of_wano","tag_strawhat_pirates","tag_paramecia","tag_captain","tag_blood_brothers","tag_worst_generation"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_worst_generation_atk","eTrait_worst_generation_def","eTrait_worst_generation_crit"],"primary":"pTrait_treasure_3_damage_red","set_traits":["1","0","1"],"set_traits_values":[14,14,14]}]
     },
     {
@@ -66,8 +66,18 @@
     },
     {
         "name": "Furry Simp",
-        "categories": ["skill 1"],
+        "categories": ["skill 1", "attacker", "runner"],
         "medals": [{"name":"Black Maria","image":"img_icon_medal_310200133","id":"blackmaria_ev01","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_tobi_roppo"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_strawhat_pirates_atk","eTrait_strawhat_pirates_def","eTrait_strawhat_pirates_crit"],"primary":"pTrait_allied_treasure_10_skill1","set_traits":[2,2,2],"set_traits_values":[14,14,14]},{"name":"Spider-Spider","image":"img_icon_medal_310110271","id":"blackmaria_orig","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_tobi_roppo"],"extra_traits":["eTrait_atk","eTrait_crit","eTrait_spiderweb"],"primary":"pTrait_allied_treasure_13_skill1","set_traits":[0,0,2],"set_traits_values":[14,14,36]},{"name":"Ulti","image":"img_icon_medal_310200130","id":"ulti_ev01","tags":["tag_land_of_wano","tag_animal_kingdom_pirates","tag_zoan","tag_tobi_roppo"],"extra_traits":["eTrait_atk","eTrait_def","eTrait_crit","eTrait_hp","eTrait_animal_kingdom_pirates_def","eTrait_animal_kingdom_pirates_crit","eTrait_animal_kingdom_pirates_health"],"primary":"pTrait_projection_5_skill1","set_traits":[1,2,2],"set_traits_values":[14,14,14]}]
+    },
+    {
+        "name": "Freedom",
+        "categories": ["attacker", "runner", "tags+"],
+        "medals": [{"name":"Luffy (Future Outfit)","image":"img_icon_medal_310200247","id":"luffy_ev08","tags":["tag_egghead","tag_strawhat_pirates","tag_zoan","tag_captain","tag_4_emperors","tag_blood_brothers"],"extra_traits":["eTrait_hp","eTrait_atk","eTrait_def","eTrait_worst_generation_health","eTrait_worst_generation_atk","eTrait_worst_generation_def"],"primary":"pTrait_less_13_skill2","set_traits":["1","1","1"],"set_traits_values":[14,14,14]},{"name":"Luffy & Lucci","image":"img_icon_medal_310200261","id":"luffy_x_lucci_ev01","tags":["tag_egghead","tag_strawhat_pirates","tag_zoan","tag_captain","tag_6_powers","tag_4_emperors","tag_blood_brothers"],"extra_traits":["eTrait_hp","eTrait_def","eTrait_crit","eTrait_paramecia_health","eTrait_paramecia_def","eTrait_paramecia_crit"],"primary":"pTrait_enemy_treasure_13_skill1","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Free Form","image":"img_icon_medal_310200278","id":"luffy_ev09","tags":["tag_egghead","tag_strawhat_pirates","tag_zoan","tag_captain","tag_4_emperors","tag_blood_brothers"],"extra_traits":["eTrait_hp","eTrait_atk","eTrait_def","eTrait_strawhat_pirates_health","eTrait_strawhat_pirates_def"],"primary":"pTrait_0_ally_13_skill1","set_traits":["2","2","2"],"set_traits_values":[14,14,14]}]
+    },
+    {
+        "name": "seven tags",
+        "categories": ["attacker", "runner", "tags+", "skill 2"],
+        "medals": [{"name":"Lucci","image":"img_icon_medal_310110296","id":"lucci_eggh","tags":["tag_egghead","tag_cipher_pol","tag_zoan","tag_intelligence_agent","tag_6_powers"],"extra_traits":["eTrait_hp","eTrait_atk","eTrait_clawed"],"primary":"pTrait_capture_8_skill2","set_traits":["0","0","0"],"set_traits_values":[14,14,14]},{"name":"Luffy & Lucci","image":"img_icon_medal_310200261","id":"luffy_x_lucci_ev01","tags":["tag_egghead","tag_strawhat_pirates","tag_zoan","tag_captain","tag_6_powers","tag_4_emperors","tag_blood_brothers"],"extra_traits":["eTrait_hp","eTrait_def","eTrait_crit","eTrait_paramecia_health","eTrait_paramecia_def","eTrait_paramecia_crit"],"primary":"pTrait_enemy_treasure_13_skill1","set_traits":["1","1","1"],"set_traits_values":[14,14,14]},{"name":"Luffy (Future Outfit)","image":"img_icon_medal_310200247","id":"luffy_ev08","tags":["tag_egghead","tag_strawhat_pirates","tag_zoan","tag_captain","tag_4_emperors","tag_blood_brothers"],"extra_traits":["eTrait_hp","eTrait_atk","eTrait_def","eTrait_worst_generation_health","eTrait_worst_generation_atk","eTrait_worst_generation_def"],"primary":"pTrait_less_13_skill2","set_traits":["1","1","1"],"set_traits_values":[14,14,14]}]
     }
 
 

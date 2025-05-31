@@ -57,6 +57,7 @@ const MedalList = (props) => {
                     <div>
                         <input className="w-full rounded-lg form-input"
                         type="text"
+                        placeholder='filter medals'
                         value={filterInput} 
                         onKeyDown={checkEnter} 
                         onChange={(e) => {

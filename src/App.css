@@ -64,6 +64,13 @@
     left: -2em;
     @apply border-b-4;
   }
+  .tabPanel-tabName-bottom {
+    border-color: var(--color-secondary);
+    position: relative;
+    visibility: hidden;
+    left: -3em;
+    @apply border-b-4;
+  }
   .item-hover {
     visibility: visible;
     left: 0;
@@ -185,7 +192,7 @@
     opacity: 80%;
   }
   .active-page {
-    border-color: var(--color-primary);
+    border-color: var(--color-accent);
     opacity: 70%;
   }
   .overlay-screen {
@@ -285,6 +292,18 @@ input {
   flex-direction: column;
   border-radius: 0.5rem;
 }
+.tabPanel-tabName {
+  cursor: pointer;
+}
+.tabPanel-activeTabName {
+  border-bottom: 2px solid var(--color-secondary);
+}
+.tabPanel-component {
+  display:none;
+}
+.tabPanel-activeComponent {
+  display: block;
+}
 .highlight-hover {
   background: var(--color-grey);
 }
@@ -339,11 +358,25 @@ input {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition: transform .25s ease-out;
 }
+.tabPanel-tab-active {
+  color: var(--color-primary);
+  font-weight: 700;
+  visibility: visible;
+  left: 0;
+}
+.display-normal {
+  left: 0;
+  visibility: visible;
+  width:100%;
+}
 /*Transitions*/
 .animationPanel {
   transition: left .25s, transform .25s, visibility .05s ease;
 }
 .menu-item-bottom {
+  transition: left .15s ease;
+}
+.tabPanel-tabName-bottom {
   transition: left .15s ease;
 }
 .menuoverlay {
@@ -360,7 +393,10 @@ input {
   transition: transform .4s ease-in;
 }
 .push-right {
-  transform: translateX(26em)
+  transform: translateX(16em);
+}
+.push-right-xl {
+  transform: translateX(26em);
 }
 .toolbar {
   padding-bottom: .2em;
@@ -369,6 +405,10 @@ input {
   visibility: visible !important;
   opacity: 1 !important;
   left:0 !important;
+}
+.boutline {
+  border: 2px solid var(--color-accent);
+  border-radius: 0.375em;
 }
 /*meddlrThemes*/
 .notfound-header  {
@@ -424,10 +464,44 @@ input {
 .highlight-border {
   border: 2px solid var(--color-tertiary);
 }
+
 .side-icon-tab {
   position: fixed;
   top: 5em;
   border-radius: 0.75rem;
+}
+.sideconFill {
+  stroke: transparent;
+  fill: var(--color-secondary);
+  height: 2em;
+  width: 2em;
+}
+.stackcon {
+  stroke: var(--color-secondary);
+  fill: transparent;
+  height: 2em;
+  width: 2em;
+  position: relative;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+}
+.icon-stack-border {
+  border-top: var(--color-secondary) 2px solid;
+  border-left: var(--color-secondary) 2px solid;
+  border-radius: .2em;
+  padding: 2px 0 0 2px;
+  height:2em;
+  width:1.5em;
+}
+.icon-stack-icon {
+  position:relative;
+  stroke: var(--color-secondary);
+  fill: transparent;
+  height: 2em;
+  width: 2em;
+  top:-3px;
+  left: -3px;
 }
 .sidecon {
   stroke: var(--color-secondary);
@@ -436,10 +510,22 @@ input {
   width: 2em;
   cursor: pointer;
 }
+.collapse-panel {
+  background-color: transparent;
+  height:90%;
+  overflow-y: auto;
+  width: 0;
+  opacity: 0;
+  transition: transform .35s ease-out, opacity .4s ease-out;
+}
+.show-collapse-panel {
+  opacity: 1;
+  width:25%;
+}
 .phalange {
   position: fixed;
   background-color: transparent;
-  height:75%;
+  height:90%;
   transform: translateX(6em);
   overflow-y: auto;
   width: 20em;
@@ -791,7 +877,6 @@ input {
     display: none;
   }
 }
-
 li.active > a {
   color: var(--color-primary);
 }
@@ -812,7 +897,6 @@ h2, h3 {
     width:50%;
     overflow-x: hidden;
     overflow-y: auto;
-    visibility: hidden;
     opacity: 0;
     left: -3em;
     transition: opacity .3s ease-out, left .3s ease-out;
@@ -832,5 +916,8 @@ h2, h3 {
   }
   .expand-box {
     height: 400px;
+  }
+  .push-right {
+    transform: translateX(26em);
   }
 }

@@ -5,6 +5,7 @@ import { isMobile } from 'react-device-detect'
 import { lazy, useState, useRef, Suspense } from 'react'
 import copy from 'copy-to-clipboard'
 import BookmarkIcon from '@heroicons/react/20/solid/BookmarkIcon'
+import IconStack from '../components/IconStack';
 import XIcon from '@heroicons/react/20/solid/XMarkIcon'
 import ShareIcon from '@heroicons/react/20/solid/ShareIcon'
 import ClipboardIcon from '@heroicons/react/20/solid/ClipboardIcon'
@@ -111,7 +112,6 @@ const Builder = () => {
     setStoredMedals(savedMedals)
   }
   function toggleSaveDrop() {
-    console.log(JSON.stringify(medals))
     setShowSaveDrop(!showSaveDrop)
   }
   function closeModalWindow() {
@@ -122,6 +122,7 @@ const Builder = () => {
     setShowSideLeft(!showSideLeft)
   }
   async function toggleFocusDrop() {
+    console.log(JSON.stringify(medals))
     setShareUrl(true)
     setShowFocusDrop(!showFocusDrop)
   }
@@ -184,7 +185,8 @@ const Builder = () => {
         <div className="flex">
             <div className='flex flex-col'>
               <div className='justify-center items-center side-icon-tab'>
-                <BookmarkIcon className='sidecon' onClick={toggleSideMenu}/>
+                {/* <BookmarkIcon className='sidecon' onClick={toggleSideMenu}/> */}
+                <IconStack icon={BookmarkIcon} clicked={toggleSideMenu} />
                 <ShareIcon className='sidecon' onClick={toggleFocusDrop} />
               </div>
               <div className={`flex fixed flex-col items-end focus-dropdown ${showFocusDrop && "drop-appear"}`}>
@@ -219,7 +221,7 @@ const Builder = () => {
               }
             </div>
           <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
-            <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right'}`}>
+            <div className={`flex flex-col overflow-hidden lg:overflow-x-auto md:flex-row justify-center rounded-md p-2 gap-4 w-full main-content ${showSideLeft &&' push-right-xl'}`}>
               <div id="medal-set-card" className="flex flex-col max-h-[400px] md:max-h-[650px] lg:max-[800px] gap-y-4 cutTop">
                 <div className={`absolute h-4/6 h-3/4 md:h-3/5 z-20 modal ${showModal? "showModal" : "hideModal"}`}>
                   <MedalView edit={true} saveMedalTraits={updateMedal} medal={selectedMedal} closeWindow={closeModalWindow}></MedalView>
