@@ -1,0 +1,1 @@
+import{j as e,r as s,S as r}from"./index-c87b6df6.js";const n=()=>e.jsx(e.Fragment,{children:e.jsx(s.Suspense,{fallback:r,children:e.jsx("div",{className:"flex justify-evenly",children:"Chance Here"})})});export{n as default};
