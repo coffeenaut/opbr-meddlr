@@ -129,7 +129,7 @@ const Home = () => {
 
     return (
         <>
-        <div className="flex gap-2">
+        <div className="flex md:gap-2">
           <div className="flex flex-col">
             <BookIcon className="icon-medium-secondary cursor-pointer" onClick={toggleSidePanel} title="Expand/Collapse Filters"></BookIcon>
             <BookmarkIcon className={`${isCurrentSetSaved ? "sideconFill" : "sidecon"}`} onClick={saveSet} title="Save Current set to Bookmarks" />

@@ -2992,7 +2992,7 @@
       "primary": "pTrait_ally_10_skill1"
     },
     {
-      "name": "\"Koby (\"\"Sword\"\")\"",
+      "name": "Koby (Sword)",
       "image": "img_icon_medal_310200170",
       "id": "coby_ev02",
       "tags": [
@@ -3011,7 +3011,7 @@
       "primary": "pTrait_knockdown_4_skill2"
     },
     {
-      "name": "\"Helmeppo (\"\"Sword\"\")\"",
+      "name": "Helmeppo (Sword)",
       "image": "img_icon_medal_310200171",
       "id": "hermep_ev02",
       "tags": [

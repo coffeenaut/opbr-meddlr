@@ -182,7 +182,7 @@ const Builder = () => {
   }
     return (
       <Suspense fallback={<Spinner />}>
-        <div className="flex">
+        <div className="flex gap-2 md:gap-0">
             <div className='flex flex-col'>
               <div className='justify-center items-center side-icon-tab'>
                 {/* <BookmarkIcon className='sidecon' onClick={toggleSideMenu}/> */}

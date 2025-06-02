@@ -26,7 +26,7 @@ const Layout = () => {
         <div className='z-10 px-2 hidden lg:block'>
           <Navbar items={navInfo}/>
         </div>
-        <div className="px-8 py-4">
+        <div className="px-2 py-4">
           <Outlet />
         </div>
       </div> 
