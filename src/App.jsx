@@ -8,6 +8,7 @@ const Viewer = lazy(() => import("./pages/Viewer"))
 const ViewSet = lazy(() => import("./pages/ViewSet"))
 const Disclaimer = lazy(() => import("./pages/disclaimer"))
 const Usage = lazy(() => import("./pages/usage"))
+const Chance = lazy(() => import("./pages/Chance"))
 import './App.css'
 import Spinner from './components/Spinner'
 
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/share" element={<ViewSet />} />
             <Route path="/info/usage" element={<Usage />} />
             <Route path="/info/disclaimer" element={<Disclaimer />} />
+            <Route path="/tools/chance" element={<Chance />} />
           </Route>
         </Routes>
       </Suspense>

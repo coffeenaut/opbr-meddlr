@@ -52,6 +52,11 @@ const Home = () => {
   )}
   function toggleSidePanel () {
     setDisplaySide(!displaySide)
+    // testP()
+  }
+  function testP() {
+    // console.log( (1- ((100 - 0.2) * .01) ** (5 * 11) ))
+    // console.log( .2 ** 250 )
   }
   function saveSet () {
     localStorage.setItem(setName, JSON.stringify(medals))

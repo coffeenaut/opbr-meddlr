@@ -794,31 +794,58 @@ input {
 .filter-drop {
   transition: opacity .25s, top .10s ease;
 }
-.loader,
-  .loader:after {
-    border-radius: 50%;
-    width: 5em;
-    height: 5em;
-  }
-  .loader {
-    width: 40px;
-    height: 40px;
-  }
-  .loader {
-    margin: 20px auto;
-    font-size: 10px;
-    position: relative;
-    text-indent: -9999em;
-    border-top: 1.1em solid rgba(255, 255, 255, 0.2);
-    border-right: 1.1em solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
-    border-left: 1.1em solid #ffffff;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-animation: load8 0.75s infinite linear;
-    animation: load8 0.75s infinite linear;
-  }
+.loader, .loader:after {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+.loader {
+  width: 40px;
+  height: 40px;
+}
+.loader {
+  margin: 20px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 0.75s infinite linear;
+  animation: load8 0.75s infinite linear;
+}
+.form-seperator {
+  border-bottom: 2px solid var(--color-tertiary);
+}
+.calc-input {
+  border: 1px solid var(--color-tertiary);
+  border-radius: .35em;
+  width: 4em;
+}
+.calc-output {
+  color:var(--color-secondary);
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.calc-fieldName {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.calc-formula {
+  margin-top: 1em;
+  font-size: 1  rem;
+  font-weight: 700;
+  color: #ccc;
+}
+.calc-footnote {
+  font-size: .8em;
+  color: var(--color-accent);
+}
 /*Animations*/
 @keyframes fade {
   0% { opacity: 0;}
