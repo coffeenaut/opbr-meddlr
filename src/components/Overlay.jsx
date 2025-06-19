@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CalculatorIcon from '@heroicons/react/20/solid/CalculatorIcon'
 import Closer from './Closer'
 
 const Overlay = (props) => {
@@ -15,6 +16,9 @@ const Overlay = (props) => {
                 </div>
                 <div>
                     {props.children}
+                </div>
+                <div className='flex justify-end p-2'>
+                    <Link onClick={props.changeOverlay} to='/tools/chance'><CalculatorIcon className='cursor-pointer icon-medium' /></Link>
                 </div>
             </div>
         <div className="overlay-screen">

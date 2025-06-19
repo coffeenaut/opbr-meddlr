@@ -33,8 +33,8 @@ const Chance = () => {
             </div>
             <div className='flex gap-x-2'>
                 <div className='flex flex-col'>
-                    <div className='calc-fieldName'>Rate x </div>
-                    <div><input className='calc-input' value={calcForm.rate}
+                    <div className='calc-fieldName' title="drop rate listed on choice favorable character">Rate x </div>
+                    <div><input type="number" className='calc-input' value={calcForm.rate}
                         onChange={e => {
                             setCalcForm({
                             ...calcForm,
@@ -44,8 +44,8 @@ const Chance = () => {
                     </div>
                 </div>
                 <div className='flex flex-col'>
-                    <div className='calc-fieldName'>Pulls x</div>
-                    <div><input className='calc-input' value={calcForm.pulls}
+                    <div className='calc-fieldName' title="number of planned pulls">Pulls x</div>
+                    <div><input type="number" className='calc-input' value={calcForm.pulls}
                         onChange={e => {
                             setCalcForm({
                             ...calcForm,
@@ -54,8 +54,8 @@ const Chance = () => {
                         }}/></div>
                     </div>
                 <div className='flex flex-col'>
-                    <div className='calc-fieldName'>Drops x</div><div>
-                        <input className='calc-input' value={calcForm.drops}
+                    <div className='calc-fieldName' title="number of drops per pull">Drops x</div><div>
+                        <input  type="number" className='calc-input' value={calcForm.drops}
                             onChange={e => {
                                 setCalcForm({
                                 ...calcForm,
@@ -86,7 +86,11 @@ const Chance = () => {
         <>
         <Suspense fallback={Spinner}>
         <div className='flex justify-evenly'>
-            <Card><ChanceCalc /></Card>
+            <div className='cutTop'>
+                <Card>
+                    <ChanceCalc />
+                </Card>
+            </div>
         </div>
         </Suspense>
     </>
