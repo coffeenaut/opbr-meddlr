@@ -846,6 +846,9 @@ input {
   font-size: .8em;
   color: var(--color-accent);
 }
+.annotation {
+  font-size: .6em;
+}
 /*Animations*/
 @keyframes fade {
   0% { opacity: 0;}
