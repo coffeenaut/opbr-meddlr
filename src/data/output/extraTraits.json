@@ -368,7 +368,18 @@
       "e278",
       "e280",
       "e281",
-      "e282"
+      "e282",
+      328,
+      329,
+      330,
+      331,
+      332,
+      "e285",
+      "e286",
+      "e287",
+      "e288",
+      "e289",
+      "e290"
     ]
   },
   {
@@ -831,7 +842,19 @@
       "e279",
       "e280",
       "e281",
-      "e282"
+      "e282",
+      327,
+      328,
+      329,
+      331,
+      332,
+      "e283",
+      "e284",
+      "e285",
+      "e286",
+      "e287",
+      "e288",
+      "e290"
     ]
   },
   {
@@ -1252,7 +1275,14 @@
       "e278",
       "e279",
       "e280",
-      "e281"
+      "e281",
+      327,
+      328,
+      331,
+      "e283",
+      "e284",
+      "e285",
+      "e286"
     ]
   },
   {
@@ -1668,7 +1698,17 @@
       "e275",
       "e277",
       "e279",
-      "e282"
+      "e282",
+      327,
+      329,
+      330,
+      332,
+      "e283",
+      "e284",
+      "e287",
+      "e288",
+      "e289",
+      "e290"
     ]
   },
   {
@@ -1923,7 +1963,8 @@
       "e34",
       "e35",
       "e61",
-      "e62"
+      "e62",
+      "e289"
     ]
   },
   {
@@ -1950,7 +1991,8 @@
       260,
       278,
       "e63",
-      317
+      317,
+      330
     ]
   },
   {
@@ -2565,7 +2607,8 @@
       "e240",
       "e241",
       "e262",
-      "e263"
+      "e263",
+      "e287"
     ]
   },
   {
@@ -2619,7 +2662,10 @@
       "e275",
       "e276",
       "e281",
-      "e282"
+      "e282",
+      "e287",
+      "e288",
+      "e290"
     ]
   },
   {
@@ -2693,7 +2739,11 @@
       "e237",
       "e240",
       "e275",
-      "e282"
+      "e282",
+      "e287",
+      "e288",
+      "e289",
+      "e290"
     ]
   },
   {
@@ -3292,7 +3342,9 @@
       "e267",
       "e267",
       "e268",
-      "e269"
+      "e269",
+      "e283",
+      "e284"
     ]
   },
   {
@@ -3317,7 +3369,9 @@
       "e267",
       "e267",
       "e268",
-      "e269"
+      "e269",
+      "e283",
+      "e284"
     ]
   },
   {
@@ -3355,6 +3409,42 @@
       "e267",
       "e267",
       "e267"
+    ]
+  },
+  {
+    "id": "eTrait_admiral_atk",
+    "name": "When equipped character is character type Navy Admiral / Former Navy Admiral Increase ATK",
+    "min": 16,
+    "max": 18,
+    "medals": [
+      "e286"
+    ]
+  },
+  {
+    "id": "eTrait_admiral_health",
+    "name": "When equipped character is character type Navy Admiral / Former Navy Admiral Increase HP",
+    "min": 16,
+    "max": 18,
+    "medals": []
+  },
+  {
+    "id": "eTrait_admiral_def",
+    "name": "When equipped character is character type Navy Admiral / Former Navy Admiral Increase Def",
+    "min": 16,
+    "max": 18,
+    "medals": [
+      "e285",
+      "e286"
+    ]
+  },
+  {
+    "id": "eTrait_admiral_crit",
+    "name": "When equipped character is character type Navy Admiral / Former Navy Admiral Increase CRIT Proba",
+    "min": 16,
+    "max": 18,
+    "medals": [
+      "e285",
+      "e286"
     ]
   },
   {

@@ -5189,5 +5189,153 @@
           "eTrait_strawhat_pirates_def"
         ],
         "primary": "pTrait_capture_6_skill2"
+      },
+      {
+        "name": "Doll",
+        "image": "img_icon_medal_310200286",
+        "id": "doll_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_vice_admiral"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_navy_def",
+          "eTrait_navy_crit"
+        ],
+        "primary": "pTrait_projection_5_skill1"
+      },
+      {
+        "name": "Bluegrass",
+        "image": "img_icon_medal_310200287",
+        "id": "bluegrass_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_paramecia",
+          "tag_vice_admiral"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_navy_def",
+          "eTrait_navy_crit"
+        ],
+        "primary": "pTrait_weak_element_3_damage"
+      },
+      {
+        "name": "Admiral Zephyr",
+        "image": "img_icon_medal_310200288",
+        "id": "zephyr_ev01",
+        "tags": [
+          "tag_film_z",
+          "tag_admiral"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_admiral_crit",
+          "eTrait_admiral_def"
+        ],
+        "primary": "pTrait_projection_heal_3"
+      },
+      {
+        "name": "Kuzan (Film Z)",
+        "image": "img_icon_medal_310200289",
+        "id": "kuzan_ev01",
+        "tags": [
+          "tag_film_z",
+          "tag_logia",
+          "tag_admiral"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_admiral_atk",
+          "eTrait_admiral_def",
+          "eTrait_admiral_crit"
+        ],
+        "primary": "pTrait_allied_treasure_3_damage_red"
+      },
+      {
+        "name": "Edison (Bandaged)",
+        "image": "img_icon_medal_310200290",
+        "id": "edison_ev02",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_satellite"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_projection_5_skill2"
+      },
+      {
+        "name": "Atlas (Order)",
+        "image": "img_icon_medal_310200291",
+        "id": "atlas_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_satellite"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_health_70_3_damage_red"
+      },
+      {
+        "name": "A Hundred Times Stronger",
+        "image": "img_icon_medal_310200292",
+        "id": "luffy_ev10",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_blood_brothers"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_tremor",
+          "eTrait_strawhat_pirates_health"
+        ],
+        "primary": "pTrait_capture_6_skill2"
+      },
+      {
+        "name": "Sanji (Future Outfit)",
+        "image": "img_icon_medal_310200293",
+        "id": "sanji_ev07",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_cook"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_projection_3_skill2"
       }
 ]

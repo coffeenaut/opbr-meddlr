@@ -1030,7 +1030,8 @@
     "id": "pTrait_weak_element_3_damage",
     "name": "Enemy weak element: +3% damage",
     "medals": [
-      "e232"
+      "e232",
+      "e284"
     ]
   },
   {
@@ -1076,7 +1077,15 @@
       "e127",
       "e151",
       "e200",
-      "e270"
+      "e270",
+      "e283"
+    ]
+  },
+  {
+    "id": "pTrait_projection_3_skill2",
+    "name": "When you Knockback an enemy: -3% skill 2 cooldown time",
+    "medals": [
+      "e290"
     ]
   },
   {
@@ -1084,7 +1093,8 @@
     "name": "When you Knockback an enemy: -5% skill 2 cooldown time",
     "medals": [
       "e209",
-      "e264"
+      "e264",
+      "e287"
     ]
   },
   {
@@ -1102,7 +1112,8 @@
       "e229",
       288,
       304,
-      320
+      320,
+      "e285"
     ]
   },
   {
@@ -1189,7 +1200,8 @@
     "id": "pTrait_capture_6_skill2",
     "name": "When you capture the Treasure: -6% skill 2 cooldown time",
     "medals": [
-      "e282"
+      "e282",
+      "e289"
     ]
   },
   {
@@ -1228,7 +1240,9 @@
       "e42",
       "e93",
       "e171",
-      "e198"
+      "e198",
+      329,
+      330
     ]
   },
   {
@@ -1739,7 +1753,8 @@
     "name": "When HP is more than 70%: -3% damage taken",
     "medals": [
       "e73",
-      "e134"
+      "e134",
+      "e288"
     ]
   },
   {
@@ -1761,7 +1776,8 @@
       308,
       318,
       322,
-      325
+      325,
+      332
     ]
   },
   {
@@ -1933,7 +1949,8 @@
       180,
       214,
       268,
-      "e105"
+      "e105",
+      328
     ]
   },
   {
@@ -1977,7 +1994,8 @@
       65,
       101,
       162,
-      "e276"
+      "e276",
+      "e286"
     ]
   },
   {
@@ -2005,7 +2023,8 @@
       280,
       "e48",
       "e121",
-      290
+      290,
+      331
     ]
   },
   {
@@ -2201,7 +2220,8 @@
     "id": "pTrait_treasure_3_damage_red",
     "name": "Treasure: -3% damage taken",
     "medals": [
-      "e202"
+      "e202",
+      327
     ]
   },
   {

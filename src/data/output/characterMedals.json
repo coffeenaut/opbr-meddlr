@@ -5422,5 +5422,107 @@
       "eTrait_def"
     ],
     "primary": "pTrait_knockdowned_4_skill2"
+  },
+  {
+    "name": "Borsalino",
+    "image": "img_icon_medal_310110326",
+    "id": "kizaru_sword",
+    "tags": [
+      "tag_egghead",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_treasure_3_damage_red"
+  },
+  {
+    "name": "Aramaki",
+    "image": "img_icon_medal_310110327",
+    "id": "ryokugyu_mori",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_navy",
+      "tag_logia",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
+  },
+  {
+    "name": "Issho",
+    "image": "img_icon_medal_310110328",
+    "id": "fujitora_nonc",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_navy",
+      "tag_admiral"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Egghead Nami",
+    "image": "img_icon_medal_310110329",
+    "id": "nami_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_navigator"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_shock"
+    ],
+    "primary": "pTrait_capture_heal_5"
+  },
+  {
+    "name": "Egghead Usopp",
+    "image": "img_icon_medal_310110330",
+    "id": "usopp_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_sharp_shooter"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Star Gun",
+    "image": "img_icon_medal_310110331",
+    "id": "luffy_eg5n",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_captain",
+      "tag_zoan",
+      "tag_4_emperors",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
   }
 ]
