@@ -1,11 +1,11 @@
-import CharacterMedals from '../data/output/characterMedals.json' assert {type: "json"}
-import EventMedals from '../data/output/eventMedals.json' assert {type: "json"}
-import PrimaryTraits from '../data/output/primaryTraits.json' assert {type: "json"}
-import ExtraTraits from '../data/output/extraTraits.json' assert {type: "json"}
-import Tags from '../data/output/tags.json' assert {type: "json"}
-import  Filters from '../data/output/filters.json' assert {type: "json"}
-import MappedTraits from '../data/eTraitMap.json' assert {type: "json"}
-import Presets from '../data/presets.json' assert {type: "json"}
+import CharacterMedals from '../data/output/characterMedals.json' 
+import EventMedals from '../data/output/eventMedals.json'
+import PrimaryTraits from '../data/output/primaryTraits.json'
+import ExtraTraits from '../data/output/extraTraits.json' 
+import Tags from '../data/output/tags.json' 
+import  Filters from '../data/output/filters.json'
+import MappedTraits from '../data/eTraitMap.json'
+import Presets from '../data/presets.json'
 import { DiceRoll } from './tools.js'
 
 /**
