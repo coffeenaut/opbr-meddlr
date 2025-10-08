@@ -449,7 +449,7 @@ input {
   line-height: 2.2em;
 }
 .side-panel {
-  width:100%;
+  width:92%;
   padding: 1em;
   border: 2px solid var(--color-grey);
   border-radius: .5em;
@@ -529,7 +529,6 @@ input {
   width:25%;
 }
 .phalange {
-  z-index: 10;
   position: fixed;
   background-color: transparent;
   height:90%;
