@@ -358,6 +358,12 @@ input {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition: transform .25s ease-out;
 }
+.center-modal {
+  position: absolute;
+  width:30em;
+  height: 30em;
+  z-index:1;
+}
 .tabPanel-tab-active {
   color: var(--color-primary);
   font-weight: 700;
@@ -523,6 +529,7 @@ input {
   width:25%;
 }
 .phalange {
+  z-index: 10;
   position: fixed;
   background-color: transparent;
   height:90%;
@@ -949,5 +956,11 @@ h2, h3 {
   }
   .push-right {
     transform: translateX(26em);
+  }
+  .center-modal {
+  top: 0;
+  left: 10%;
+  width:75%;
+  height: 55%;
   }
 }

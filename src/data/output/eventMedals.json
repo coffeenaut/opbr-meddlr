@@ -5337,5 +5337,86 @@
           "eTrait_strawhat_pirates_def"
         ],
         "primary": "pTrait_projection_3_skill2"
+      },
+      {
+        "name": "Usopp (Future Outfit)",
+        "image": "img_icon_medal_310200294",
+        "id": "usopp_ev07",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_sharp_shooter"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_def",
+          "eTrait_strawhat_pirates_atk"
+        ],
+        "primary": "pTrait_team_ko_3_skill1"
+      },
+      {
+        "name": "Franky (Future Outfit)",
+        "image": "img_icon_medal_310200295",
+        "id": "sanji_ev07",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_ship_carpenter"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_crit",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_hitby_atk_up_3_damage_red"
+      },
+      {
+        "name": "Zoro & Kaku",
+        "image": "img_icon_medal_310200296",
+        "id": "zoro_x_kaku_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_fighter",
+          "tag_6_powers",
+          "tag_worst_generation"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_allied_treasure_5_damage"
+      },
+      {
+        "name": "Jimbei (Future Outfit)",
+        "image": "img_icon_medal_310200297",
+        "id": "jinbe_ev04",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_7_warlords_of_the_sea",
+          "tag_helmsman",
+          "tag_fishman",
+          "tag_fishman_karate"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_enemy_treasure_3_damage"
       }
 ]

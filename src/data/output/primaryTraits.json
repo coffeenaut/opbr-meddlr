@@ -628,6 +628,13 @@
     ]
   },
   {
+    "id": "pTrait_hitby_atk_up_3_damage_red",
+    "name": "When attacked by an enemy by atk up: -3% damage taken",
+    "medals": [
+      "e292"
+    ]
+  },
+  {
     "id": "pTrait_hitby_atk_up_5_damage_red",
     "name": "When attacked by an enemy by atk up: -5% damage taken",
     "medals": [
@@ -975,15 +982,6 @@
       153,
       203,
       "e207",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
-      "e267",
       "e267"
     ]
   },
@@ -1045,7 +1043,8 @@
     "id": "pTrait_strong_element_5_damage",
     "name": "When attacking an enemy with Element you are strong against: +5% increased damage",
     "medals": [
-      264
+      264,
+      333
     ]
   },
   {
@@ -1120,7 +1119,9 @@
     "id": "pTrait_team_ko_3_skill1",
     "name": "Team KO enemy: -3% Skill 1 cooldown time",
     "medals": [
-      "e211"
+      "e211",
+      "e291",
+      "e291"
     ]
   },
   {
@@ -1697,15 +1698,6 @@
       "e97",
       "e215",
       311,
-      311,
-      311,
-      311,
-      311,
-      311,
-      311,
-      311,
-      311,
-      311,
       321
     ]
   },
@@ -1777,7 +1769,11 @@
       318,
       322,
       325,
-      332
+      332,
+      333,
+      334,
+      335,
+      334
     ]
   },
   {
@@ -1950,7 +1946,8 @@
       214,
       268,
       "e105",
-      328
+      328,
+      335
     ]
   },
   {
@@ -1983,7 +1980,9 @@
       213,
       "e66",
       "e111",
-      295
+      295,
+      "e293",
+      "e293"
     ]
   },
   {
@@ -2114,7 +2113,9 @@
       "e59",
       "e90",
       "e245",
-      "e263"
+      "e263",
+      "e294",
+      "e294"
     ]
   },
   {

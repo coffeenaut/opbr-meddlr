@@ -5524,5 +5524,56 @@
       "eTrait_def"
     ],
     "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Egghead Brrok",
+    "image": "img_icon_medal_310110332",
+    "id": "brook_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_musician",
+      "tag_paramecia"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_crit",
+      "eTrait_freeze"
+    ],
+    "primary": "pTrait_strong_element_5_damage"
+  },
+  {
+    "name": "Egghead Chopper",
+    "image": "img_icon_medal_310110333",
+    "id": "chopper_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_doctor",
+      "tag_zoan"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage_red"
+  },
+  {
+    "name": "Egghead Robin",
+    "image": "img_icon_medal_310110334",
+    "id": "robin_eggh",
+    "tags": [
+      "tag_egghead",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_archeologist"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_allied_treasure_13_skill1"
   }
 ]
