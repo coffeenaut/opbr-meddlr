@@ -2479,7 +2479,7 @@
         "eTrait_longrangenormalattacks_def",
         "eTrait_longrangenormalattacks_health"
       ],
-      "primary": "pTrait_5_damage_normallongrange_randstars"
+      "primary": "pTrait_5_damage_normallongrange"
     },
     {
       "name": "Kami",
@@ -5418,5 +5418,496 @@
           "eTrait_strawhat_pirates_def"
         ],
         "primary": "pTrait_enemy_treasure_3_damage"
+      },
+      {
+        "name": "Warrior God of Justice",
+        "image": "img_icon_medal_310200298",
+        "id": "warcury_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_projection_heal_3"
+      },
+      {
+        "name": "Warrior God of Agriculture",
+        "image": "img_icon_medal_310200299",
+        "id": "jupeter_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def"
+        ],
+        "primary": "pTrait_hit_capture_2_skill2"
+      },
+      {
+        "name": "Zoro (Feast)",
+        "image": "img_icon_medal_310200300",
+        "id": "jinbe_ev04",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_strawhat_pirates",
+          "tag_fighter",
+          "tag_worst_generation"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_power_holders_3_damage_red"
+      },
+      {
+        "name": "King (Bandaged)",
+        "image": "img_icon_medal_310200301",
+        "id": "king_ev02",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_animal_kingdom_pirates",
+          "tag_zoan",
+          "tag_superstar"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_def",
+          "eTrait_new_world_health"
+        ],
+        "primary": "pTrait_crit_heal_2"
+      },
+      {
+        "name": "Ginny (Child)",
+        "image": "img_icon_medal_310200302",
+        "id": "ginny_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_child"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_paramecia_health",
+          "eTrait_paramecia_atk",
+          "eTrait_paramecia_def"
+        ],
+        "primary": "pTrait_knockdowned_4_skill2"
+      },
+      {
+        "name": "Sentomaru (Child)",
+        "image": "img_icon_medal_310200303",
+        "id": "sentamaru_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_child",
+          "tag_7_warlords_of_the_sea",
+          "tag_helmsman",
+          "tag_fishman",
+          "tag_fishman_karate"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk",
+          "eTrait_navy_health",
+          "eTrait_navy_atk",
+          "eTrait_navy_def"
+        ],
+        "primary": "pTrait_capture_team_heal_2"
+      },
+      {
+        "name": "Winner Takes All",
+        "image": "img_icon_medal_310200304",
+        "id": "law_ev04",
+        "tags": [
+          "tag_egghead",
+          "tag_7_warlords_of_the_sea",
+          "tag_paramecia",
+          "tag_captain",
+          "tag_worst_generation",
+          "tag_heart_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk",
+          "eTrait_worst_generation_health",
+          "eTrait_worst_generation_atk",
+          "eTrait_worst_generation_def"
+        ],
+        "primary": "pTrait_capture_8_skill2"
+      },
+      {
+        "name": "Bepo (Sulong)",
+        "image": "img_icon_medal_310200305",
+        "id": "jinbe_ev04",
+        "tags": [
+          "tag_egghead",
+          "tag_navigator",
+          "tag_minks",
+          "tag_heart_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_def",
+          "eTrait_new_world_crit"
+        ],
+        "primary": "pTrait_crit_heal_2"
+      },
+      {
+        "name": "ASL Sabo",
+        "image": "img_icon_medal_310200306",
+        "id": "sabo_ev02",
+        "tags": [
+          "tag_east_blue",
+          "tag_blood_brothers",
+          "tag_child"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_ally_ko_6_skill2"
+      },
+      {
+        "name": "ASL Luffy",
+        "image": "img_icon_medal_310200307",
+        "id": "luffy_ev11",
+        "tags": [
+          "tag_east_blue",
+          "tag_paramecia",
+          "tag_blood_brothers",
+          "tag_child"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_attack_up_3_damage"
+      },
+      {
+        "name": "Four Emperors Blackbeard",
+        "image": "img_icon_medal_310200308",
+        "id": "teach_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_7_warlords_of_the_sea",
+          "tag_logia",
+          "tag_paramecia",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_black_beard_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_blackbeard_pirates_health",
+          "eTrait_blackbeard_pirates_atk",
+          "eTrait_blackbeard_pirates_def"
+        ],
+        "primary": "pTrait_weak_element_5_damage"
+      },
+      {
+        "name": "Four Emperors Red Hair",
+        "image": "img_icon_medal_310200309",
+        "id": "jinbe_ev04",
+        "tags": [
+          "tag_egghead",
+          "tag_red_haired_pirates",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_roger_pirates",
+          "tag_fishman_karate"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_captain_def",
+          "eTrait_captain_crit"
+        ],
+        "primary": "pTrait_skill2_5_skill1"
+      },
+      {
+        "name": "Four Emperors Straw Hat",
+        "image": "img_icon_medal_310200310",
+        "id": "luffy_ev12",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_blood_brothers"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk"
+        ],
+        "primary": "pTrait_health_70_13_skill2"
+      },
+      {
+        "name": "Four Emperors Genius Jester",
+        "image": "img_icon_medal_310200311",
+        "id": "buggy_ev03",
+        "tags": [
+          "tag_egghead",
+          "tag_buggy_delivery",
+          "tag_7_warlords_of_the_sea",
+          "tag_paramecia",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_roger_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_paramecia_health",
+          "eTrait_paramecia_atk",
+          "eTrait_paramecia_def"
+        ],
+        "primary": "pTrait_skill2_5_damage"
+      },
+      {
+        "name": "Marco (Young)",
+        "image": "img_icon_medal_310200312",
+        "id": "marco_ev03",
+        "tags": [
+          "tag_whitebeard_pirates",
+          "tag_zoan"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_whitebeard_pirates_health",
+          "eTrait_whitebeard_pirates_def",
+          "eTrait_whitebeard_pirates_atk"
+        ],
+        "primary": "pTrait_hit_capture_3_skill1"
+      },
+      {
+        "name": "Jozu (Young)",
+        "image": "img_icon_medal_310200313",
+        "id": "jozu_ev02",
+        "tags": [
+          "tag_whitebeard_pirates",
+          "tag_paramecia"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_health",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_def"
+        ],
+        "primary": "pTrait_allied_treasure_sup_80_10_skill2_3_damage_red"
+      },
+      {
+        "name": "Avalo Pizarro",
+        "image": "img_icon_medal_310200314",
+        "id": "avalo_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_paramecia",
+          "tag_black_beard_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_paramecia_5_damage"
+      },
+      {
+        "name": "Vasco Shot",
+        "image": "img_icon_medal_310200315",
+        "id": "vasco_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_paramecia",
+          "tag_black_beard_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_enemy_ko_3_skill2"
+      },
+      {
+        "name": "Godhead of Environment",
+        "image": "img_icon_medal_310200316",
+        "id": "mars_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_attack_up_5_damage"
+      },
+      {
+        "name": "Godhead of Science & Defense",
+        "image": "img_icon_medal_310200317",
+        "id": "saturn_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_health",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_def"
+        ],
+        "primary": "pTrait_strawhat_pirates_3_damage"
+      },
+      {
+        "name": "Chopper (Netflix Live Action Series)",
+        "image": "img_icon_medal_310200318",
+        "id": "chopper_ev06",
+        "tags": [
+          "tag_grand_line_start",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_doctor"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_zoan_health",
+          "eTrait_zoan_atk",
+          "eTrait_zoan_def"
+        ],
+        "primary": "pTrait_defense_up_5_damage"
+      },
+      {
+        "name": "Pteranodon",
+        "image": "img_icon_medal_310200319",
+        "id": "king_ev03",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_animal_kingdom_pirates",
+          "tag_zoan",
+          "tag_superstar"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk",
+          "eTrait_zoan_health",
+          "eTrait_zoan_atk",
+          "eTrait_zoan_def"
+        ],
+        "primary": "pTrait_health_70_8_capture"
+      },
+      {
+        "name": "Brachiosaurus",
+        "image": "img_icon_medal_310200320",
+        "id": "queen_ev02",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_animal_kingdom_pirates",
+          "tag_zoan",
+          "tag_superstar"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_atk",
+          "eTrait_animal_kingdom_pirates_health",
+          "eTrait_animal_kingdom_pirates_def"
+        ],
+        "primary": "pTrait_0_ally_6_capture"
+      },
+      {
+        "name": "Frostbite",
+        "image": "img_icon_medal_310200321",
+        "id": "usopp_ev08",
+        "tags": [
+          "tag_grand_line_start",
+          "tag_strawhat_pirates",
+          "tag_sharp_shooter"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_def",
+          "eTrait_strawhat_pirates_crit"
+        ],
+        "primary": "pTrait_perfect_dodge_6_skill2"
+      },
+      {
+        "name": "Princess of Alabasta",
+        "image": "img_icon_medal_310200322",
+        "id": "vivi_ev01",
+        "tags": [
+          "tag_reverie",
+          "tag_baroque_works",
+          "tag_royalty",
+          "tag_alabasta_kingdom"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_team_ko_3_skill1"
+      },
+      {
+        "name": "Captain Koby",
+        "image": "img_icon_medal_310200323",
+        "id": "coby_ev03",
+        "tags": [
+          "tag_reverie",
+          "tag_navy",
+          "tag_navy_captain",
+          "tag_6_powers",
+          "tag_sword"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_royalty_health",
+          "eTrait_royalty_atk",
+          "eTrait_royalty_def"
+        ],
+        "primary": "pTrait_hit_capture_3_damage"
       }
 ]

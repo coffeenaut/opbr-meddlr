@@ -3,7 +3,7 @@
     "id": "pTrait_less_10_skill1",
     "name": "When team has less Treasure secured: +10% skill 1 cooldown speed",
     "medals": [
-      115
+      116
     ]
   },
   {
@@ -19,19 +19,19 @@
     "id": "pTrait_less_13_dodge",
     "name": "When team has less Treasure secured: +13% dodge speed",
     "medals": [
-      36,
-      159
+      37,
+      160
     ]
   },
   {
     "id": "pTrait_less_13_skill1",
     "name": "When team has less Treasure secured: +13% skill 1 cooldown speed",
     "medals": [
-      70,
-      91,
-      104,
-      126,
-      175,
+      71,
+      92,
+      105,
+      127,
+      176,
       "e70"
     ]
   },
@@ -39,8 +39,8 @@
     "id": "pTrait_less_13_skill2",
     "name": "When team has less Treasure secured: +13% skill 2 cooldown speed",
     "medals": [
-      179,
-      249,
+      180,
+      250,
       "e23",
       "e244",
       "e273"
@@ -50,8 +50,8 @@
     "id": "pTrait_less_5_damage",
     "name": "When team has less Treasure secured: +5% damage",
     "medals": [
-      73,
-      90,
+      74,
+      91,
       "e219"
     ]
   },
@@ -59,14 +59,14 @@
     "id": "pTrait_less_7_skill1",
     "name": "When team has less Treasure secured: +7% skill 1 cooldown speed",
     "medals": [
-      5
+      6
     ]
   },
   {
     "id": "pTrait_less_8_capture",
     "name": "When team has less Treasure secured: +8% capture speed",
     "medals": [
-      42,
+      43,
       "e133"
     ]
   },
@@ -74,14 +74,14 @@
     "id": "pTrait_less_5_damage_red",
     "name": "When team has less Treasure secured: -5% damage taken",
     "medals": [
-      68
+      69
     ]
   },
   {
     "id": "pTrait_more_10_skill1",
     "name": "When team has more Treasure secured: +10% skill 1 cooldown speed",
     "medals": [
-      20,
+      21,
       "e218"
     ]
   },
@@ -96,14 +96,14 @@
     "id": "pTrait_more_12_capture",
     "name": "When team has more Treasure secured: +12% capture speed",
     "medals": [
-      32
+      33
     ]
   },
   {
     "id": "pTrait_more_13_skill1",
     "name": "When team has more Treasure secured: +13% skill 1 cooldown speed",
     "medals": [
-      52,
+      53,
       "e62"
     ]
   },
@@ -111,9 +111,9 @@
     "id": "pTrait_more_13_skill2",
     "name": "When team has more Treasure secured: +13% skill 2 cooldown speed",
     "medals": [
-      135,
-      193,
-      253,
+      136,
+      194,
+      254,
       "e101"
     ]
   },
@@ -129,7 +129,7 @@
     "id": "pTrait_more_5_damage",
     "name": "When team has more Treasure secured: +5% damage",
     "medals": [
-      83,
+      84,
       "e65"
     ]
   },
@@ -137,7 +137,7 @@
     "id": "pTrait_more_6_capture",
     "name": "When team has more Treasure secured: +6% capture speed",
     "medals": [
-      10
+      11
     ]
   },
   {
@@ -151,7 +151,7 @@
     "id": "pTrait_3_damage_red_strawhat",
     "name": "-3% damage taken from Strawhat Pirates",
     "medals": [
-      283
+      284
     ]
   },
   {
@@ -172,29 +172,33 @@
     "id": "pTrait_5_damage_allied_treasure",
     "name": "+5% damage on Allied treasure",
     "medals": [
-      247
+      248
     ]
   },
   {
     "id": "pTrait_5_damage_enemy_treasure",
     "name": "+5% damage on Enemy treasure",
     "medals": [
-      216,
-      277
+      217,
+      278
     ]
   },
   {
     "id": "pTrait_5_damage_logia",
     "name": "+5% damage to Logia",
     "medals": [
-      184
+      185
     ]
   },
   {
-    "id": "pTrait_5_damage_normallongrange_randstars",
-    "name": "+5% normal long-range damage + random stars",
+    "id": "pTrait_5_damage_normallongrange",
+    "name": "+5% normal long-range damage",
     "medals": [
-      "e139"
+      348,
+      "e139",
+      348,
+      348,
+      348
     ]
   },
   {
@@ -215,14 +219,14 @@
     "id": "pTrait_25_xp_league",
     "name": "+25% XP in League",
     "medals": [
-      284
+      285
     ]
   },
   {
     "id": "pTrait_0_ally_10_dodge",
     "name": "When your allies are not near the same Treasure area: +10% dodge cooldown speed",
     "medals": [
-      87
+      88
     ]
   },
   {
@@ -245,7 +249,7 @@
     "id": "pTrait_0_ally_13_dodge",
     "name": "When your allies are not near the same Treasure area: +13% dodge cooldown speed",
     "medals": [
-      55,
+      56,
       "e91"
     ]
   },
@@ -277,8 +281,8 @@
     "id": "pTrait_0_ally_5_damage",
     "name": "When your allies are not near the same Treasure area: +5% damage",
     "medals": [
-      80,
-      84,
+      81,
+      85,
       "e103"
     ]
   },
@@ -286,15 +290,19 @@
     "id": "pTrait_0_ally_6_capture",
     "name": "When your allies are not near the same Treasure area: +6% capture speed",
     "medals": [
-      "e220"
+      "e220",
+      "e317",
+      "e317",
+      "e317",
+      "e317"
     ]
   },
   {
     "id": "pTrait_0_ally_8_capture",
     "name": "When your allies are not near the same Treasure area: +8% capture speed",
     "medals": [
-      161,
-      231,
+      162,
+      232,
       "e117",
       "e238"
     ]
@@ -319,7 +327,7 @@
     "id": "pTrait_0_ally_6_damage_red",
     "name": "When your allies are not near the same Treasure area: -6% damage taken",
     "medals": [
-      "e143"
+      "e12"
     ]
   },
   {
@@ -333,14 +341,14 @@
     "id": "pTrait_ally_ko_2_skill1",
     "name": "Ally KOed: -2% skill 1 cooldown time",
     "medals": [
-      48
+      49
     ]
   },
   {
     "id": "pTrait_ally_ko_3_skill1",
     "name": "Ally KOed: -3% skill 1 cooldown time",
     "medals": [
-      22,
+      23,
       "e43"
     ]
   },
@@ -354,9 +362,7 @@
   {
     "id": "pTrait_ally_ko_4_skill1",
     "name": "Ally KOed: -4% skill 1 cooldown time",
-    "medals": [
-      "e108"
-    ]
+    "medals": []
   },
   {
     "id": "pTrait_ally_ko_4_skill2",
@@ -379,17 +385,19 @@
     "id": "pTrait_ally_ko_6_skill2",
     "name": "Ally KOed: -6% skill 2 cooldown time",
     "medals": [
-      178,
-      "e183"
+      179,
+      "e183",
+      "e252",
+      "e303"
     ]
   },
   {
     "id": "pTrait_ally_ko_8_skill1",
     "name": "Ally KOed: -8% skill 1 cooldown time",
     "medals": [
-      100,
-      117,
-      119
+      101,
+      118,
+      120
     ]
   },
   {
@@ -403,7 +411,7 @@
     "id": "pTrait_ally_ko_heal_1",
     "name": "Ally KOed: 1% heal",
     "medals": [
-      49
+      50
     ]
   },
   {
@@ -411,7 +419,6 @@
     "name": "Ally KOed: 2% heal",
     "medals": [
       "e126",
-      "e234",
       "e235"
     ]
   },
@@ -419,16 +426,16 @@
     "id": "pTrait_ally_ko_heal_3",
     "name": "Ally KOed: 3% heal",
     "medals": [
-      225,
-      "e34",
-      312
+      226,
+      312,
+      "e34"
     ]
   },
   {
     "id": "pTrait_ally_10_skill1",
     "name": "When your allies are near the same Treasure area: +10% skill 1 cooldown speed",
     "medals": [
-      25,
+      26,
       "e166"
     ]
   },
@@ -443,9 +450,9 @@
     "id": "pTrait_ally_13_skill1",
     "name": "When your allies are near the same Treasure area: +13% skill 1 cooldown speed",
     "medals": [
-      220,
-      237,
-      265,
+      221,
+      238,
+      266,
       "e177"
     ]
   },
@@ -458,16 +465,16 @@
     "id": "pTrait_ally_6_capture",
     "name": "When your allies are near the same Treasure area: +6% capture speed",
     "medals": [
-      8,
-      74
+      9,
+      75
     ]
   },
   {
     "id": "pTrait_ally_8_capture",
     "name": "When your allies are near the same Treasure area: +8% capture speed",
     "medals": [
-      40,
-      226
+      41,
+      227
     ]
   },
   {
@@ -489,14 +496,14 @@
     "id": "pTrait_hit_1_electrocution",
     "name": "When attacking an enemy: 1% inflict Electrocution",
     "medals": [
-      89
+      90
     ]
   },
   {
     "id": "pTrait_hit_1_poison",
     "name": "When attacking an enemy: 1% inflict Poison",
     "medals": [
-      76
+      77
     ]
   },
   {
@@ -510,20 +517,27 @@
     "id": "pTrait_hit_capture_3_skill1",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 1 cooldown time",
     "medals": [
-      "e150"
+      "e150",
+      "e256",
+      "e309",
+      "e309",
+      "e309",
+      "e309"
     ]
   },
   {
     "id": "pTrait_hit_capture_2_skill2",
     "name": "When attacking an enemy capturing the Treasure: -2% skill 2 cooldown time",
-    "medals": []
+    "medals": [
+      "e296"
+    ]
   },
   {
     "id": "pTrait_hit_capture_3_skill2",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 2 cooldown time",
     "medals": [
-      "e186",
       313,
+      "e186",
       "e278"
     ]
   },
@@ -531,21 +545,21 @@
     "id": "pTrait_hit_capture_3_damage",
     "name": "When attacking an enemy capturing the Treasure: +3% damage",
     "medals": [
-      281
+      282,
+      "e320"
     ]
   },
   {
     "id": "pTrait_hit_capture_heal_3",
     "name": "When attacking an enemy capturing the Treasure: heal 3%",
     "medals": [
-      282
+      283
     ]
   },
   {
     "id": "pTrait_hit_normal_30_3_skill1",
     "name": "When attacking an enemy with a normal attack: 30% proba -3% skill 1 cooldown time",
     "medals": [
-      "e236",
       "e240"
     ]
   },
@@ -563,12 +577,12 @@
     "id": "pTrait_hitby_2_skill1",
     "name": "When attacked by an enemy: -2% skill 1 cooldown time",
     "medals": [
-      98,
-      121,
-      165,
-      185,
-      255,
-      275,
+      99,
+      122,
+      166,
+      186,
+      256,
+      276,
       "e129",
       "e248"
     ]
@@ -584,9 +598,9 @@
     "id": "pTrait_hitby_30_cancel_burn",
     "name": "When attacked by an enemy: 30% Aflame cancel",
     "medals": [
-      53,
-      77,
-      99,
+      54,
+      78,
+      100,
       "e64"
     ]
   },
@@ -594,7 +608,7 @@
     "id": "pTrait_hitby_30_cancel_electrocution",
     "name": "When attacked by an enemy: 30% Shock cancel",
     "medals": [
-      35,
+      36,
       "e63"
     ]
   },
@@ -602,21 +616,21 @@
     "id": "pTrait_hitby_30_cancel_stun",
     "name": "When attacked by an enemy: 30% Stun cancel",
     "medals": [
-      67
+      68
     ]
   },
   {
     "id": "pTrait_hitby_30_cancel-freeze",
     "name": "When attacked by an enemy: 30% Freeze cancel",
     "medals": [
-      47
+      48
     ]
   },
   {
     "id": "pTrait_hitby_30_cancel_vibrate",
     "name": "When attacked by an enemy: 30% Tremor cancel",
     "medals": [
-      46,
+      47,
       "e31"
     ]
   },
@@ -631,7 +645,8 @@
     "id": "pTrait_hitby_atk_up_3_damage_red",
     "name": "When attacked by an enemy by atk up: -3% damage taken",
     "medals": [
-      "e292"
+      "e292",
+      352
     ]
   },
   {
@@ -666,7 +681,7 @@
     "id": "pTrait_crit_3_skill1",
     "name": "When Critical occurs: -3% skill 1 cooldown time",
     "medals": [
-      256,
+      257,
       "e46",
       "e123",
       "e153"
@@ -676,7 +691,7 @@
     "id": "pTrait_crit_3_skill2",
     "name": "When Critical occurs: -3% skill 2 cooldown time",
     "medals": [
-      109,
+      110,
       "e15",
       "e83",
       "e113"
@@ -702,7 +717,9 @@
     "id": "pTrait_crit_heal_2",
     "name": "When Critical occurs: 2% heal",
     "medals": [
-      "e138"
+      "e138",
+      "e298",
+      "e302"
     ]
   },
   {
@@ -718,7 +735,7 @@
     "id": "pTrait_start_90_13_damage",
     "name": "Start<90s: +3% damage",
     "medals": [
-      163
+      164
     ]
   },
   {
@@ -736,17 +753,32 @@
     ]
   },
   {
+    "id": "pTrait_attack_up_3_damage",
+    "name": "Enemy with attack up: +3% damage",
+    "medals": [
+      "e304"
+    ]
+  },
+  {
     "id": "pTrait_attack_up_5_damage",
     "name": "Enemy with attack up: +5% damage",
     "medals": [
-      "e194"
+      "e194",
+      "e313",
+      "e313",
+      "e313",
+      "e313"
     ]
   },
   {
     "id": "pTrait_defense_up_5_damage",
     "name": "Enemy with defense up: +5% damage",
     "medals": [
-      262
+      263,
+      "e315",
+      "e315",
+      "e315",
+      "e315"
     ]
   },
   {
@@ -764,12 +796,20 @@
     ]
   },
   {
+    "id": "pTrait_power_holders_2_damage_red",
+    "name": "Enemy Power Holders: -2% damage taken",
+    "medals": [
+      344
+    ]
+  },
+  {
     "id": "pTrait_power_holders_3_damage_red",
     "name": "Enemy Power Holders: -3% damage taken",
     "medals": [
       "e119",
       "e120",
-      "e195"
+      "e195",
+      "e297"
     ]
   },
   {
@@ -780,17 +820,24 @@
     ]
   },
   {
+    "id": "pTrait_strawhat_pirates_3_damage",
+    "name": "Enemy Strawhat Pirates: +3% damage",
+    "medals": [
+      "e314"
+    ]
+  },
+  {
     "id": "pTrait_whitebeard_pirates_5_damage",
     "name": "Enemy White Beard Pirates: +5% damage",
     "medals": [
-      285
+      286
     ]
   },
   {
     "id": "pTrait_roger_pirates_5_damage",
     "name": "Enemy Roger Pirates: +5% damage",
     "medals": [
-      286
+      287
     ]
   },
   {
@@ -799,10 +846,17 @@
     "medals": []
   },
   {
+    "id": "pTrait_navy_3_damage_red",
+    "name": "Enemy Navy: -3% damage",
+    "medals": [
+      340
+    ]
+  },
+  {
     "id": "pTrait_zoan_5_damage",
     "name": "Enemy type Zoan: +5% damage",
     "medals": [
-      297
+      298
     ]
   },
   {
@@ -837,7 +891,7 @@
     "id": "pTrait_electrocution_6_skill2",
     "name": "Enemy inflicted with Shock: -6% skill 2 cooldown time",
     "medals": [
-      240
+      241
     ]
   },
   {
@@ -852,43 +906,43 @@
     "id": "pTrait_singsing_5_damage",
     "name": "Enenmy inflicted in Sing-Sing: +5% damage",
     "medals": [
-      258
+      259
     ]
   },
   {
     "id": "pTrait_burn_5_damage",
     "name": "Enemy inflicted with AFlame: +5% damage",
     "medals": [
-      78
+      79
     ]
   },
   {
     "id": "pTrait_burn_5_damage_red",
     "name": "Enemy inflicted with AFlame: -5% damage taken",
     "medals": [
-      232,
-      241
+      233,
+      242
     ]
   },
   {
     "id": "pTrait_stun_2_damage",
     "name": "Enemy Stunned: +2% damage",
     "medals": [
-      50
+      51
     ]
   },
   {
     "id": "pTrait_stun_3_damage",
     "name": "Enemy Stunned: +3% damage",
     "medals": [
-      38
+      39
     ]
   },
   {
     "id": "pTrait_stun_5_damage",
     "name": "Enemy Stunned: +5% damage",
     "medals": [
-      75,
+      76,
       "e192"
     ]
   },
@@ -896,42 +950,42 @@
     "id": "pTrait_freeze_6_skill1",
     "name": "Enemy frozen: -6% skill1 cooldown time",
     "medals": [
-      248
+      249
     ]
   },
   {
     "id": "pTrait_block_6_skill2",
     "name": "Enemy inflicted with Capture Block: -6% skill 2 cooldown time",
     "medals": [
-      287
+      288
     ]
   },
   {
     "id": "pTrait_ko_2_speed_20",
     "name": "After KOing an enemy: +2% speed 20s (not cumul)",
     "medals": [
-      6
+      7
     ]
   },
   {
     "id": "pTrait_ko_40_crit_20",
     "name": "After KOing an enemy: +40% CRIT 20s (not cumul)",
     "medals": [
-      0
+      1
     ]
   },
   {
     "id": "pTrait_ko_60_crit_20",
     "name": "After KOing an enemy: +60% CRIT 20s (not cumul)",
     "medals": [
-      16
+      17
     ]
   },
   {
     "id": "pTrait_ko_80_crit_20",
     "name": "After KOing an enemy: +80% CRIT 20s (not cumul)",
     "medals": [
-      26
+      27
     ]
   },
   {
@@ -942,25 +996,36 @@
     ]
   },
   {
+    "id": "pTrait_enemy_ko_2_health",
+    "name": "After you or an ally KO an enemy: Recover 2% HP",
+    "medals": [
+      351,
+      351
+    ]
+  },
+  {
     "id": "pTrait_enemy_ko_3_skill2",
     "name": "After you or an ally KO an enemy: -3% skill 2 cooldown time",
     "medals": [
-      3,
-      "e274"
+      "e274",
+      "e312",
+      "e312",
+      "e312",
+      "e312"
     ]
   },
   {
     "id": "pTrait_ko_4_skill1",
     "name": "After KOing an enemy: -4% skill 1 cooldown time",
     "medals": [
-      3
+      4
     ]
   },
   {
     "id": "pTrait_ko_6_skill1",
     "name": "After KOing an enemy: -6% skill 1 cooldown time",
     "medals": [
-      21,
+      22,
       "e28",
       "e77",
       "e224"
@@ -977,51 +1042,60 @@
     "id": "pTrait_ko_8_skill1",
     "name": "After KOing an enemy: -8% skill 1 cooldown time",
     "medals": [
-      29,
-      102,
-      153,
-      203,
+      30,
+      103,
+      154,
+      204,
       "e207",
-      "e267"
+      "e266"
     ]
   },
   {
     "id": "pTrait_ko_8_skill2",
     "name": "After KOing an enemy: -8% skill 2 cooldown time",
     "medals": [
-      45,
-      218,
+      46,
+      219,
+      349,
       "e40",
       "e78",
       "e115",
       "e223",
       "e260",
-      "e279"
+      "e279",
+      349,
+      349,
+      349
     ]
   },
   {
     "id": "pTrait_ko_heal_3",
     "name": "After KOing an enemy: 3% heal",
     "medals": [
-      37,
-      81,
-      85
+      38,
+      82,
+      86
     ]
   },
   {
     "id": "pTrait_ko_heal_5",
     "name": "After KOing an enemy: 5% heal",
     "medals": [
-      197,
+      198,
+      319,
+      339,
+      350,
       "e155",
-      319
+      350,
+      350,
+      350
     ]
   },
   {
     "id": "pTrait_same_element_3_damage",
     "name": "Enemy same element: +3% damage",
     "medals": [
-      244
+      245
     ]
   },
   {
@@ -1036,14 +1110,15 @@
     "id": "pTrait_weak_element_5_damage",
     "name": "Enemy weak element: +5% damage",
     "medals": [
-      "e175"
+      "e175",
+      "e305"
     ]
   },
   {
     "id": "pTrait_strong_element_5_damage",
     "name": "When attacking an enemy with Element you are strong against: +5% increased damage",
     "medals": [
-      264,
+      261,
       333
     ]
   },
@@ -1100,19 +1175,21 @@
     "id": "pTrait_projection_heal_3",
     "name": "When you Knockback an enemy: 3% heal",
     "medals": [
-      94,
-      177,
-      182,
-      190,
-      204,
-      217,
-      246,
-      259,
-      "e229",
-      288,
+      95,
+      178,
+      183,
+      191,
+      205,
+      218,
+      247,
+      260,
+      289,
       304,
       320,
-      "e285"
+      346,
+      "e229",
+      "e285",
+      "e295"
     ]
   },
   {
@@ -1121,49 +1198,47 @@
     "medals": [
       "e211",
       "e291",
-      "e291"
+      "e319"
     ]
   },
   {
     "id": "pTrait_capture_2_speed_20",
     "name": "When you capture the Treasure: +2% speed 20s (not cumul)",
     "medals": [
-      9
+      10
     ]
   },
   {
     "id": "pTrait_capture_3_speed_20",
     "name": "When you capture the Treasure: +3% speed 20s (not cumul)",
     "medals": [
-      33
+      34
     ]
   },
   {
     "id": "pTrait_capture_4_speed_20",
     "name": "When you capture the Treasure: +4% speed 20s (not cumul)",
     "medals": [
-      62
+      63
     ]
   },
   {
     "id": "pTrait_capture_6_speed_20",
     "name": "When you capture the Treasure: +6% speed 20s (not cumul)",
     "medals": [
-      211
+      212
     ]
   },
   {
     "id": "pTrait_capture_4_skill1",
     "name": "When you capture the Treasure: -4% skill 1 cooldown time",
-    "medals": [
-      4
-    ]
+    "medals": []
   },
   {
     "id": "pTrait_capture_5_skill1",
     "name": "When you capture the Treasure: -5% skill 1 cooldown time",
     "medals": [
-      149,
+      150,
       "e92"
     ]
   },
@@ -1180,7 +1255,7 @@
     "id": "pTrait_capture_6_skill1",
     "name": "When you capture the Treasure: -6% skill 1 cooldown time",
     "medals": [
-      34,
+      35,
       "e148",
       "e237"
     ]
@@ -1189,12 +1264,12 @@
     "id": "pTrait_capture_8_skill1",
     "name": "When you capture the Treasure: -8% skill 1 cooldown time",
     "medals": [
-      24,
-      198,
-      233,
-      270,
-      "e204",
-      291
+      25,
+      199,
+      234,
+      271,
+      292,
+      "e204"
     ]
   },
   {
@@ -1209,16 +1284,16 @@
     "id": "pTrait_capture_8_skill2",
     "name": "When you capture the Treasure: -8% skill 2 cooldown time",
     "medals": [
-      122,
-      187,
-      "e36",
-      "e235",
-      296,
-      "e234",
-      296,
+      123,
+      188,
+      297,
+      299,
       303,
       307,
-      "e272"
+      "e36",
+      "e234",
+      "e272",
+      "e301"
     ]
   },
   {
@@ -1232,23 +1307,30 @@
     "id": "pTrait_capture_heal_5",
     "name": "When you capture the Treasure: 5% heal",
     "medals": [
-      4,
-      174,
-      181,
-      191,
-      278,
+      5,
+      175,
+      182,
+      192,
+      279,
+      329,
+      330,
       "e5",
       "e42",
       "e93",
       "e171",
-      "e198",
-      329,
-      330
+      "e198"
+    ]
+  },
+  {
+    "id": "pTrait_capture_team_heal_2",
+    "name": "When your team captures the Treasure: 2% heal",
+    "medals": [
+      "e300"
     ]
   },
   {
     "id": "pTrait_capture_team_heal_3",
-    "name": "Team When you capture the Treasure: 3% heal",
+    "name": "When your team captures the Treasure: 3% heal",
     "medals": [
       "e165"
     ]
@@ -1306,7 +1388,7 @@
     "id": "pTrait_perfect_dodge_3_skill2",
     "name": "When performing a Perfect Dodge: -3% skill 2 cooldown time",
     "medals": [
-      131,
+      132,
       "e45"
     ]
   },
@@ -1339,7 +1421,11 @@
     "id": "pTrait_perfect_dodge_6_skill2",
     "name": "When performing a Perfect Dodge: -6% skill 2 cooldown time",
     "medals": [
-      "e38"
+      "e38",
+      "e318",
+      "e318",
+      "e318",
+      "e318"
     ]
   },
   {
@@ -1353,14 +1439,14 @@
     "id": "pTrait_end_60_10_skill1",
     "name": "End<60s: +10% skill 1 cooldown speed",
     "medals": [
-      31
+      32
     ]
   },
   {
     "id": "pTrait_end_60_10_skill2",
     "name": "End<60s: +10% skill 2 cooldown speed",
     "medals": [
-      61,
+      62,
       "e94"
     ]
   },
@@ -1368,7 +1454,7 @@
     "id": "pTrait_end_60_13_skill1",
     "name": "End<60s: +13% skill 1 cooldown speed",
     "medals": [
-      152,
+      153,
       "e135"
     ]
   },
@@ -1376,28 +1462,28 @@
     "id": "pTrait_end_60_13_skill2",
     "name": "End<60s: +13% skill 2 cooldown speed",
     "medals": [
-      28
+      29
     ]
   },
   {
     "id": "pTrait_end_60_40_crit_20",
     "name": "End<60s: +40% CRIT 20s (not cumul)",
     "medals": [
-      15
+      16
     ]
   },
   {
     "id": "pTrait_end_60_5_damage",
     "name": "End<60s: +5% damage",
     "medals": [
-      113
+      114
     ]
   },
   {
     "id": "pTrait_end_60_6_capture",
     "name": "End<60s: +6% capture speed",
     "medals": [
-      2,
+      3,
       "e208"
     ]
   },
@@ -1405,7 +1491,7 @@
     "id": "pTrait_end_60_60_crit_20",
     "name": "End<60s: +60% CRIT 20s (not cumul)",
     "medals": [
-      23
+      24
     ]
   },
   {
@@ -1419,7 +1505,7 @@
     "id": "pTrait_end_60_80_crit_20",
     "name": "End<60s: +80% CRIT 20s (not cumul)",
     "medals": [
-      51
+      52
     ]
   },
   {
@@ -1433,7 +1519,7 @@
     "id": "pTrait_end_90_3_damage_red",
     "name": "End<90s: -3% damage taken",
     "medals": [
-      164
+      165
     ]
   },
   {
@@ -1447,24 +1533,25 @@
     "id": "pTrait_knockdowned_4_skill1",
     "name": "When you are Downed:  -4% skill 1 cooldown time",
     "medals": [
-      160,
-      228
+      161,
+      229
     ]
   },
   {
     "id": "pTrait_knockdowned_4_skill2",
     "name": "When you are Downed:  -4% skill 2 cooldown time",
     "medals": [
-      188,
-      208,
-      326
+      189,
+      209,
+      326,
+      "e299"
     ]
   },
   {
     "id": "pTrait_projected_5_skill1",
     "name": "When hit with Knockback: -5% skill 1 cooldown time",
     "medals": [
-      221
+      222
     ]
   },
   {
@@ -1478,24 +1565,25 @@
     "id": "pTrait_projected_5_skill2",
     "name": "When hit with Knockback: -5% skill 2 cooldown time",
     "medals": [
-      243,
-      269
+      244,
+      270,
+      345
     ]
   },
   {
     "id": "pTrait_projected_heal_3",
     "name": "When hit with Knockback: 3% heal",
     "medals": [
-      169,
-      224,
-      263
+      170,
+      225,
+      264
     ]
   },
   {
     "id": "pTrait_health_10_raise_volume",
     "name": "When HP is less than 10%: Increase treasure gauge recovery amount",
     "medals": [
-      39
+      40
     ]
   },
   {
@@ -1507,7 +1595,7 @@
     "id": "pTrait_health_30_10_skill1",
     "name": "When HP is less than 30%: +10% skill 1 cooldown speed",
     "medals": [
-      18
+      19
     ]
   },
   {
@@ -1528,35 +1616,35 @@
     "id": "pTrait_health_30_2_speed_20",
     "name": "When HP is less than 30%: +2% speed 20s (not cumul)",
     "medals": [
-      7
+      8
     ]
   },
   {
     "id": "pTrait_health_30_3_damage",
     "name": "When HP is less than 30%: +3% damage",
     "medals": [
-      125
+      126
     ]
   },
   {
     "id": "pTrait_health_30_40_crit_20",
     "name": "When HP is less than 30%: +40% CRIT 20s (not cumul)",
     "medals": [
-      1
+      2
     ]
   },
   {
     "id": "pTrait_health_30_6_capture",
     "name": "When HP is less than 30%: +6% capture speed",
     "medals": [
-      14
+      15
     ]
   },
   {
     "id": "pTrait_health_30_60_crit_20",
     "name": "When HP is less than 30%: +60% CRIT 20s (not cumul)",
     "medals": [
-      41,
+      42,
       "e41",
       "e67"
     ]
@@ -1572,8 +1660,8 @@
     "id": "pTrait_health_50_5_damage",
     "name": "When HP is less than 50%: +5% damage",
     "medals": [
-      183,
-      276
+      184,
+      277
     ]
   },
   {
@@ -1587,17 +1675,16 @@
     "id": "pTrait_health_50_13_skill1",
     "name": "When HP is less than 50%: +13% skill 1 cooldown speed",
     "medals": [
-      251,
-      "e125",
-      "e246"
+      252,
+      "e125"
     ]
   },
   {
     "id": "pTrait_health_50_13_skill2",
     "name": "When HP is less than 50%: +13% skill 2 cooldown speed",
     "medals": [
-      234,
-      264
+      235,
+      265
     ]
   },
   {
@@ -1612,21 +1699,21 @@
     "id": "pTrait_health_50_8_capture",
     "name": "When HP is less than 50%: +8% capture speed",
     "medals": [
-      223
+      224
     ]
   },
   {
     "id": "pTrait_health_7_raise_capture",
     "name": "When HP is less than 7%: Increase treasure gauge recovery amount",
     "medals": [
-      17
+      18
     ]
   },
   {
     "id": "pTrait_health_7_raise_volume",
     "name": "When HP is less than 7%: Raise treasure gauge amount when capturing",
     "medals": [
-      11
+      12
     ]
   },
   {
@@ -1638,7 +1725,7 @@
     "id": "pTrait_health_70_10_skill1",
     "name": "When HP is more than 70%: +10% skill 1 cooldown speed",
     "medals": [
-      13,
+      14,
       "e37",
       "e98",
       "e212",
@@ -1649,56 +1736,62 @@
     "id": "pTrait_health_70_10_skill2",
     "name": "When HP is more than 70%: +10% skill 2 cooldown speed",
     "medals": [
-      92,
+      93,
       "e71",
       "e146",
       "e154",
-      "e210"
+      "e210",
+      "e253"
     ]
   },
   {
     "id": "pTrait_health_70_13_dodge",
     "name": "When HP is more than 70%: +13% dodge cooldown speed",
     "medals": [
-      27
+      28,
+      343
     ]
   },
   {
     "id": "pTrait_health_70_13_skill1",
     "name": "When HP is more than 70%: +13% skill 1 cooldown speed",
     "medals": [
-      44,
-      69,
-      219,
-      "e188"
+      45,
+      70,
+      220,
+      "e188",
+      "e246"
     ]
   },
   {
     "id": "pTrait_health_70_13_skill2",
     "name": "When HP is more than 70%: +13% skill 2 cooldown speed",
     "medals": [
+      305,
       "e19",
       "e50",
       "e137",
-      305
+      "e307"
     ]
   },
   {
     "id": "pTrait_health_70_3_damage",
     "name": "When HP is more than 70%: +3% damage",
     "medals": [
-      206
+      207
     ]
   },
   {
     "id": "pTrait_health_70_5_damage",
     "name": "When HP is more than 70%: +5% damage",
     "medals": [
-      235,
+      236,
+      300,
+      311,
+      321,
       "e97",
       "e215",
-      311,
-      321
+      "e250"
     ]
   },
   {
@@ -1713,31 +1806,35 @@
     "id": "pTrait_health_70_7_skill1",
     "name": "When HP is more than 70%: +7% skill 1 cooldown speed",
     "medals": [
-      19
+      20
     ]
   },
   {
     "id": "pTrait_health_70_8_capture",
     "name": "When HP is more than 70%: +8% capture speed",
     "medals": [
-      72,
-      88,
-      93,
-      130,
-      133,
-      140,
-      147,
-      154,
-      158,
-      168,
-      172,
-      201,
-      212,
-      257,
-      261,
-      266,
-      272,
-      "e68"
+      73,
+      89,
+      94,
+      131,
+      134,
+      141,
+      148,
+      155,
+      159,
+      169,
+      173,
+      202,
+      213,
+      258,
+      262,
+      267,
+      273,
+      "e68",
+      "e316",
+      "e316",
+      "e316",
+      "e316"
     ]
   },
   {
@@ -1753,27 +1850,25 @@
     "id": "pTrait_health_70_5_damage_red",
     "name": "When HP is more than 70%: -5% damage taken",
     "medals": [
-      58,
-      134,
-      144,
-      151,
-      202,
-      207,
-      236,
-      250,
-      267,
-      274,
-      "e99",
-      292,
+      59,
+      135,
+      145,
+      152,
+      203,
+      208,
+      237,
+      251,
+      268,
+      275,
+      293,
+      301,
       308,
       318,
       322,
       325,
       332,
-      333,
       334,
-      335,
-      334
+      "e99"
     ]
   },
   {
@@ -1809,15 +1904,15 @@
     "id": "pTrait_restored_2_speed_20",
     "name": "Restore: +2% speed 20s (not cumul)",
     "medals": [
-      12
+      13
     ]
   },
   {
     "id": "pTrait_restored_4_speed_20",
     "name": "Restore: +4% speed 20s (not cumul)",
     "medals": [
-      30,
-      54,
+      31,
+      55,
       "e110"
     ]
   },
@@ -1832,14 +1927,14 @@
     "id": "pTrait_restored_90_crit_20",
     "name": "Restore: +90% CRIT 20s (not cumul)",
     "medals": [
-      215
+      216
     ]
   },
   {
     "id": "pTrait_skill1_4_speed_20",
     "name": "When using skill 1: +4% speed 20s (not cumul)",
     "medals": [
-      110
+      111
     ]
   },
   {
@@ -1853,45 +1948,50 @@
     "id": "pTrait_skill1_5_skill2",
     "name": "When using skill 1: -5% skill 2 cooldown time",
     "medals": [
-      171,
-      245,
-      252,
-      271
+      172,
+      246,
+      253,
+      272,
+      "e143",
+      "e254"
     ]
   },
   {
     "id": "pTrait_skill2_3_skill1",
     "name": "When using skill 2 -3% skill 1 cooldown time",
     "medals": [
-      82,
-      96,
+      83,
+      97,
       "e14",
       "e239",
-      "e266"
+      "e267"
     ]
   },
   {
     "id": "pTrait_skill2_5_skill1",
     "name": "When using skill 2 -5% skill 1 cooldown time",
     "medals": [
-      166,
-      189,
+      167,
+      190,
+      302,
       "e179",
-      302
+      "e306"
     ]
   },
   {
     "id": "pTrait_skill2_5_damage",
     "name": "When using skill 2 +5% dégats",
     "medals": [
-      239
+      240,
+      337,
+      "e308"
     ]
   },
   {
     "id": "pTrait_skill2_6_speed_20",
     "name": "When using skill 2 +6% speed 20s (not cumul)",
     "medals": [
-      227
+      228
     ]
   },
   {
@@ -1937,29 +2037,29 @@
     "id": "pTrait_allied_treasure_13_skill1",
     "name": "When in the area of your captured Treasure: +13% skill1 cooldown speed",
     "medals": [
-      57,
-      103,
-      137,
-      150,
-      176,
-      180,
-      214,
-      268,
-      "e105",
+      58,
+      104,
+      138,
+      151,
+      177,
+      181,
+      215,
+      269,
       328,
-      335
+      335,
+      "e105"
     ]
   },
   {
     "id": "pTrait_allied_treasure_13_skill2",
     "name": "When in the area of your captured Treasure: +13% skill2 cooldown speed",
     "medals": [
-      60,
-      105,
-      114,
-      139,
-      195,
-      222
+      61,
+      106,
+      115,
+      140,
+      196,
+      223
     ]
   },
   {
@@ -1974,25 +2074,26 @@
     "id": "pTrait_allied_treasure_5_damage",
     "name": "When in the area of your captured Treasure: +5% damage",
     "medals": [
-      86,
-      123,
-      196,
-      213,
+      87,
+      124,
+      197,
+      214,
+      296,
+      341,
       "e66",
       "e111",
-      295,
       "e293",
-      "e293"
+      353
     ]
   },
   {
     "id": "pTrait_allied_treasure_3_damage_red",
     "name": "When in the area of your captured Treasure: -3% damage taken",
     "medals": [
-      56,
-      65,
-      101,
-      162,
+      57,
+      66,
+      102,
+      163,
       "e276",
       "e286"
     ]
@@ -2001,29 +2102,28 @@
     "id": "pTrait_allied_treasure_5_damage_red",
     "name": "When in the area of your captured Treasure: -5% damage taken",
     "medals": [
-      63,
-      71,
-      97,
-      107,
-      116,
-      120,
-      129,
-      132,
-      136,
-      148,
-      155,
-      157,
-      167,
-      186,
-      199,
-      238,
-      273,
-      279,
+      64,
+      72,
+      98,
+      108,
+      117,
+      121,
+      130,
+      133,
+      137,
+      149,
+      156,
+      158,
+      168,
+      187,
+      239,
+      274,
       280,
+      281,
+      291,
+      331,
       "e48",
-      "e121",
-      290,
-      331
+      "e121"
     ]
   },
   {
@@ -2053,11 +2153,12 @@
     "id": "pTrait_enemy_treasure_sup_50_8_capture",
     "name": "When in enemy's Treasure and Treasure guage is more than 50%: +8% capture speed",
     "medals": [
-      66,
-      79,
-      209,
-      242,
-      254
+      67,
+      80,
+      210,
+      243,
+      255,
+      342
     ]
   },
   {
@@ -2098,12 +2199,13 @@
     "id": "pTrait_enemy_treasure_13_skill2",
     "name": "When in the area of enemy's Treasure: +13% skill 2 cooldown speed",
     "medals": [
-      118,
-      194,
-      199,
+      119,
+      195,
       200,
-      "e227",
-      324
+      201,
+      324,
+      338,
+      "e227"
     ]
   },
   {
@@ -2114,7 +2216,6 @@
       "e90",
       "e245",
       "e263",
-      "e294",
       "e294"
     ]
   },
@@ -2122,33 +2223,33 @@
     "id": "pTrait_enemy_treasure_5_damage",
     "name": "When in the area of enemy's Treasure: +5% damage",
     "medals": [
-      43,
-      59,
-      95,
-      106,
-      108,
-      111,
+      44,
+      60,
+      96,
+      107,
+      109,
       112,
-      124,
-      128,
-      138,
-      141,
+      113,
+      125,
+      129,
+      139,
       142,
       143,
-      145,
+      144,
       146,
-      156,
-      170,
-      173,
-      192,
-      205,
-      210,
-      229,
-      "e76",
-      "e86",
-      294,
+      147,
+      157,
+      171,
+      174,
+      193,
+      206,
+      211,
+      230,
+      295,
       314,
       316,
+      "e76",
+      "e86",
       "e268",
       "e277",
       "e281"
@@ -2165,12 +2266,12 @@
     "id": "pTrait_enemy_treasure_5_damage_red",
     "name": "When in the area of enemy's Treasure: -5% damage taken",
     "medals": [
-      "e17",
-      289,
-      293,
+      290,
+      294,
       306,
       310,
-      315
+      315,
+      "e17"
     ]
   },
   {
@@ -2184,7 +2285,7 @@
     "id": "pTrait_treasure_lost_4_speed_20",
     "name": "Treasure lost: +4% speed 20s (not cumul)",
     "medals": [
-      64
+      65
     ]
   },
   {
@@ -2214,28 +2315,34 @@
     "id": "pTrait_treasure_5_damage_def",
     "name": "Treasure: +5% damage vs Defenders",
     "medals": [
-      127
+      128
     ]
   },
   {
     "id": "pTrait_treasure_3_damage_red",
     "name": "Treasure: -3% damage taken",
     "medals": [
+      327,
+      336,
+      347,
       "e202",
-      327
+      347,
+      347,
+      347
     ]
   },
   {
     "id": "pTrait_treasure_5_normal_damage",
     "name": "Treasure: +5% normal damage",
     "medals": [
-      230
+      231
     ]
   },
   {
     "id": "pTrait_treasure_10_dodge",
     "name": "Treasure: +10% dodge cooldown time",
     "medals": [
+      "e251",
       "e280"
     ]
   }
