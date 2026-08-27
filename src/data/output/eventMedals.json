@@ -5909,5 +5909,314 @@
           "eTrait_royalty_def"
         ],
         "primary": "pTrait_hit_capture_3_damage"
+      },
+      {
+        "name": "The Man Who Will Be King of the Pirates",
+        "image": "img_icon_medal_310200324",
+        "id": "luffy_ev13",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_strawhat_pirates",
+          "tag_captain",
+          "tag_paramecia",
+          "tag_blood_brothers",
+          "tag_worst_generation"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_0_ally_5_damage_red"
+      },
+      {
+        "name": "Azure Dragon",
+        "image": "img_icon_medal_310200325",
+        "id": "kaido_ev03",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_animal_kingdom_pirates",
+          "tag_zoan",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_former_rocks_pirates"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_allied_treasure_3_damage_red"
+      },
+      {
+        "name": "Demon Fleur",
+        "image": "img_icon_medal_310200326",
+        "id": "robin_ev06",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_strawhat_pirates",
+          "tag_baroque_works",
+          "tag_paramecia",
+          "tag_archeologist"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_skill1_5_skill2"
+      },
+      {
+        "name": "Chopper (Monster)",
+        "image": "img_icon_medal_310200327",
+        "id": "chopper_ev07",
+        "tags": [
+          "tag_land_of_wano",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_doctor"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_strawhat_pirates_health",
+          "eTrait_strawhat_pirates_atk",
+          "eTrait_strawhat_pirates_def"
+        ],
+        "primary": "pTrait_weak_element_3_damage"
+      },
+      {
+        "name": "Joker",
+        "image": "img_icon_medal_310200328",
+        "id": "doflamingo_ev02",
+        "tags": [
+          "tag_dressrosa",
+          "tag_7_warlords_of_the_sea",
+          "tag_paramecia",
+          "tag_captain",
+          "tag_royalty",
+          "tag_donquixote_family"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_health_70_13_skill2"
+      },
+      {
+        "name": "All-Seeing Eye",
+        "image": "img_icon_medal_310200329",
+        "id": "coby_ev03",
+        "tags": [
+          "tag_dressrosa",
+          "tag_trebol_army",
+          "tag_paramecia",
+          "tag_royalty",
+          "tag_donquixote_family"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_paramecia_health",
+          "eTrait_paramecia_atk",
+          "eTrait_paramecia_def"
+        ],
+        "primary": "pTrait_skill2_5_damage"
+      },
+      {
+        "name": "Half 'n Half",
+        "image": "img_icon_medal_310200330",
+        "id": "cavendish_ev01",
+        "tags": [
+          "tag_dressrosa",
+          "tag_beautiful_pirates",
+          "tag_captain",
+          "tag_royalty",
+          "tag_strawhat_fleet"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_ko_8_skill2"
+      },
+      {
+        "name": "Sew-Sew",
+        "image": "img_icon_medal_310200331",
+        "id": "leo_ev02",
+        "tags": [
+          "tag_dressrosa",
+          "tag_paramecia",
+          "tag_captain",
+          "tag_strawhat_fleet"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_hp",
+          "eTrait_strawhat_fleet_health",
+          "eTrait_strawhat_fleet_atk",
+          "eTrait_strawhat_fleet_def"
+        ],
+        "primary": "pTrait_capture_6_skill2"
+      },
+      {
+        "name": "Lucci (Mask)",
+        "image": "img_icon_medal_310200332",
+        "id": "lucci_ev02",
+        "tags": [
+          "tag_egghead",
+          "tag_cipher_pol",
+          "tag_zoan",
+          "tag_intelligence_agent",
+          "tag_6_powers"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_health_70_5_damage_red"
+      },
+      {
+        "name": "Kaku (Mask)",
+        "image": "img_icon_medal_310200333",
+        "id": "kaku_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_cipher_pol",
+          "tag_zoan",
+          "tag_intelligence_agent",
+          "tag_6_powers"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_zoan_atk",
+          "eTrait_zoan_def",
+          "eTrait_zoan_health"
+        ],
+        "primary": "pTrait_allied_treasure_10_skill1"
+      },
+      {
+        "name": "Gyuki",
+        "image": "img_icon_medal_310200334",
+        "id": "saturn_ev02",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_hp",
+          "eTrait_celestial_dragon_health",
+          "eTrait_celestial_dragon_atk",
+          "eTrait_celestial_dragon_def"
+        ],
+        "primary": "pTrait_capture_heal_5"
+      },
+      {
+        "name": "God of Finance",
+        "image": "img_icon_medal_310200335",
+        "id": "nusjuru_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_world_noble",
+          "tag_gorosei"
+        ],
+        "extra_traits": [
+          "eTrait_atk",
+          "eTrait_def",
+          "eTrait_hp",
+          "eTrait_new_world_health",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_def"
+        ],
+        "primary": "pTrait_strong_element_3_damage_red"
+      },
+      {
+        "name": "S-Snake (Blushing)",
+        "image": "img_icon_medal_310200336",
+        "id": "ssnake_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_paramecia",
+          "tag_seraphim"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_skill1_5_skill2"
+      },
+      {
+        "name": "S-Hawk (Dice-Dice)",
+        "image": "img_icon_medal_310200337",
+        "id": "shawk_ev01",
+        "tags": [
+          "tag_egghead",
+          "tag_navy",
+          "tag_paramecia",
+          "tag_seraphim"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_new_world_atk",
+          "eTrait_new_world_health",
+          "eTrait_new_world_def"
+        ],
+        "primary": "pTrait_skill2_3_skill1"
+      },
+      {
+        "name": "Bonney's Daddy",
+        "image": "img_icon_medal_310200338",
+        "id": "kuma_ev02",
+        "tags": [
+          "tag_revolutionnary_army",
+          "tag_7_warlords_of_the_sea",
+          "tag_paramecia",
+          "tag_royalty"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit",
+          "eTrait_royalty_health",
+          "eTrait_royalty_atk",
+          "eTrait_royalty_def"
+        ],
+        "primary": "pTrait_projection_5_skill2"
+      },
+      {
+        "name": "Warrior of Liberation",
+        "image": "img_icon_medal_310200339",
+        "id": "luffy_ev14",
+        "tags": [
+          "tag_egghead",
+          "tag_strawhat_pirates",
+          "tag_zoan",
+          "tag_captain",
+          "tag_4_emperors",
+          "tag_blood_brothers"
+        ],
+        "extra_traits": [
+          "eTrait_hp",
+          "eTrait_def",
+          "eTrait_crit"
+        ],
+        "primary": "pTrait_hit_capture_3_damage"
       }
 ]

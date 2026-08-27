@@ -25,7 +25,8 @@
     "tags": [
       "tag_east_blue",
       "tag_strawhat_pirates",
-      "tag_fighter"
+      "tag_fighter",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -468,7 +469,8 @@
     "id": "mihawk_orig",
     "tags": [
       "tag_east_blue",
-      "tag_7_warlords_of_the_sea"
+      "tag_7_warlords_of_the_sea",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -667,7 +669,8 @@
     "tags": [
       "tag_alabasta",
       "tag_strawhat_pirates",
-      "tag_fighter"
+      "tag_fighter",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -755,7 +758,8 @@
       "tag_paramecia",
       "tag_captain",
       "tag_former_rocks_pirates",
-      "tag_4_emperors"
+      "tag_4_emperors",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -893,7 +897,8 @@
     "tags": [
       "tag_sky_island",
       "tag_strawhat_pirates",
-      "tag_fighter"
+      "tag_fighter",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -998,7 +1003,8 @@
       "tag_2years_later",
       "tag_strawhat_pirates",
       "tag_fighter",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -1396,7 +1402,8 @@
       "tag_land_of_wano",
       "tag_strawhat_pirates",
       "tag_fighter",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -1470,7 +1477,8 @@
     "tags": [
       "tag_thriller_bark",
       "tag_thriller_bark_pirates",
-      "tag_zombie"
+      "tag_zombie",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -1821,7 +1829,8 @@
       "tag_dressrosa",
       "tag_navy",
       "tag_paramecia",
-      "tag_admiral"
+      "tag_admiral",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -2158,7 +2167,8 @@
       "tag_paramecia",
       "tag_captain",
       "tag_blood_brothers",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -2330,7 +2340,8 @@
     "image": "img_icon_medal_310110140",
     "id": "mihawk_shik",
     "tags": [
-      "tag_7_warlords_of_the_sea"
+      "tag_7_warlords_of_the_sea",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -2483,7 +2494,8 @@
       "tag_dressrosa",
       "tag_strawhat_pirates",
       "tag_fighter",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -2569,7 +2581,8 @@
       "tag_whitebeard_pirates",
       "tag_kozuki_clan",
       "tag_roger_pirates",
-      "tag_whitebeard_pirates_commander"
+      "tag_whitebeard_pirates_commander",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -2599,7 +2612,8 @@
     "id": "roger_orig",
     "tags": [
       "tag_captain",
-      "tag_roger_pirates"
+      "tag_roger_pirates",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -2645,7 +2659,8 @@
       "tag_whitebeard_pirates",
       "tag_paramecia",
       "tag_captain",
-      "tag_former_rocks_pirates"
+      "tag_former_rocks_pirates",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_crit",
@@ -3947,7 +3962,8 @@
       "tag_land_of_wano",
       "tag_strawhat_pirates",
       "tag_fighter",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_def",
@@ -4602,7 +4618,8 @@
     "tags": [
       "tag_land_of_wano",
       "tag_zoan",
-      "tag_kozuki_clan"
+      "tag_kozuki_clan",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -4637,7 +4654,8 @@
       "tag_whitebeard_pirates",
       "tag_paramecia",
       "tag_captain",
-      "tag_former_rocks_pirates"
+      "tag_former_rocks_pirates",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -4654,7 +4672,8 @@
       "tag_whitebeard_pirates",
       "tag_kozuki_clan",
       "tag_roger_pirates",
-      "tag_whitebeard_pirates_commander"
+      "tag_whitebeard_pirates_commander",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_crit",
@@ -4686,7 +4705,8 @@
     "id": "roger_reco",
     "tags": [
       "tag_captain",
-      "tag_roger_pirates"
+      "tag_roger_pirates",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_atk",
@@ -4890,7 +4910,8 @@
       "tag_egghead",
       "tag_strawhat_pirates",
       "tag_fighter",
-      "tag_worst_generation"
+      "tag_worst_generation",
+      "tag_great_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_hp",
@@ -5511,7 +5532,8 @@
       "tag_dressrosa",
       "tag_paramecia",
       "tag_navy",
-      "tag_admiral"
+      "tag_admiral",
+      "tag_supreme_grade_sword_wielder"
     ],
     "extra_traits": [
       "eTrait_hp",
@@ -5929,5 +5951,162 @@
       "eTrait_crit"
     ],
     "primary": "pTrait_allied_treasure_5_damage"
+  },
+  {
+    "name": "Luffy (Battle of Monsters on Onigashima)",
+    "image": "img_icon_medal_310110353",
+    "id": "luffy_redr",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_worst_generation",
+      "tag_blood_brothers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_atk",
+      "eTrait_def"
+    ],
+    "primary": "pTrait_team_capture_6_speed_20"
+  },
+  {
+    "name": "The Wings",
+    "image": "img_icon_medal_310110354",
+    "id": "zorosanji_doub",
+    "tags": [
+      "tag_land_of_wano",
+      "tag_strawhat_pirates",
+      "tag_fighter",
+      "tag_royalty",
+      "tag_great_grade_sword_wielder",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_aflame",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_knockdowned_4_skill2"
+  },
+  {
+    "name": "Stone-Stone",
+    "image": "img_icon_medal_310110355",
+    "id": "pica_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_paramecia",
+      "tag_pica_army",
+      "tag_donquixote_family"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_crit",
+      "eTrait_%_block"
+    ],
+    "primary": "pTrait_allied_treasure_5_damage_red"
+  },
+  {
+    "name": "Gungnir",
+    "image": "img_icon_medal_310110356",
+    "id": "hajrudin_orig",
+    "tags": [
+      "tag_dressrosa",
+      "tag_captain",
+      "tag_giant",
+      "tag_strawhat_fleet"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_5_damage"
+  },
+  {
+    "name": "Kyros",
+    "image": "img_icon_medal_310110357",
+    "id": "kyros_orig",
+    "tags": [
+      "tag_dressrosa"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_treasure_5_damage_def"
+  },
+  {
+    "name": "Hand Pistol Yellow Lotus",
+    "image": "img_icon_medal_310110358",
+    "id": "lucciluffy_with",
+    "tags": [
+      "tag_egghead",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_clawed",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_enemy_capturing_3_skill1"
+  },
+  {
+    "name": "St. Marcus Mars",
+    "image": "img_icon_medal_310110359",
+    "id": "itumade_orig",
+    "tags": [
+      "tag_egghead",
+      "tag_world_noble",
+      "tag_gorosei"
+    ],
+    "extra_traits": [
+      "eTrait_atk",
+      "eTrait_def",
+      "eTrait_hp"
+    ],
+    "primary": "pTrait_enemy_treasure_5_damage_red"
+  },
+  {
+    "name": "Tempest Kick: White Lotus",
+    "image": "img_icon_medal_310110360",
+    "id": "kakuzoro_with",
+    "tags": [
+      "tag_egghead",
+      "tag_cipher_pol",
+      "tag_zoan",
+      "tag_intelligence_agent",
+      "tag_6_powers"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_health_70_13_skill1"
+  },
+  {
+    "name": "Future Where I'm the Mst Free",
+    "image": "img_icon_medal_310110361",
+    "id": "bonieluffy_with",
+    "tags": [
+      "tag_egghead",
+      "tag_bonney_pirates",
+      "tag_paramecia",
+      "tag_captain",
+      "tag_royalty",
+      "tag_worst_generation"
+    ],
+    "extra_traits": [
+      "eTrait_hp",
+      "eTrait_def",
+      "eTrait_crit"
+    ],
+    "primary": "pTrait_hit_normal_30_3_skill2"
   }
 ]

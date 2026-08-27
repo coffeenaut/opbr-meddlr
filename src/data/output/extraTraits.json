@@ -425,7 +425,20 @@
       "e316",
       "e317",
       353,
-      "e320"
+      "e320",
+      354,
+      356,
+      358,
+      359,
+      360,
+      "e321",
+      "e322",
+      "e325",
+      "e328",
+      "e329",
+      "e330",
+      "e331",
+      "e332"
     ]
   },
   {
@@ -978,7 +991,29 @@
       352,
       353,
       "e319",
-      "e320"
+      "e320",
+      354,
+      357,
+      358,
+      360,
+      361,
+      362,
+      "e321",
+      "e322",
+      "e323",
+      "e324",
+      "e325",
+      "e326",
+      "e327",
+      "e328",
+      "e329",
+      "e330",
+      "e331",
+      "e332",
+      "e333",
+      "e334",
+      "e335",
+      "e336"
     ]
   },
   {
@@ -1469,7 +1504,25 @@
       352,
       353,
       "e319",
-      "e320"
+      "e320",
+      355,
+      356,
+      357,
+      359,
+      361,
+      362,
+      "e322",
+      "e323",
+      "e324",
+      "e325",
+      "e326",
+      "e327",
+      "e329",
+      "e330",
+      "e333",
+      "e334",
+      "e335",
+      "e336"
     ]
   },
   {
@@ -1973,7 +2026,25 @@
       "e317",
       "e318",
       352,
-      "e319"
+      "e319",
+      354,
+      355,
+      357,
+      358,
+      360,
+      361,
+      362,
+      "e323",
+      "e324",
+      "e326",
+      "e327",
+      "e328",
+      "e331",
+      "e332",
+      "e333",
+      "e334",
+      "e335",
+      "e336"
     ]
   },
   {
@@ -2024,7 +2095,8 @@
       308,
       315,
       "e53",
-      "e64"
+      "e64",
+      355
     ]
   },
   {
@@ -2039,7 +2111,8 @@
       274,
       277,
       288,
-      299
+      299,
+      356
     ]
   },
   {
@@ -2326,7 +2399,8 @@
     "min": 6,
     "max": 36,
     "medals": [
-      297
+      297,
+      359
     ]
   },
   {
@@ -2906,7 +2980,9 @@
       "e291",
       "e293",
       "e294",
-      "e297"
+      "e297",
+      "e321",
+      "e324"
     ]
   },
   {
@@ -2972,7 +3048,9 @@
       "e318",
       "e318",
       "e318",
-      "e318"
+      "e318",
+      "e321",
+      "e324"
     ]
   },
   {
@@ -3063,7 +3141,9 @@
       "e318",
       "e318",
       "e318",
-      "e318"
+      "e318",
+      "e321",
+      "e324"
     ]
   },
   {
@@ -3557,7 +3637,9 @@
       "e310",
       "e314",
       "e310",
-      "e314"
+      "e314",
+      "e332",
+      "e334"
     ]
   },
   {
@@ -3583,7 +3665,9 @@
       "e310",
       "e314",
       "e310",
-      "e314"
+      "e314",
+      "e332",
+      "e334"
     ]
   },
   {
@@ -3622,7 +3706,9 @@
       "e310",
       "e314",
       "e310",
-      "e314"
+      "e314",
+      "e332",
+      "e334"
     ]
   },
   {
@@ -3832,7 +3918,8 @@
       "e239",
       "e259",
       "e299",
-      "e308"
+      "e308",
+      "e326"
     ]
   },
   {
@@ -3854,7 +3941,8 @@
       "e258",
       "e259",
       "e299",
-      "e308"
+      "e308",
+      "e326"
     ]
   },
   {
@@ -3887,7 +3975,8 @@
       "e258",
       "e259",
       "e299",
-      "e308"
+      "e308",
+      "e326"
     ]
   },
   {
@@ -4028,7 +4117,8 @@
     "min": 14,
     "max": 18,
     "medals": [
-      "e320"
+      "e320",
+      "e335"
     ]
   },
   {
@@ -4037,7 +4127,8 @@
     "min": 14,
     "max": 18,
     "medals": [
-      "e320"
+      "e320",
+      "e335"
     ]
   },
   {
@@ -4046,7 +4137,8 @@
     "min": 14,
     "max": 18,
     "medals": [
-      "e320"
+      "e320",
+      "e335"
     ]
   },
   {
@@ -4064,7 +4156,8 @@
       "e315",
       "e316",
       "e315",
-      "e316"
+      "e316",
+      "e330"
     ]
   },
   {
@@ -4083,7 +4176,8 @@
       "e315",
       "e316",
       "e315",
-      "e316"
+      "e316",
+      "e330"
     ]
   },
   {
@@ -4111,7 +4205,76 @@
       "e315",
       "e316",
       "e315",
-      "e316"
+      "e316",
+      "e330"
     ]
+  },
+  {
+    "id": "eTrait_strawhat_fleet_health",
+    "name": "When equipped character is character type Strawhat Fleet Increase HP",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e328"
+    ]
+  },
+  {
+    "id": "eTrait_strawhat_fleet_atk",
+    "name": "When equipped character is character type Strawhat Fleet Increase ATK",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e328"
+    ]
+  },
+  {
+    "id": "eTrait_strawhat_fleet_def",
+    "name": "When equipped character is character type Strawhat Fleet Increase DEF",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e328"
+    ]
+  },
+  {
+    "id": "eTrait_strawhat_fleet_crit",
+    "name": "When equipped character is character type Strawhat Fleet Increase CRIT",
+    "min": 14,
+    "max": 18,
+    "medals": []
+  },
+  {
+    "id": "eTrait_celestial_dragon_health",
+    "name": "When equipped character is character type Celestial Dragon Increase HP",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e331"
+    ]
+  },
+  {
+    "id": "eTrait_celestial_dragon_atk",
+    "name": "When equipped character is character type Celestial Dragon Increase ATK",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e331"
+    ]
+  },
+  {
+    "id": "eTrait_celestial_dragon_def",
+    "name": "When equipped character is character type Celestial Dragon Increase DEF",
+    "min": 14,
+    "max": 18,
+    "medals": [
+      "e331"
+    ]
+  },
+  {
+    "id": "eTrait_celestial_dragon_crit",
+    "name": "When equipped character is character type Celestial Dragon Increase CRIT",
+    "min": 14,
+    "max": 18,
+    "medals": []
   }
 ]

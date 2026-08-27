@@ -320,7 +320,8 @@
     "id": "pTrait_0_ally_5_damage_red",
     "name": "When your allies are not near the same Treasure area: -5% damage taken",
     "medals": [
-      "e140"
+      "e140",
+      "e321"
     ]
   },
   {
@@ -514,6 +515,11 @@
     ]
   },
   {
+    "id": "pTrait_hit_capture_2_skill1",
+    "name": "When attacking an enemy capturing the Treasure: -2% skill 1 cooldown time",
+    "medals": []
+  },
+  {
     "id": "pTrait_hit_capture_3_skill1",
     "name": "When attacking an enemy capturing the Treasure: -3% skill 1 cooldown time",
     "medals": [
@@ -523,6 +529,13 @@
       "e309",
       "e309",
       "e309"
+    ]
+  },
+  {
+    "id": "pTrait_enemy_capturing_3_skill1",
+    "name": "When an enemy begins capturing the treasure: -3% skill 1 cooldown time",
+    "medals": [
+      359
     ]
   },
   {
@@ -546,7 +559,8 @@
     "name": "When attacking an enemy capturing the Treasure: +3% damage",
     "medals": [
       282,
-      "e320"
+      "e320",
+      "e336"
     ]
   },
   {
@@ -570,7 +584,8 @@
       "e169",
       "e205",
       "e233",
-      "e241"
+      "e241",
+      362
     ]
   },
   {
@@ -794,6 +809,11 @@
     "medals": [
       "e173"
     ]
+  },
+  {
+    "id": "pTrait_captain_3_damage",
+    "name": "When character equipped is type Captain +3% normal attack damage",
+    "medals": []
   },
   {
     "id": "pTrait_power_holders_2_damage_red",
@@ -1065,7 +1085,8 @@
       "e279",
       349,
       349,
-      349
+      349,
+      "e327"
     ]
   },
   {
@@ -1103,7 +1124,8 @@
     "name": "Enemy weak element: +3% damage",
     "medals": [
       "e232",
-      "e284"
+      "e284",
+      "e324"
     ]
   },
   {
@@ -1120,6 +1142,13 @@
     "medals": [
       261,
       333
+    ]
+  },
+  {
+    "id": "pTrait_strong_element_3_damage_red",
+    "name": "When attacked by enemy with Element you are strong against: 3% damage reduced",
+    "medals": [
+      "e332"
     ]
   },
   {
@@ -1168,7 +1197,8 @@
     "medals": [
       "e209",
       "e264",
-      "e287"
+      "e287",
+      "e335"
     ]
   },
   {
@@ -1230,6 +1260,13 @@
     ]
   },
   {
+    "id": "pTrait_team_capture_6_speed_20",
+    "name": "When you or an ally captures the Treasure: +6% speed 20s (not cumul)",
+    "medals": [
+      354
+    ]
+  },
+  {
     "id": "pTrait_capture_4_skill1",
     "name": "When you capture the Treasure: -4% skill 1 cooldown time",
     "medals": []
@@ -1277,7 +1314,8 @@
     "name": "When you capture the Treasure: -6% skill 2 cooldown time",
     "medals": [
       "e282",
-      "e289"
+      "e289",
+      "e328"
     ]
   },
   {
@@ -1318,7 +1356,8 @@
       "e42",
       "e93",
       "e171",
-      "e198"
+      "e198",
+      "e331"
     ]
   },
   {
@@ -1544,7 +1583,8 @@
       189,
       209,
       326,
-      "e299"
+      "e299",
+      355
     ]
   },
   {
@@ -1760,7 +1800,8 @@
       70,
       220,
       "e188",
-      "e246"
+      "e246",
+      361
     ]
   },
   {
@@ -1771,7 +1812,8 @@
       "e19",
       "e50",
       "e137",
-      "e307"
+      "e307",
+      "e325"
     ]
   },
   {
@@ -1791,7 +1833,8 @@
       321,
       "e97",
       "e215",
-      "e250"
+      "e250",
+      357
     ]
   },
   {
@@ -1868,7 +1911,8 @@
       325,
       332,
       334,
-      "e99"
+      "e99",
+      "e329"
     ]
   },
   {
@@ -1953,7 +1997,9 @@
       253,
       272,
       "e143",
-      "e254"
+      "e254",
+      "e323",
+      "e333"
     ]
   },
   {
@@ -1964,7 +2010,8 @@
       97,
       "e14",
       "e239",
-      "e267"
+      "e267",
+      "e334"
     ]
   },
   {
@@ -1979,12 +2026,18 @@
     ]
   },
   {
+    "id": "pTrait_skill2_3_damage",
+    "name": "When using skill 2 +3% damage",
+    "medals": []
+  },
+  {
     "id": "pTrait_skill2_5_damage",
-    "name": "When using skill 2 +5% dégats",
+    "name": "When using skill 2 +5% damage",
     "medals": [
       240,
       337,
-      "e308"
+      "e308",
+      "e326"
     ]
   },
   {
@@ -2023,7 +2076,8 @@
       "e149",
       "e201",
       "e230",
-      "e257"
+      "e257",
+      "e330"
     ]
   },
   {
@@ -2095,7 +2149,8 @@
       102,
       163,
       "e276",
-      "e286"
+      "e286",
+      "e322"
     ]
   },
   {
@@ -2123,7 +2178,8 @@
       291,
       331,
       "e48",
-      "e121"
+      "e121",
+      356
     ]
   },
   {
@@ -2271,7 +2327,8 @@
       306,
       310,
       315,
-      "e17"
+      "e17",
+      360
     ]
   },
   {
@@ -2315,7 +2372,8 @@
     "id": "pTrait_treasure_5_damage_def",
     "name": "Treasure: +5% damage vs Defenders",
     "medals": [
-      128
+      128,
+      358
     ]
   },
   {
